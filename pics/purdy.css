@@ -1,0 +1,172 @@
+/* common stuff */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto');
+body {
+    margin: 0px;
+    background-color: #1a1a1a;
+    color: #aaaaaa;
+    font-family: 'Roboto', sans-serif;
+}
+hr {
+    border: 0;
+    border-bottom: 1px dashed #555;
+}
+h1, h2, h3, h4 {
+    font-family: 'Roboto Mono', monospace;
+    color: #eeeeee;
+}
+
+/* header stuff */
+header div.space {
+    background: black;
+}
+header div.sky {
+    background: linear-gradient(#500050,#000020,black);
+}
+header div.stars {
+    background-image: url('stars.png');
+    background-position: top; 
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+header div.ground {
+    height:100vh;
+    background-image: url('ground.png');
+    background-position: bottom; 
+    background-repeat: repeat-x;
+}
+header div.pages_ground {
+    height:250px;
+    background-image: url('ground.png');
+    background-position: bottom; 
+    background-repeat: repeat-x;
+}
+header div.texts {
+    position: absolute;
+    text-align: center;
+    bottom: 210px;
+    left: 0px;
+    right: 0px;
+}
+header div.pics {
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+}
+header div.pages_pics {
+    text-align: center;
+    bottom: 20px;
+}
+header img.caveman:hover {
+    filter: brightness(150%);
+}
+header img.pages_caveman {
+    margin-top: 45px;
+    filter: grayscale(80%);
+}
+header img.pages_caveman:hover {
+    filter: grayscale(0%);
+    filter: brightness(150%);
+}
+header img.cat:hover {
+    filter: hue-rotate(90deg);
+}
+
+
+/* footer stuff */
+footer {
+    font-size: 80%;
+    color: #555555;
+}
+footer p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+footer a {
+    color: #999999;
+}
+footer a:hover {
+    color: #bbbbbb;
+}
+
+
+/* navigation */
+nav h1,
+nav h2,
+nav h3,
+nav h4 {
+    color: #55cc55;
+}
+nav p {
+    text-align:justify;
+    text-justify:inter-word;
+    color: #448844;
+}
+nav a {
+    color: #55aa55;
+    text-decoration: underline;
+}
+nav a:hover {
+    color: #55cc55;
+    text-decoration: underline;
+}
+
+/* main content stuff */
+div.cntnt {
+    margin: 20px;
+    column-width: 350px;
+    column-gap: 40px;
+}
+.cntnt figure {
+}
+.cntnt figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+}
+.cntnt figure figcaption {
+    text-align: center;
+    font-size: 90%;
+}
+.cntnt article p {
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+.cntnt article ol,
+.cntnt article ul {
+    text-align: justify;
+    text-justify: inter-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+.cntnt article a {
+    color: #cccccc;
+    text-decoration: underline;
+}
+.cntnt article a:hover {
+    color: #eeeeee;
+    text-decoration: underline;
+}
+.cntnt p.special {
+    font-style: italic;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.cntnt p.def:before {
+    color: #eeeeee;
+    content: "definition.";
+    font-weight: bold;
+    font-style: normal;
+}
+.cntnt p.theorem:before {
+    color: #eeeeee;
+    content: "theorem.";
+    font-weight: bold;
+    font-style: normal;
+}

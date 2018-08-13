@@ -1,0 +1,83 @@
+commonly, a web server that's hosting  a blog should:
+
+<ol>
+    <li>
+        present some comments upload form.
+    </li>
+    <li>
+        be able to handle uploaded users <em>data</em> (e.g. post or
+        get or whatever requests).
+    </li>
+    <li>
+        then, the web server runs some dynamic code that reads the user
+        upload data.
+    </li>
+    <li>
+        and then writes/saves something somewhere (e.g. to store the
+        end-user's comment). the comment is usually stored in some
+        back-end database, like some evil sql stuff.
+    </li>
+    <li>
+        additionally, the user usually also needs to register an
+        account for the blog.
+    </li>
+</ol>
+
+we all know that, right?  in fact, it's so common that most ppl don't even
+realize a sad aspect: all of the points from (1) to (5) are redundant, and we
+already have a system for it, that almost everyone uses:  <em>the email
+system</em>.  it's so obvious tht most ppl r unable to see.  but here is how:
+
+<ol>
+    <li>email clients already have highly capable upload forms, with
+        capacity of handling attachments, cryptographic signatures,
+        etc.</li>
+    <li>email servers already uploaded stuff (texts, attachments).</li>
+    <li>email servers can already run some dynamic code that reads the
+        user upload data and reacts accordingly.  some use this feature
+        to dynamically create support tickets from email.</li>
+    <li>email servers can obviously writes/saves something somewhere
+        (e.g. to store the end-user's comment).</li>
+    <li>the email system allows user registration (e.g. registering to
+        free email providers, or registering for a domain name and let
+        user host his own mail servers, etc).  the email registration
+        is also powerful in that, it already has an infrastructure to
+        handle abusers if needed.</li>
+</ol>
+
+so much redundancies.  since i'll already have an email server, here is how
+i'll solve this problem for this blog, in order to less-redundantly allow for
+user posts:
+
+<ol>
+    <li>blog's web server will be a read-only <a
+        href='https://nginx.org/'>nginx</a>.  nothing dynamic, just
+        vanilla nginx.</li>
+    <li>each blog post will have a unique identifier, say, the
+        identifier is <em>123456</em> for this post.</li>
+    <li>the &ldquo;<em>reply</em>&rdquo; link will be a mailto anchor
+        to the email address <em>123456.reply@caveman.sexy</em>.</li>
+    <li>the user posts his reply to that email address, and will get to
+        set various options by using special tags in the body of the
+        email, in order to set his nickname, or whether he wants to be
+        notified when someone replies to his comment.</li>
+    <li>the mail server will get the message, parse it dynamically, if
+        things r ok, then translate it into a html/css content, and
+        update the static pages of this blog.</li>
+    <li>users will then see the updated site html files with the newly
+        posted reply.</li>
+</ol>
+
+as a side effect:
+
+<ul>
+    <li>i'll not need to create user registration forms.</li>
+    <li>i'll not need to create post-reply forms.</li>
+    <li>since nginx will be fully dealing with static content,
+        if-modified-since will work conveniently out of the box, and be
+        mega fast.</li>
+</ul>
+
+this might not be necessarily new, but it is certainly at least an extremely
+uncommon method of handling blog posts/replies.  imo we live in a very sad time
+where most ppl, even standard bodies, needlessly create redundant systems.
