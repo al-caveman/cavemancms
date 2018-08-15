@@ -35,6 +35,80 @@
     
 
 <article>
+<h2>and also CaveMark!</h2>
+<p>MarkDown, and its variants, are simple languages to let authors format their
+texts.  You may find them used in places like StackExchange, YouTube, etc.
+This column defines a new MarkDown variant, that I wish to hear your opinion
+about.</p>
+
+<p>The general theme of this variant is that it attempts to allow the author
+<em>only</em> focus on the content, and ignore the style.  For example,
+sometimes we wish to emphasize some strings or words, so we should use the
+&lt;em&gt; HTML tag, which will display the emphasized text in a style that
+depends on your CSS file.</p>
+
+<p>So why do I not like MarkDown, and its variants? In my view, they give too much
+styling power to the author, as they let them decide whether text is italic,
+bold, underlined, and where should an image or a quote appear.</p>
+
+<p>Here are the bits in CaveMark that, in my view, are new:
+<ul>
+    <li>
+        <em>Automatic citing:</em> if \(x\) is the ID of a resource that has
+        type 'image', then the author can refer to it by writing [\(x\)] in
+        text.  The CaveMark parser will then will automatically place 'fig. 1'
+        in text (assuming it's the 1st cited figure), show the actual figure
+        after the current paragraph alongside its caption, and 'fig. 1' there
+        will be also a link to the position where the image is place.
+        Subsequent use of [\(x\)] will be just links that, if clicked, would
+        move the page to where the image is.  If type is 'definition' (instead
+        of 'image'), then 'def. 1' will be shown in text, and a text block with
+        the definition appears later.  If type is a link (default), then [1] is
+        shown in text, that points to a references section underneath, similar
+        to \(\LaTeX\).  I don't know of any existing MarkDown variant tht does
+        this.
+    </li>
+</ul></p>
+
+<p>Here are the not-so-new bits that, perhaps, largely overlap with MarkDown:
+<ul>
+    <li>
+        <em>Resources:</em> after five hyphens, -----, or more, comes the
+        resources section.  Each resource's syntax is [ID,TYPE] TEXT. ID is a
+        handle to cite it later on, TYPE could also be:
+        'url', 'image', 'quote', definition, theorem, etc.
+    </li>
+    <li>
+        <em>Paragraphs:</em> texts separated by double, or more, new lines.
+    </li>
+    <li>
+        <em>Headings:</em> lines starting with #, ##, ..., will define headings
+        and their levels. Heading and trailing whitespace will be ignored.
+    </li>
+    <li>
+        <em>Emphasized text:</em> stuff surrounded by _.
+    </li>
+    <li>
+        <em>Lists:</em> lines starting with "*" or "1." (must be 1) will be
+        un-ordered, and ordered lists, respectively.
+    </li>
+    <li>
+        <em>Code:</em> <code>`this`</code> is a code, <code>```this is a code
+        block```</code>.
+    </li>
+    <li>
+        <em>Escaping:</em> \ (backwards slash) is used to print
+        them literally.  e.g. \_ will literally show an underscore instead of
+        emphasizing.
+    </li>
+</ul></p>
+
+<p>CaveMark shall be free and open source.  I'll probably license it under the
+Ggpl3.0.</p>
+</article>
+
+
+<article>
 <h2>CavemanCMS soon!</h2>
 <p>cms = content management system.  e.g. thing that manages content in ur blog,
 or site.  but they all suck.  so i am making the best cms ever.  its called
@@ -140,207 +214,13 @@ imo, and decorative items remind me of them).</p>
 </article>
 
 
-<article>
-<h2>a simpler way for users to reply to blogs</h2>
-<p>commonly, a web server that's hosting  a blog should:</p>
-
-<p><ol>
-    <li>
-        present some comments upload form.
-    </li>
-    <li>
-        be able to handle uploaded users <em>data</em> (e.g. post or
-        get or whatever requests).
-    </li>
-    <li>
-        then, the web server runs some dynamic code that reads the user
-        upload data.
-    </li>
-    <li>
-        and then writes/saves something somewhere (e.g. to store the
-        end-user's comment). the comment is usually stored in some
-        back-end database, like some evil sql stuff.
-    </li>
-    <li>
-        additionally, the user usually also needs to register an
-        account for the blog.
-    </li>
-</ol></p>
-
-<p>we all know that, right?  in fact, it's so common that most ppl don't even
-realize a sad aspect: all of the points from (1) to (5) are redundant, and we
-already have a system for it, that almost everyone uses:  <em>the email
-system</em>.  it's so obvious tht most ppl r unable to see.  but here is how:</p>
-
-<p><ol>
-    <li>email clients already have highly capable upload forms, with
-        capacity of handling attachments, cryptographic signatures,
-        etc.</li>
-    <li>email servers already uploaded stuff (texts, attachments).</li>
-    <li>email servers can already run some dynamic code that reads the
-        user upload data and reacts accordingly.  some use this feature
-        to dynamically create support tickets from email.</li>
-    <li>email servers can obviously writes/saves something somewhere
-        (e.g. to store the end-user's comment).</li>
-    <li>the email system allows user registration (e.g. registering to
-        free email providers, or registering for a domain name and let
-        user host his own mail servers, etc).  the email registration
-        is also powerful in that, it already has an infrastructure to
-        handle abusers if needed.</li>
-</ol></p>
-
-<p>so much redundancies.  since i'll already have an email server, here is how
-i'll solve this problem for this blog, in order to less-redundantly allow for
-user posts:</p>
-
-<p><ol>
-    <li>blog's web server will be a read-only <a
-        href='https://nginx.org/'>nginx</a>.  nothing dynamic, just
-        vanilla nginx.</li>
-    <li>each blog post will have a unique identifier, say, the
-        identifier is <em>123456</em> for this post.</li>
-    <li>the &ldquo;<em>reply</em>&rdquo; link will be a mailto anchor
-        to the email address <em>123456.reply@caveman.sexy</em>.</li>
-    <li>the user posts his reply to that email address, and will get to
-        set various options by using special tags in the body of the
-        email, in order to set his nickname, or whether he wants to be
-        notified when someone replies to his comment.</li>
-    <li>the mail server will get the message, parse it dynamically, if
-        things r ok, then translate it into a html/css content, and
-        update the static pages of this blog.</li>
-    <li>users will then see the updated site html files with the newly
-        posted reply.</li>
-</ol></p>
-
-<p>as a side effect:</p>
-
-<p><ul>
-    <li>i'll not need to create user registration forms.</li>
-    <li>i'll not need to create post-reply forms.</li>
-    <li>since nginx will be fully dealing with static content,
-        if-modified-since will work conveniently out of the box, and be
-        mega fast.</li>
-</ul></p>
-
-<p>this might not be necessarily new, but it is certainly at least an extremely
-uncommon method of handling blog posts/replies.  imo we live in a very sad time
-where most ppl, even standard bodies, needlessly create redundant systems.</p>
-</article>
-
-
-<article>
-<h2>the Godly prisoner's dilemma is better; imo</h2>
-<p>u probably heard of <a
-href="https://en.wikipedia.org/wiki/Prisoner's_dilemma">prisoner's dilemma</a>.
-i call it the <em>Godless</em> prisoner's dilemma for the obvious reason: it
-lacks God.  this should be fair enough.</p>
-
-<p>a quick reminder of the [Godless] dilemma: it says something like, 2 dudes in a
-prison with these options: if one snitches, but the other doesn't, the snitcher
-gets out of prison immediately, and the snitched will be there for a very long
-time, like 10 years or something.  if none snitch, they will be imprisoned for
-3 months.  if both snitch, then they will be imprisoned for 1 year.  or
-something like this.</p>
-
-<p>iirc it's shown that, in practice, under the constraints of the scenario of the
-dilemma, ppl will choose to snitch against each other, thus reaching a
-sub-optimal global solution.  so, they end up being imprisoned for 1 year,
-instead of 3 months.</p>
-
-<p>but what about the <em>Godly</em> prisoner's dilemma, where we modify it to
-include the following clause:  <em>you are always being watched by a fair God,
-who will reward you accordingly based on how truthful and honest you are</em>.
-then suddenly we r dealing with a different problem, where the imprisoned dudes
-have more incentives to just be honest, and say the truth..</p>
-
-<p>i expect the Godly prisoner's dilemma to be more likely to result in a solution
-that is more optimum for the greatness of the individuals, and humanity as a
-whole. after all, it places more incentives to say the truth, thanks to
-believing in God.</p>
-</article>
-
-
-<article>
-<h2>multi column text. nice?</h2>
-<p>try to adjust the width of the browser's window, or adjust the text size.  u'll
-notice that the text will be distributed in columns, automatically, to maximize
-screen's utility.  most websites don't do this, unfortunately..</p>
-
-<p>this is a demonstration of a website whose content gets distributed in multiple
-columns, depending on the width of the browser window, just like news papers.
-the goal is to make sure that a column is never too wide, nor screen space is.
-imo this is the best idea for maximizing screen's utility.</p>
-
-<p><figure>
-    <img alt='a news paper' src='./pics/newspaper.png' />
-    <figcaption>
-        <b>fig 3.</b> a random newspaper.
-    </figcaption>
-</figure></p>
-
-<p>much like how news papers make efficient use of their wide papers by using
-multiple columns (instead of too wide lines of texts, or wasting paper sides).
-but unfortunately many websites, today, don't rspect our wide screens, and
-rather opt to waste side pixels.</p>
-</article>
-
-
-<article>
-<h2>Godly general public license 3.0 (Ggpl3.0)</h2>
-<p>gnu/rms pushed towards freeing software, but not free enough.  the Ggpl3.0
-addresses a key limitation in <a
-href='https://www.gnu.org/licenses/gpl-3.0.en.html'>gpl3.0</a>.</p>
-
-<p>basically, gpl3.0 ensures that the software remains free, but it ignoves the
-fact that software could be used to push humanity towards extinction.  in such
-a case, what use would free software make if there r no humanies to use it?</p>
-
-<p>the Ggpl3.0 effectively prefixes gpl3.0 by the <a
-href='https://en.wikipedia.org/wiki/Ten_Commandments'>ten commandments</a>, so
-that u r not allowed to use a Ggpl3.0-licensed software in anything that
-violates the ten commandments.</p>
-
-<p><figure>
-    <img alt='10 commandments' src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Vitrail_de_synagogue-Mus%C3%A9e_alsacien_de_Strasbourg.jpg/150px-Vitrail_de_synagogue-Mus%C3%A9e_alsacien_de_Strasbourg.jpg' />
-    <figcaption>
-        <b>fig 4.</b> the ten commandments (artist's imagination of the
-        tablets).
-    </figcaption>
-</figure></p>
-
-<p>this means u won't be allowed to use Ggpl3.0-licensed stuff to, say, run an
-adultery website, operate an abortion clinic, dishonour ur daddy, etc.</p>
-
-<p>this is bcoz the stuff banned in the ten commandments seem result in higher
-divorce rate, higher std, lower birth rate, etc; generally humanity's
-extinction.  stats also seem to suggest this.  so, unless u want to have a
-world with free code but no humans -to use the code-, u need to adopt the
-Ggpl3.0 license.</p>
-</article>
-
-
-<article>
-<h2>testing mathjax</h2>
-<p>When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$ more fancy things to test mathjax's
-things:
-\[
-    f(x) = 
-    \begin{cases}
-        0 & \text{ if } x = 1\\
-        1 & \text{ otherwise}\\
-    \end{cases}
-\]</p>
-</article>
-
-
     <hr />
 
     <!-- navigation -->
     <nav>
         <h2>more &ldquo;<em>theories</em>&rdquo; for u</h2>
         <p>
-            <a href='./page/1'>page 1</a>. <a href='lol'>site map</a>.
+            <a href='./page/2'>page 2</a>, <a href='./page/1'>page 1</a>. <a href='lol'>site map</a>.
         </p>
     </nav>
 

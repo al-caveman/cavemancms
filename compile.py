@@ -2,23 +2,21 @@
 import argparse, configparser, os, re, shutil
 
 # page saver
-def save_page(page, template, cur_page_id, last_page_id, rootdir):
-    # create articles
-
+def save_page(page_ids, articles_paths, template, page_dir):
     # make html page navigation links
     with open('{}/pagelink.html'.format(template)) as f:
         pagelink = f.read().strip()
         html_pagelinks = ', '.join([
             pagelink.format(**{
                 'PAGEID': i
-            }) for i in reversed(range(1, last_page_id+1))
+            }) for i in page_ids
         ])
 
     # make html articles
     with open('{}/article.html'.format(template)) as f:
         article = f.read()
         html_articles = ''
-        for article_path in page['articles_paths']:
+        for article_path in articles_paths:
             with open('{}/title'.format(article_path)) as g:
                 title = g.read().strip()
             with open('{}/body'.format(article_path)) as h:
@@ -36,12 +34,11 @@ def save_page(page, template, cur_page_id, last_page_id, rootdir):
     # make html page
     with open('{}/page.html'.format(template)) as f:
         html_page = f.read().format(**{
-            'ARTICLES' : html_articles, 
+            'ARTICLES'   : html_articles, 
             'PAGESLINKS' : html_pagelinks, 
         })
 
     # save page
-    page_dir = '{}/{}'.format(rootdir, page['page_id'])
     os.makedirs(page_dir, exist_ok=True)
     with open('{}/index.html'.format(page_dir), 'w') as f:
         f.write(html_page)
@@ -83,63 +80,63 @@ for i in os.listdir(content_raw_path):
             prioritized[priority] = [[article_path, size]]
 
 # figure out what pages to save
-pages_to_save = []
-current_page_size = 0
+pages_ids = []
+pages_sizes = []
+pages_articles_paths = []
 current_page_id = 1
+current_page_size = 0
 current_page_article_paths = []
-for priority in sorted(prioritized, reverse=True):
+for priority in sorted(prioritized):
     for article_path, article_size in prioritized[priority]:
         current_page_article_paths.append(article_path)
         current_page_size += article_size
     if (current_page_size > page_size_max):
-        pages_to_save.append({
-            'articles_paths': current_page_article_paths,
-            'page_size'     : current_page_size,
-            'page_id'       : current_page_id,
-        })
+        pages_ids.append(current_page_id)
+        pages_sizes.append(current_page_size)
+        pages_articles_paths.append(current_page_article_paths)
         current_page_id += 1
         current_page_size = 0
         current_page_article_paths = []
 
-# merge unsaved articles, if any, to the last page
-if len(pages_to_save) == 0:
-    pages_to_save.append({
-        'articles_paths': current_page_article_paths,
-        'page_size'     : current_page_size,
-        'page_id'       : current_page_id,
-    })
-elif current_page_size > 0:
-    pages_to_save[-1]['articles_paths'] += current_page_article_paths
-    pages_to_save[-1]['page_size'] += current_page_size
+# merge unsaved articles, if any, to the last/newest page
+if len(pages_ids) == 0: # nothing at all met page_size_max?
+    pages_ids.append(current_page_id)
+    pages_sizes.append(current_page_size)
+    pages_articles_paths.append(current_page_article_paths)
+elif current_page_size > 0: # somethings didn't meet page_size_max?
+    pages_sizes[-1] += current_page_size
+    pages_articles_paths[-1] += current_page_article_paths
+
+# remove old compiled html
+shutil.rmtree(content_compiled_path)
 
 # save all pages
-for i in range(0, len(pages_to_save)):
+for i in range(0, len(pages_ids)):
     save_page(
-        pages_to_save[i],                       # articles to save
-        tmplt_cntnt_page_others,                # template
-        i+1,                                    # current page id
-        len(pages_to_save),                     # latest page
-        '{}/page'.format(content_compiled_path) # root dir
+        pages_ids[::-1],                # reversed page ids (for navigation)
+        pages_articles_paths[i][::-1],  # reversed page's articles paths
+        tmplt_cntnt_page_others,        # template
+        '{}/page/{}'.format(            # saving dir
+            content_compiled_path,
+            pages_ids[i]
+        )
     )
 
 # save last page as index
 save_page(
-    {
-        'articles_paths': pages_to_save[-1]['articles_paths'],
-        'page_size'     : pages_to_save[-1]['page_size'],
-        'page_id'       : '.',
-    },                      # articles to save
-    tmplt_cntnt_page_last,  # template
-    len(pages_to_save),     # current page
-    len(pages_to_save),     # latest page
-    content_compiled_path   # root dir
+    pages_ids[::-1],
+    pages_articles_paths[-1][::-1],
+    tmplt_cntnt_page_last,
+    content_compiled_path
 )
 
-# copy static files
+# update static files
+compiled_site_static_files = '{}/{}'.format(
+    content_compiled_path,
+    site_static_files
+)
 try:
-    shutil.copytree(site_static_files, '{}/{}'.format(
-        content_compiled_path,
-        site_static_files)
-    )
-except FileExistsError:
+    shutil.rmtree(compiled_site_static_files)
+except FileNotFoundError:
     pass
+shutil.copytree(site_static_files, compiled_site_static_files)
