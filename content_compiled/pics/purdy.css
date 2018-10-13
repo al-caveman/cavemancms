@@ -58,7 +58,11 @@ header div.pages_pics {
     text-align: center;
     bottom: 20px;
 }
+header img.caveman {
+    filter: grayscale(80%);
+}
 header img.caveman:hover {
+    filter: grayscale(0%);
     filter: brightness(150%);
 }
 header img.pages_caveman {
@@ -76,7 +80,6 @@ header img.cat:hover {
 
 /* footer stuff */
 footer {
-    font-size: 80%;
     color: #555555;
 }
 footer p {
@@ -145,6 +148,9 @@ div.cntnt {
     -ms-hyphens: auto;
     hyphens: auto;
 }
+.cntnt article code {
+    color: #cccccc;
+}
 .cntnt article a {
     color: #cccccc;
     text-decoration: underline;
@@ -153,20 +159,8 @@ div.cntnt {
     color: #eeeeee;
     text-decoration: underline;
 }
-.cntnt p.special {
-    font-style: italic;
-    margin-left: 1em;
-    margin-right: 1em;
-}
-.cntnt p.def:before {
-    color: #eeeeee;
-    content: "definition.";
+
+.cntnt article .index {
+    color: #cccccc;
     font-weight: bold;
-    font-style: normal;
-}
-.cntnt p.theorem:before {
-    color: #eeeeee;
-    content: "theorem.";
-    font-weight: bold;
-    font-style: normal;
 }

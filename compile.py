@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 import argparse, configparser, os, re, shutil
+import cavemark
+cm = cavemark.CaveMark()
+
 
 # page saver
 def save_page(page_ids, articles_paths, template, page_dir):
@@ -14,20 +17,16 @@ def save_page(page_ids, articles_paths, template, page_dir):
 
     # make html articles
     with open('{}/article.html'.format(template)) as f:
-        article = f.read()
+        template_article = f.read()
         html_articles = ''
         for article_path in articles_paths:
-            with open('{}/title'.format(article_path)) as g:
-                title = g.read().strip()
-            with open('{}/body'.format(article_path)) as h:
-                body = h.read().strip()
-                paragraphs = re.split(r'\n\n+', body)
-                html_body = '\n\n'.join([
-                    '<p>{}</p>'.format(p) for p in paragraphs
-                ])
-            html_article = article.format(**{
-                'POST_TITLE': title,
-                'POST_BODY' : html_body
+            with open(article_path) as h:
+                article = h.read().strip()
+            cm.parse(article)
+            cm.flush()
+            article_html = cm.get_html()
+            html_article = template_article.format(**{
+                'ARTICLE' : article_html
             })
             html_articles += '\n\n' + html_article
 
@@ -42,6 +41,10 @@ def save_page(page_ids, articles_paths, template, page_dir):
     os.makedirs(page_dir, exist_ok=True)
     with open('{}/index.html'.format(page_dir), 'w') as f:
         f.write(html_page)
+
+    # forget cavemark citations
+    cm.forget_cited()
+    cm.forget_counter()
 
 # parse arguments
 parser = argparse.ArgumentParser(description='CavemanCMS compiler')
@@ -63,15 +66,15 @@ tmplt_cntnt_page_others = config['other_content_pages']['template_path']
 # categorize articles by priority
 prioritized = {}
 for i in os.listdir(content_raw_path):
-    article_path = '{}/{}'.format(content_raw_path, i)
-    if os.path.isdir(article_path):
-        priority_path = '{}/priority'.format(article_path)
-        body_path = '{}/body'.format(article_path)
+    tmp_path = '{}/{}'.format(content_raw_path, i)
+    if os.path.isdir(tmp_path):
+        priority_path = '{}/priority'.format(tmp_path)
+        article_path = '{}/article'.format(tmp_path)
 
         with open(priority_path, 'r') as f:
             priority = int(f.read())
 
-        with open(body_path, 'r') as f:
+        with open(article_path, 'r') as f:
             size = len(f.read())
 
         if priority in prioritized:

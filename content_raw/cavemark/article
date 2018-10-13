@@ -1,0 +1,28 @@
+link:mistune
+url:https://github.com/lepture/mistune
+text:mistune
+
+link:cavemark
+url:https://github.com/al-caveman/cavemark
+text:CaveMark
+
+footnote:neat
+text:But what's really neat is the typesetting aspect.  Check [cavemark]
+yourself!
+
+# CaveMark Is Out!
+
+CavemanCMS, and all articles in this website, currently use [cavemark] as their
+markdown parser.  Neat \(\LaTeX\)-like formatting with little effort!
+
+CaveMark is nice because it follows typesetting principles.  It's also the
+fastest pure-Python markdown parser around[neat].  It easily beats [mistune] in
+CPython3:
+
+```mistune : 13.928859449 seconds
+cavemark: 5.57010197 seconds (2.5 times faster!)```
+
+and in PyPy3:
+
+```mistune : 10.141159687 seconds
+cavemark: 1.728199896 seconds (5.9 times faster!)```
