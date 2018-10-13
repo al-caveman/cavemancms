@@ -90,10 +90,10 @@ willing will make some noise.  Trust.</p>
 
 <ul>
 <li> <em>Muscle stimulation period:</em> some site (forgot) suggested that the
-growth-stimulating effect starts hours after a workout, and lasts 24 hours.
-But not sure, what's the optimum resting period between workout days for
-strength, hypertrophy, etc?  Gotta search this..  Someone in YouTube said 48
-hours (WTF?).
+growth-stimulating effect starts hours after a workout, and lasts 24 hours.<p>But not sure, what's the optimum resting period between workout days for
+strength, hypertrophy, etc?  Gotta search this..  Someone in YouTube said
+48 hours (WTF?).  Also  <a href="https://www.nautilusplus.com/is-it-necessary-to-rest-24-hours-between-workouts/">some site</a> says 48-72 hours.</p>
+
 </li>
 <li> <em>Strength vs. Hypertrophy:</em> someone (on utube) suggested that strength
 training creates more muscle, while hypertrophy enlarges muscle's appearance by
@@ -117,49 +117,29 @@ training, 30-90secs for hypertrophy or endurance.</li>
 <p>1st, let's define a couple of things.   <a href="#cite_smartdude1">Definition 1</a> defines what is a <em>smart</em>
 dude, and  <a href="#cite_decorative2">Definition 2</a> defines what is a decorative item.</p>
 
-<p id="cite_smartdude1" class="definition">
-  <span class="index">
-    Definition 1.
-  </span>
-  <em>A dude <span class="ignored">\(x\)</span> is said to be smart if, and only if, <span class="ignored">\(x\)</span> does stuff that
+<p id="cite_smartdude1" class="definition"><a href="#cite_smartdude1">Definition 1.</a> <em>A dude <span class="ignored">\(x\)</span> is said to be smart if, and only if, <span class="ignored">\(x\)</span> does stuff that
       maximize his survivability, and avoids stuff that limit him from
       maximizing his survivability.  This implies that he eats healthy food,
-      learns juicy mathy sciency stuff, avoids wasting his time, etc.</em>
-</p>
+      learns juicy mathy sciency stuff, avoids wasting his time, etc.</em></p>
 
-<p id="cite_decorative2" class="definition">
-  <span class="index">
-    Definition 2.
-  </span>
-  <em>For a given world <span class="ignored">\(w\)</span>, a thing <span class="ignored">\(t_w\)</span> in world <span class="ignored">\(w\)</span> is said to be
+<p id="cite_decorative2" class="definition"><a href="#cite_decorative2">Definition 2.</a> <em>For a given world <span class="ignored">\(w\)</span>, a thing <span class="ignored">\(t_w\)</span> in world <span class="ignored">\(w\)</span> is said to be
       decorative if, and only if, <span class="ignored">\(t_w\)</span> does not help its owner maximize his
       survivability in world <span class="ignored">\(w\)</span>.  I.e. has no real use.  E.g. bunch of
-      pretty pics hanging on the wall of your toilet.</em>
-</p>
+      pretty pics hanging on the wall of your toilet.</em></p>
 
 <p>Think a bit.  If you agree with  <a href="#cite_smartdude1">Definition 1</a> and  <a href="#cite_decorative2">Definition 2</a>, then  <a href="#cite_smartworld1">Theorem 1</a>
 is true by definition.</p>
 
-<p id="cite_smartworld1" class="theorem">
-  <span class="index">
-    Theorem 1.
-  </span>
-  <em>In a world with only smart dudes, then they will not allocate
+<p id="cite_smartworld1" class="theorem"><a href="#cite_smartworld1">Theorem 1.</a> <em>In a world with only smart dudes, then they will not allocate
       any resource, e.g. money/time, to make/buy decorative stuff.  i.e. no
       fancy pics hanging on walls, statues, fancy stitching on clothing, etc.
-      but all resources will be used to maximize their survivability.</em>
-</p>
+      but all resources will be used to maximize their survivability.</em></p>
 
 <p>Based on  <a href="#cite_smartworld1">Theorem 1</a>, it's easy to see why  <a href="#cite_dumbworld2">Theorem 2</a> is also true.</p>
 
-<p id="cite_dumbworld2" class="theorem">
-  <span class="index">
-    Theorem 2.
-  </span>
-  <em>A world with dudes investing some resource in making/buying
+<p id="cite_dumbworld2" class="theorem"><a href="#cite_dumbworld2">Theorem 2.</a> <em>A world with dudes investing some resource in making/buying
       decorative items, is necessarily a world that has at least 1 non-smart
-      person.</em>
-</p>
+      person.</em></p>
 
 <p>Now let's be more specific on how the world with some non-smarties, as in the
  <a href="#cite_dumbworld2">Theorem 2</a>, would look like:</p>
@@ -185,204 +165,13 @@ cases IMO, and decorative items remind me of them).</p>
 </article>
 
 
-<article>
-<h2>  A Simpler Way for Users to Reply to Blogs</h2>
-
-<p>Commonly, a web server that's hosting  a blog should:</p>
-
-<ul>
-<li> Present some comments upload form.
-</li>
-<li> Be able to handle uploaded users <em>data</em> (e.g. post or
-  get or whatever requests).</li>
-<li> Then, the web server runs some dynamic code that reads the user
-  upload data.</li>
-<li> And then writes/saves something somewhere (e.g. to store the
-  end-user's comment). The comment is usually stored in some
-  back-end database, like some evil SQL stuff.</li>
-<li> Additionally, the user usually also needs to register an
-  account for the blog.</li>
-</ul>
-<p>We all know that, right?  In fact, it's so common that most people don't even
-realize a sad aspect: all of the points from (1) to (5) are redundant, and we
-already have a system for it, that almost everyone uses:  <em>the email
-system</em>.  It's so obvious that most people are unable to see.  But here is
-how:</p>
-
-<ul>
-<li> Email clients already have highly capable upload forms, with
-   capacity of handling attachments, cryptographic signatures,
-   etc.</li>
-<li> Email servers already uploaded stuff (texts, attachments).</li>
-<li> Email servers can already run some dynamic code that reads the
-   user upload data and reacts accordingly.  Some use this feature
-   to dynamically create support tickets from email.</li>
-<li> Email servers can obviously writes/saves something somewhere
-   (e.g. to store the end-user's comment).</li>
-<li> The email system allows user registration (e.g. registering to
-   free email providers, or registering for a domain name and let
-   user host his own mail servers, etc).  The email registration
-   is also powerful in that, it already has an infrastructure to
-   handle abusers if needed.</li>
-</ul>
-<p>So much redundancies.  Since I'll already have an email server, here is how
-I'll solve this problem for this blog, in order to less-redundantly allow for
-user posts:</p>
-
-<ul>
-<li> Blog's web server will be a read-only  <a href="https://nginx.org/">nginx</a>.  Nothing dynamic, just
-   vanilla  <a href="https://nginx.org/">nginx</a>.</li>
-<li> Each blog post will have a unique identifier, say, the
-   identifier is <code>123456</code> for this post.</li>
-<li> The reply link will be a <code>mailto</code> anchor
-   to the email address <code>123456.reply@caveman.sexy</code>.</li>
-<li> The user posts his reply to that email address, and will get to
-   set various options by using special tags in the body of the
-   email, in order to set his nickname, or whether he wants to be
-   notified when someone replies to his comment.</li>
-<li> The mail server will get the message, parse it dynamically, if
-   things are OK, then translate it into a HTML/CSS content, and
-   update the static pages of this blog.</li>
-<li> Users will then see the updated site html files with the newly
-   posted reply.</li>
-</ul>
-<p>As a side effect:</p>
-
-<ul>
-<li> I'll not need to create user registration forms.</li>
-<li> I'll not need to create post-reply forms.</li>
-<li> Since  <a href="https://nginx.org/">nginx</a> will be fully dealing with static content,
-  if-modified-since will work conveniently out of the box, and be
-  mega fast.</li>
-</ul>
-<p>This might not be necessarily new, but it is certainly at least an extremely
-uncommon method of handling blog posts/replies.  IMO we live in a very sad time
-where most people, even standard bodies, needlessly create redundant systems.</p>
-
-
-</article>
-
-
-<article>
-<h2> The Godly Prisoner's Dilemma is better IMO</h2>
-
-<p>You have probably heard of the  <a href="https://en.wikipedia.org/wiki/Prisoner's_dilemma">prisoner's dilemma</a>.  I call it the <em>Godless</em>
-prisoner's dilemma for the obvious reason: it lacks God.  this should be fair
-enough.</p>
-
-<p>A quick reminder of the <em>Godless</em> dilemma: it says something like, 2 dudes in a
-prison with these options: if one snitches, but the other doesn't, the snitcher
-gets out of prison immediately, and the snitched will be there for a very long
-time, like 10 years or something.  If none snitch, they will be imprisoned for
-3 months.  If both snitch, then they will be imprisoned for 1 year.</p>
-
-<p>But what about the <em>Godly</em> prisoner's dilemma, where we modify it to include
-the following clause:  <em>you are always being watched by a fair God, who will
-reward you accordingly based on how truthful and honest you are</em>.  Then
-suddenly we are dealing with a different problem, where the imprisoned dudes
-have more incentives to just be honest, and say the truth..</p>
-
-<p>I expect the Godly prisoner's dilemma to be more likely to result in a solution
-that is more optimum for the greatness of the individuals, and humanity as a
-whole.  After all, it places more incentives to say the truth, thanks to
-believing in God.</p>
-
-
-</article>
-
-
-<article>
-<h2> Multi Column Text. Nice?</h2>
-
-<p>Try to adjust the width of the browser's window, or adjust the text size.
-You'll notice that the text will be distributed in columns, automatically, to
-maximize screen's utility.  Most websites don't do this, unfortunately..</p>
-
-<p>This is a demonstration of a website whose content gets distributed in multiple
-columns, depending on the width of the browser window, just like news papers
-(as shown in  <a href="#cite_anewspaper1">Figure 1</a>).  The goal is to make sure that a column is never
-too wide, nor screen space is.  IMO this is the best idea for maximizing
-screen's utility.</p>
-
-<figure id="cite_anewspaper1" style="text-align:center;">
-  <img alt="A random newspaper." src="/pics/newspaper.png" />
-  <figcaption>
-    <span class="index">
-      Figure 1.
-    </span>
-    A random newspaper.
-  </figcaption>
-</figure>
-
-<p>Much like how news papers make efficient use of their wide papers by using
-multiple columns (instead of too wide lines of texts, or wasting paper sides).
-But unfortunately many websites, today, don't respect our wide screens, and
-rather opt to waste side pixels.</p>
-
-
-</article>
-
-
-<article>
-<h2> Godly General Public License v3 (GGPLv3)</h2>
-
-<p>GNU/RMS pushed towards freeing software, but not free enough.  The GGPL3.0
-addresses a key limitation in  <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</a>.</p>
-
-<p>Basically, GPLv3 ensures that the software remains free, but it ignores the
-fact that software could be used to push humanity towards extinction.  In such
-a case, what use would free software make if there are no humans to use it?</p>
-
-<p>The GGPLv3 effectively prefixes GPLv3 by  <a href="https://en.wikipedia.org/wiki/Ten_Commandments">The Ten Commandments</a>.   <a href="#cite_10cmdsimg2">Figure 2</a> shows the
-tablets.  This means you won't be allowed to use GGPLv3-licensed stuff to, say,
-run a fornication website, operate an abortion clinic, dishonour your father,
-etc.</p>
-
-<figure id="cite_10cmdsimg2" style="text-align:center;">
-  <img alt="Artist's imagination of the tablets." src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Vitrail_de_synagogue-Mus%C3%A9e_alsacien_de_Strasbourg.jpg/150px-Vitrail_de_synagogue-Mus%C3%A9e_alsacien_de_Strasbourg.jpg" />
-  <figcaption>
-    <span class="index">
-      Figure 2.
-    </span>
-    Artist's imagination of the tablets.
-  </figcaption>
-</figure>
-
-<p>This is nice, because the things banned in  <a href="https://en.wikipedia.org/wiki/Ten_Commandments">The Ten Commandments</a> seem to result in higher
-divorce rate, higher std, lower birth rate, etc; generally humanity's
-extinction.  Stats also seem to suggest this.  So, unless you want to have a
-world with free code but no humans -to use the code-, your need to adopt the
-GGPLv3 license.</p>
-
-
-</article>
-
-
-<article>
-<h2> Testing MathJax</h2>
-
-<p>When <span class="ignored">\(a \ne 0\)</span>, there are two solutions to <span class="ignored">\(ax^2 + bx + c = 0\)</span> and they are
-<span class="ignored">$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</span> more fancy things to test mathjax's
-things:
-<span class="ignored">\[
-    f(x) = 
-    \begin{cases}
-        0 &amp; \text{ if } x = 1\\
-        1 &amp; \text{ otherwise}\\
-    \end{cases}
-\]</span></p>
-
-
-</article>
-
-
     <hr />
 
     <!-- navigation -->
     <nav>
         <h2>more &ldquo;<em>theories</em>&rdquo; for u</h2>
         <p>
-            <a href='./page/1'>page 1</a>. <a href='lol'>site map</a>.
+            <a href='./page/2'>page 2</a>, <a href='./page/1'>page 1</a>. <a href='lol'>site map</a>.
         </p>
     </nav>
 

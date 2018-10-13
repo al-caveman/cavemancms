@@ -163,3 +163,6 @@ div.cntnt {
 .cntnt article .ignored {
     color: #cccccc;
 }
+.cntnt article .ignored:hover {
+    color: #eeeeee;
+}
