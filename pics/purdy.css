@@ -121,8 +121,6 @@ div.cntnt {
     column-width: 350px;
     column-gap: 40px;
 }
-.cntnt figure {
-}
 .cntnt figure img {
     display: block;
     margin-left: auto;
@@ -149,7 +147,7 @@ div.cntnt {
     hyphens: auto;
 }
 .cntnt article code {
-    color: #cccccc;
+    color: #eeeeee;
 }
 .cntnt article a {
     color: #cccccc;
@@ -159,8 +157,9 @@ div.cntnt {
     color: #eeeeee;
     text-decoration: underline;
 }
-
 .cntnt article .index {
+    color: #eeeeee;
+}
+.cntnt article .ignored {
     color: #cccccc;
-    font-weight: bold;
 }
