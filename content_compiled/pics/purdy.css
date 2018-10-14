@@ -116,53 +116,53 @@ nav a:hover {
 }
 
 /* main content stuff */
-div.cntnt {
+main {
     margin: 20px;
     column-width: 350px;
     column-gap: 40px;
 }
-.cntnt figure img {
+main figure img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     vertical-align: top;
 }
-.cntnt figure figcaption {
+main figure figcaption {
     text-align: center;
     font-size: 90%;
 }
-.cntnt article p {
+main article p {
     text-align: justify;
     text-justify: inter-word;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
 }
-.cntnt article ol,
-.cntnt article ul {
+main article ol,
+main article ul {
     text-align: justify;
     text-justify: inter-word;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
 }
-.cntnt article code {
+main article code {
     color: #eeeeee;
 }
-.cntnt article a {
+main article a {
     color: #cccccc;
     text-decoration: underline;
 }
-.cntnt article a:hover {
+main article a:hover {
     color: #eeeeee;
     text-decoration: underline;
 }
-.cntnt article .index {
+main article .index {
     color: #eeeeee;
 }
-.cntnt article .ignored {
+main article .ignored {
     color: #cccccc;
 }
-.cntnt article .ignored:hover {
+main article .ignored:hover {
     color: #eeeeee;
 }
