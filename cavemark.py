@@ -191,7 +191,7 @@ class CaveMark:
                              '</figcaption>'
                              '</figure>\n\n',
                 'quotation' :'<figure id="cite_{ID}{INDEX}">'
-                             '<a href="cite_{ID}{INDEX}">'
+                             '<a href="#cite_{ID}{INDEX}">'
                              'Quote {INDEX}:'
                              '</a>'
                              '<blockquote><em>'
