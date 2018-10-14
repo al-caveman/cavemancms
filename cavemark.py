@@ -201,13 +201,13 @@ class CaveMark:
                              '&mdash; <cite>{author}</cite>'
                              '</footer>'
                              '</figure>\n\n',
-                'definition':'<p id="cite_{ID}{INDEX}" class="definition">'
+                'definition':'<p id="cite_{ID}{INDEX}">'
                              '<a href="#cite_{ID}{INDEX}">'
                              'Definition {INDEX}.'
                              '</a>'
                              ' <em>{text}</em>'
                              '</p>\n\n',
-                'theorem'   :'<p id="cite_{ID}{INDEX}" class="theorem">'
+                'theorem'   :'<p id="cite_{ID}{INDEX}">'
                              '<a href="#cite_{ID}{INDEX}">'
                              'Theorem {INDEX}.</a>'
                              ' <em>{text}</em>'
