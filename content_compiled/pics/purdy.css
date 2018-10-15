@@ -121,6 +121,11 @@ main {
     column-width: 350px;
     column-gap: 40px;
 }
+main figure {
+    -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+              page-break-inside: avoid; /* Firefox */
+                   break-inside: avoid; /* IE 10+ */
+}
 main figure img {
     display: block;
     margin-left: auto;
