@@ -306,11 +306,11 @@ class CaveMark:
 
         # emphasized text format
         if frmt_emph_prefix is None:
-            self.frmt_emph_prefix = '<em>'
+            self.frmt_emph_prefix = '<em>&ldquo;'
         else:
             self.frmt_emph_prefix = frmt_emph_prefix
         if frmt_emph_suffix is None:
-            self.frmt_emph_suffix = '</em>'
+            self.frmt_emph_suffix = '&rdquo;</em>'
         else:
             self.frmt_emph_suffix = frmt_emph_suffix
 
