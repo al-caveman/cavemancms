@@ -151,19 +151,21 @@ main article ul {
     -ms-hyphens: auto;
     hyphens: auto;
 }
+main article em {
+    color: #cccccc;
+}
 main article code {
     color: #eeeeee;
 }
 main article a {
     color: #cccccc;
-    text-decoration: underline;
+    font-weight: bold;
+    text-decoration: underline ;
 }
 main article a:hover {
     color: #eeeeee;
+    font-weight: bold;
     text-decoration: underline;
-}
-main article .index {
-    color: #eeeeee;
 }
 main article .ignored {
     color: #cccccc;
