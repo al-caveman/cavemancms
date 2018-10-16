@@ -43,8 +43,9 @@ def save_page(page_ids, articles_paths, template, page_dir):
         f.write(html_page)
 
     # forget cavemark citations
-    cm.forget_cited()
-    cm.forget_counter()
+    cm.forget_citations()
+    cm.forget_citation_counters()
+    cm.forget_section_counters()
 
 # parse arguments
 parser = argparse.ArgumentParser(description='CavemanCMS compiler')
