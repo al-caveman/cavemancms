@@ -122,13 +122,23 @@ markdown parser.  Neat <span class="ignored">\(\LaTeX\)</span>-like formatting w
 <li> Follows typesetting principles.</li>
 <li> Is the
 fastest<sup><a href="#fn_clarifyspeed2">2</a></sup> pure-Python markdown parser around.  It easily beats
- <a href="https://github.com/lepture/mistune">mistune</a> in CPython3:<p><pre><code>mistune : 13.928859449 seconds
-cavemark: 5.57010197 seconds (2.5 times faster!)</code></pre></p>
+ <a href="https://github.com/lepture/mistune">mistune</a> in CPython3:<p><pre><code>mistune : 18.177862088 seconds
+cavemark: 9.386662586 seconds (1.9 times faster!)</code></pre></p>
 
-<p>and in PyPy3:</p>
+<p>in CPython2:</p>
 
-<p><pre><code>mistune : 10.141159687 seconds
-cavemark: 1.728199896 seconds (5.9 times faster!)</code></pre></p>
+<p><pre><code>mistune : 19.7261228561 seconds
+cavemark: 9.48487520218 seconds (2.1 times faster!)</code></pre></p>
+
+<p>in PyPy3:</p>
+
+<p><pre><code>mistune : 12.311563448000001 seconds
+cavemark: 3.1916073270000003 seconds (3.9 times faster!)</code></pre></p>
+
+<p>an in PyPy3:</p>
+
+<p><pre><code>mistune : 8.99331712723 seconds
+cavemark: 1.47040700912 seconds (6.1 times faster!)</code></pre></p>
 
 </li>
 </ol>

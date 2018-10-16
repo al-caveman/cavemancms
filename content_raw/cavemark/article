@@ -22,10 +22,20 @@ CaveMark is nice because it:
 fastest[clarifyspeed] pure-Python markdown parser around.  It easily beats
 [mistune] in CPython3:
 
- ```mistune : 13.928859449 seconds
-cavemark: 5.57010197 seconds (2.5 times faster!)```
+ ```mistune : 18.177862088 seconds
+cavemark: 9.386662586 seconds (1.9 times faster!)```
 
- and in PyPy3:
+ in CPython2:
 
- ```mistune : 10.141159687 seconds
-cavemark: 1.728199896 seconds (5.9 times faster!)```
+ ```mistune : 19.7261228561 seconds
+cavemark: 9.48487520218 seconds (2.1 times faster!)```
+
+ in PyPy3:
+
+ ```mistune : 12.311563448000001 seconds
+cavemark: 3.1916073270000003 seconds (3.9 times faster!)```
+
+ an in PyPy3:
+
+ ```mistune : 8.99331712723 seconds
+cavemark: 1.47040700912 seconds (6.1 times faster!)```
