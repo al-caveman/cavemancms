@@ -14,24 +14,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Mono', monospace;
     color: #eeeeee;
 }
-main article h1 a,
-main article h2 a,
-main article h3 a,
-main article h4 a,
-main article h5 a,
-main article h6 a {
-    color: #eeeeee;
-    text-decoration: none;
-}
-main article h1 a:hover,
-main article h2 a:hover,
-main article h3 a:hover,
-main article h4 a:hover,
-main article h5 a:hover,
-main article h6 a:hover {
-    color: #ffffff;
-    text-decoration: none;
-}
 
 /* header stuff */
 header div.space {
@@ -192,4 +174,22 @@ main article .ignored {
 }
 main article .ignored:hover {
     color: #eeeeee;
+}
+main article h1 a,
+main article h2 a,
+main article h3 a,
+main article h4 a,
+main article h5 a,
+main article h6 a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+main article h1 a:hover,
+main article h2 a:hover,
+main article h3 a:hover,
+main article h4 a:hover,
+main article h5 a:hover,
+main article h6 a:hover {
+    color: #ffffff;
+    text-decoration: none;
 }
