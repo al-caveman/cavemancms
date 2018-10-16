@@ -190,6 +190,22 @@ main article h3 a:hover,
 main article h4 a:hover,
 main article h5 a:hover,
 main article h6 a:hover {
-    color: #ffffff;
-    text-decoration: none;
+    color: #eeeeee;
+    text-decoration: underline;
+}
+main article footer h1,
+main article footer h2,
+main article footer h3,
+main article footer h4,
+main article footer h5,
+main article footer h6,
+main article footer li,
+main article footer em {
+    color: #777777;
+}
+main article footer a {
+    color: #999999;
+}
+main article footer a:hover {
+    color: #bbbbbb;
 }
