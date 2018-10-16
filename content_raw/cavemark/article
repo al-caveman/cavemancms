@@ -35,7 +35,7 @@ cavemark: 9.48487520218 seconds (2.1 times faster!)```
  ```mistune : 12.311563448000001 seconds
 cavemark: 3.1916073270000003 seconds (3.9 times faster!)```
 
- an in PyPy3:
+ and in PyPy2:
 
  ```mistune : 8.99331712723 seconds
 cavemark: 1.47040700912 seconds (6.1 times faster!)```
