@@ -18,3 +18,6 @@ What is ahead is orders of magnitude better in terms of *functionality and
 features*, a totally revolutionary better than anything heard of so far.  I
 don't have the time to tell you exactly about the features, you  may read
 [that](https://cave.mn/page/1/#sec_1) for this.
+
+[CaveMark](https://github.com/Al-Caveman/cavemark) is specifically made for
+this CMS.  But can be used independently.
