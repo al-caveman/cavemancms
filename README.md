@@ -1,7 +1,7 @@
 # Overview
 
-**Note:** _WORK IN PROGRESS_. THIS IS STILL INCOMPLETE.  MAJOR FEATURES
-MISSING.  READ [this](https://cave.mn/page/1/#sec_1) ARTICLE TO SEE WHERE THIS
+**NOTE:** _WORK IN PROGRESS_. THIS IS STILL INCOMPLETE.  MAJOR FEATURES
+MISSING.  READ [THIS](https://cave.mn/page/1/#sec_1) ARTICLE TO SEE WHERE THIS
 PROJECT IS HEADING.
 
 For a silly demo for the latest version in action, checkout the [caveman's
