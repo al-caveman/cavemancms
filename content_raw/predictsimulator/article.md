@@ -193,5 +193,5 @@ $$
 $$
 
 There you go! By analyzing our universe, and child simulations of other
-existences in our universe that we made, we answered questions about the parent
-existence that is simulating us (if we are being simulated)!
+existences in our universe that we made, we might be able to answer questions
+about the parent existence that is simulating us (if we are being simulated)!
