@@ -10,6 +10,10 @@ link:uncountableset
 url:https://en.wikipedia.org/wiki/Uncountable_set
 text:uncountable set
 
+link:lln
+url:https://en.wikipedia.org/wiki/Law_of_large_numbers
+text:law of large numbers
+
 image:7skies
 url:https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mohammed%C2%B4s_Paradise.jpg/220px-Mohammed%C2%B4s_Paradise.jpg
 alt:Seven paradises
@@ -112,12 +116,12 @@ The future stock market prediction works, because we have seen input from the
 past years.  E.g.:
 
 + Analyze past data gathered from years 2010 and 2011, then hypothesize a model
-  \(m_1\) about price changes.  Test \(m_1\) on year 2012.  
+  \(g_1\) about price changes.  Test \(g_1\) on year 2012.  
 + Analyze past data gathered from years 2010, 2011 and 2012, then hypothesize a
-  model \(m_2\) by improving  \(m_2\).  Test \(m_1\) on data from year 2013.  
+  model \(g_2\) by improving  \(g_2\).  Test \(g_1\) on data from year 2013.  
 + ...
 + Analyze past data gathered from years 2010, 2011, ...,  2018, then
-  hypothesize a model \(m_6\) by improving  \(m_5\).  Use model \(m_6\) to
+  hypothesize a model \(g_6\) by improving  \(g_5\).  Use model \(g_6\) to
   predict the future that is 2019[future]!.  
 
 But the problem with finding \(\hat\Pr(a_{i, j} = \text{Yes})\) is that we
@@ -174,7 +178,9 @@ Here is my suggestion in PEO:
     $$
 + With enough repetition of simulations, we might get to also estimate things
   like confidence intervals, or statistical significance measures to better
-  test our hypothesis/answers.
+  test our hypothesis/answers.  _Note:_  no need to simulate all possible
+  universes, or all possible laws of physics.  We can use [lln] to reach stable
+  conclusions, without needing to simulate all possible cases.
 
 By analyzing \(\mathbf{Q_s}\) and \(\mathbf{A_s}\), we _may_ identify
 patterns that link properties in child simulations against their parent
@@ -198,3 +204,22 @@ $$
 There you go! By analyzing our universe, and child simulations of other
 existences in our universe that we made, we might be able to answer questions
 about the parent existence that is simulating us (if we are being simulated)!
+
+## scope
+
+* Can't simulate a universe that can solve problems that are not computable in
+  our universe.
+* Can't simulate too big universes.  E.g. clearly can't simulate a universe as
+  big as ours as there is no enough matter to compute and store states.
+
+So we are limited to small-enough simulations that hundreds of supercomputers
+can compute in 100s of years.
+
+Yes, the limitations should limit the information that we get.  But, I still
+see no reason why those limitations would by any means imply that "_we cannot
+answer any question at all_''.
+
+IMO, if, in 100 years of supercomputer simulation, we manage to change a
+probability, say\(\hat\Pr(a_{e_0, 1} = \text{Yes})\), from 0.5 into, say
+0.4999, and show that it's statitically significant, then this would be a great
+achievement.  IMO a major leap in observing what is aroun us.
