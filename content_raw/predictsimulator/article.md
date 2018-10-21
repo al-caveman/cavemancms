@@ -172,6 +172,9 @@ Here is my suggestion in PEO:
         a_{e_w, 1} & a_{e_w, 2} & a_{e_w, 3} & \dots & a_{e_w, n} \\
     \end{bmatrix}
     $$
++ With enough repetition of simulations, we might get to also estimate things
+  like confidence intervals, or statistical significance measures to better
+  test our hypothesis/answers.
 
 By analyzing \(\mathbf{Q_s}\) and \(\mathbf{A_s}\), we _may_ identify
 patterns that link properties in child simulations against their parent
