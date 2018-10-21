@@ -70,7 +70,7 @@ for i in os.listdir(content_raw_path):
     tmp_path = '{}/{}'.format(content_raw_path, i)
     if os.path.isdir(tmp_path):
         priority_path = '{}/priority'.format(tmp_path)
-        article_path = '{}/article'.format(tmp_path)
+        article_path = '{}/article.md'.format(tmp_path)
 
         with open(priority_path, 'r') as f:
             priority = int(f.read())

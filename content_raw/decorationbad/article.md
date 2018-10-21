@@ -21,7 +21,7 @@ text: A world with dudes investing some resource in making/buying
       decorative items, is necessarily a world that has at least 1 non-smart
       person.
 
-# Me Not Like Decoration; Here Why
+# me not like decoration; here why
 
 1st, let's define a couple of things.  [smartdude] defines what is a _smart_
 dude, and [decorative] defines what is a decorative item.

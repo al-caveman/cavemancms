@@ -2,7 +2,7 @@ link: prisonersdilemma
 url : https://en.wikipedia.org/wiki/Prisoner's_dilemma
 text: prisoner's dilemma
 
-# The Godly Prisoner's Dilemma is better IMO
+# the godly prisoner's dilemma is better imo
 
 You have probably heard of the [prisonersdilemma].  I call it the _Godless_
 prisoner's dilemma for the obvious reason: it lacks God.  this should be fair

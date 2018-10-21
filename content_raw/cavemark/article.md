@@ -10,7 +10,7 @@ footnote:clarifyspeed
 text:For a Python module, speed, by itself, is not a major criterion in my
 view.  But, I think it reflects how carefully CaveMark is developed.
 
-# CaveMark is Out!
+# cavemark is out!
 
 CavemanCMS, and all articles in this website, currently use [cavemark] as their
 markdown parser.  Neat \(\LaTeX\)-like formatting with little effort!

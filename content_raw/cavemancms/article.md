@@ -1,4 +1,4 @@
-# CavemanCMS Soon!
+# cavemancms soon!
 
 CMS = content management system.  E.g. thing that manages content in you blog,
 or site.  But they all suck.  So I am making the best CMS ever.  It's called

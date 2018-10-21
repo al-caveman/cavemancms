@@ -11,7 +11,7 @@ url    : https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Vitrail_de_sy
 caption: Artist's imagination of the tablets.
 alt    : Artist's imagination of the tablets.
 
-# Godly General Public License v3 (GGPLv3)
+# godly general public license v3 (ggplv3)
 
 GNU/RMS pushed towards freeing software, but not free enough.  The GGPL3.0
 addresses a key limitation in [gplv3].

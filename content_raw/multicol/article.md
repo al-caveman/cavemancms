@@ -3,7 +3,7 @@ url    : /pics/newspaper.png
 caption: A random newspaper.
 alt    : A random newspaper.
 
-# Multi Column Text. Nice?
+# multi column text. nice?
 
 Try to adjust the width of the browser's window, or adjust the text size.
 You'll notice that the text will be distributed in columns, automatically, to

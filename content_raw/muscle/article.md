@@ -6,7 +6,7 @@ link:somesite
 url:https://www.nautilusplus.com/is-it-necessary-to-rest-24-hours-between-workouts/
 text:some site
 
-# How Muscle Works
+# how muscle works
 
 Below is a summary of what I have found so far:
 

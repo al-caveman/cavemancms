@@ -2,7 +2,7 @@ link:nginx
 url:https://nginx.org/
 text:nginx
 
-#  A Simpler Way for Users to Reply to Blogs
+# a simpler way for users to reply to blogs
 
 Commonly, a web server that's hosting  a blog should:
 
