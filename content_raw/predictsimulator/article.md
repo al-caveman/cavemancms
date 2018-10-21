@@ -222,4 +222,4 @@ answer any question at all_''.
 IMO, if, in 100 years of supercomputer simulation, we manage to change a
 probability, say\(\hat\Pr(a_{e_0, 1} = \text{Yes})\), from 0.5 into, say
 0.4999, and show that it's statitically significant, then this would be a great
-achievement.  IMO a major leap in observing what is aroun us.
+achievement.  IMO a major leap in observing what is around us.
