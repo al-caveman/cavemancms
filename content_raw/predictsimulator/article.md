@@ -220,12 +220,11 @@ see no reason why those limitations would by any means imply that "_we cannot
 answer any question at all_''.
 
 IMO, if, in 100 years of supercomputer simulation, we manage to change a
-probability, say\(\hat\Pr(a_{e_0, 1} = \text{Yes})\), from 0.5 into, say
+probability, say \(\hat\Pr(a_{e_0, 1} = \text{Yes})\), from 0.5 into, say
 0.4999, and show that it's statitically significant, then this would be a great
 achievement.  E.g., if we assume that we are being simulated by a parent
-universe/existence, then that wold give us \(1 + 0.4999\log_2(0.4999) +
-0.5001\log_2(0.5001) = 0.000000028854\) gained information bits in that
-examples.
+universe/existence, then that wold give us \(0.000000028854\) gained
+information bits in that examples.
 
 IMO that is amazing, because we have literally gained some information about
 the a parent universe/existence that is simulating us (if simulating us)!
