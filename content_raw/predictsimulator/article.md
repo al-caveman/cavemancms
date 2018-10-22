@@ -140,7 +140,7 @@ $$
 
 \(\mathbf{\hat A_1}\) is obviously pretty useless!
 
-Here is my suggestion in PEO:
+Here is my suggestion:
 
 + Using computers, or some machines, we run existence simulations.  E.g.
   imagine a large super computer simulating big bang, with some laws of
