@@ -23,7 +23,7 @@ thinking \(m=-7\)?
 footnote:future
 text:This column is written in 2018.
 
-# parent existence observatory (PEO)
+# how is the simulator?
 
 As you might have already heard, [maybesimulator] right now.  In this column I
 describe a test that lays the foundation for a principled approach to estimate
