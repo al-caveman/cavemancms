@@ -58,7 +58,7 @@ then feel that our parent universe is probably more likely to also have those
 properties?  After all it is also one that has simulated another universe (our
 universe).
 
-## limitations
+## problems
 
 We probably can't simulate a rat's ass these days, so all this is wishful
 thinking that, one day, when computers are powerful enough, we might have
