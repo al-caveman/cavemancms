@@ -4,6 +4,18 @@
     <title>caveman's &ldquo;theories&rdquo;</title>
     <meta http-equiv='content-type' content='text/html;charset=utf-8' />
     <link href='./pics/purdy.css' rel='stylesheet' type='text/css' />
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+          inlineMath: [ ['$','$'] ],
+          displayMath: [ ['$$','$$'] ],
+          processEscapes: true
+        },
+        "HTML-CSS": { fonts: ["TeX"] }
+      });
+    </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 </head>
 <body>
@@ -35,20 +47,7 @@
     
 
 <article>
-<h2 id="sec_1"><a href="#sec_1">1. a conjecture about similarity and information</a></h2>
-
-<p>Checkout my new conjecture, it's shiny:</p>
-
-<p id="cite_siminfo"><a href="#cite_siminfo">Conjecture 1.</a> <em>For any two objects <span class="ignored">\(o_1\)</span> and <span class="ignored">\(o_2\)</span>, and any similarity measure <span class="ignored">\(f\)</span>,
-if <span class="ignored">\(f(o_1, o_2) &gt; 0\)</span>, then there is at least a positive number of information
-bits about <span class="ignored">\(o_1\)</span> that can be extracted by analyzing <span class="ignored">\(o_2\)</span>.</em></p>
-
-
-</article>
-
-
-<article>
-<h2 id="sec_2"><a href="#sec_2">2. how is the simulator?</a></h2>
+<h2 id="sec_1"><a href="#sec_1">1.</a> how is the simulator?</h2>
 
 <p>As you might have already heard,  <a href="https://www.scientificamerican.com/article/are-we-living-in-a-computer-simulation/">we <em>might</em> be in a simulation</a> right now.  In this column I
 describe a test that lays the foundation for a principled approach to estimate
@@ -58,37 +57,37 @@ properties about the parent existence that is simulating us!</p>
 observatories.  If you think that the  <a href="https://en.wikipedia.org/wiki/LIGO">Laser Interferometer Gravitational-Wave Observatory (LIGO)</a> was <em>freaking</em> cool, then my shit
 herein is <em>OMG mega freaking dope cool</em> cool.</p>
 
-<h3 id="sec_2.1"><a href="#sec_2.1">2.1. how many nested simulations?</a></h3>
+<h3 id="sec_1.1"><a href="#sec_1.1">1.1.</a> how many nested simulations?</h3>
 
 <p>If we are in a simulation, we don't know whether the form of existence outside
 this simulation is, <em>itself</em>, real either.  We might be in a pretty deep
 recursion of simulations.</p>
 
-<p>To simplify the language, let <span class="ignored">\(e_0\)</span> be the form of existence that we refer to
-as <em>&ldquo;the universe&rdquo;</em>, and <span class="ignored">\(e_{-1}\)</span> be the form of existence that is hosting a
-machine that is simulating the form of existence <span class="ignored">\(e_0\)</span>.</p>
+<p>To simplify the language, let <span class="ignored">$e_0$</span> be the form of existence that we refer to
+as <em>&ldquo;the universe&rdquo;</em>, and <span class="ignored">$e_{-1}$</span> be the form of existence that is hosting a
+machine that is simulating the form of existence <span class="ignored">$e_0$</span>.</p>
 
-<p>You may subjectively think that the form of existence <span class="ignored">\(e_{-1}\)</span> is more real
-than the one referred to by <span class="ignored">\(e_0\)</span>, but <span class="ignored">\(e_{-1}\)</span> itself could also be
+<p>You may subjectively think that the form of existence <span class="ignored">$e_{-1}$</span> is more real
+than the one referred to by <span class="ignored">$e_0$</span>, but <span class="ignored">$e_{-1}$</span> itself could also be
 nothing but a yet another simulation in a yet grander parent form of existence
-<span class="ignored">\(e_{-2}\)</span>.</p>
+<span class="ignored">$e_{-2}$</span>.</p>
 
-<p>Generally, for any <span class="ignored">\(i &gt; m\)</span>, let <span class="ignored">\(e_i\)</span> be a form of existence that is being
-simulated in a machine in <span class="ignored">\(e_{i-1}\)</span>.  Let <span class="ignored">\(e_m\)</span> be the master form of
-existence that is not simulated by any other simulation.  If <span class="ignored">\(m = \infty\)</span>,
+<p>Generally, for any <span class="ignored">$i &gt; m$</span>, let <span class="ignored">$e_i$</span> be a form of existence that is being
+simulated in a machine in <span class="ignored">$e_{i-1}$</span>.  Let <span class="ignored">$e_m$</span> be the master form of
+existence that is not simulated by any other simulation.  If <span class="ignored">$m = \infty$</span>,
 then the recursion of simulations keeps going on indefinitely.</p>
 
 <p>Is the ancient concept of a multi-layered skies, or worlds, related to this
 concept of nested simulations?   <a href="#cite_7skies">Figure 1</a> shows an example of such ancient
-imaginations that might suggest that <span class="ignored">\(m=-7\)</span>.</p>
+imaginations that might suggest that <span class="ignored">$m=-7$</span>.</p>
 
 <figure id="cite_7skies" style="text-align:center;"><img alt="Seven paradises" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mohammed%C2%B4s_Paradise.jpg/220px-Mohammed%C2%B4s_Paradise.jpg" /><figcaption><a href="#cite_7skies">Figure 1.</a> An ancient dude's imagination of a 7 layered worlds view.  Was he
-thinking <span class="ignored">\(m=-7\)</span>?</figcaption></figure>
+thinking <span class="ignored">$m=-7$</span>?</figcaption></figure>
 
-<h3 id="sec_2.2"><a href="#sec_2.2">2.2. what to know about <span class="ignored">\(e_{i-1}\)</span>?</a></h3>
+<h3 id="sec_1.2"><a href="#sec_1.2">1.2.</a> what to know about <span class="ignored">$e_{i-1}$</span>?</h3>
 
-<p>Basically we want to answer some binary questions about the existences <span class="ignored">\(e_0,
-e_{-1}, \ldots, e_m\)</span>.  Let's put them in a matrix:</p>
+<p>Basically we want to answer some binary questions about the existences <span class="ignored">$e_0,
+e_{-1}, \ldots, e_m$</span>.  Let's put them in a matrix:</p>
 
 <p><span class="ignored">$$\mathbf{Q} =
 \begin{bmatrix}
@@ -99,12 +98,12 @@ e_{-1}, \ldots, e_m\)</span>.  Let's put them in a matrix:</p>
 \end{bmatrix}$$</span></p>
 
 <p>Obviously you can see that each row contains questions about a specific
-existence.  Here are some examples for questions about existence <span class="ignored">\(e_{-1}\)</span>:</p>
+existence.  Here are some examples for questions about existence <span class="ignored">$e_{-1}$</span>:</p>
 
 <ul>
-<li> Question <span class="ignored">\(q_{e_{-1}, 1}\)</span>: did <span class="ignored">\(e_{-1}\)</span> simulate a child existence to test
+<li> Question <span class="ignored">$q_{e_{-1}, 1}$</span>: did <span class="ignored">$e_{-1}$</span> simulate a child existence to test
   criminals in their existence?</li>
-<li> Question <span class="ignored">\(q_{e_{-1}, 2}\)</span>: did <span class="ignored">\(e_{-1}\)</span> simulate a child existence to infer
+<li> Question <span class="ignored">$q_{e_{-1}, 2}$</span>: did <span class="ignored">$e_{-1}$</span> simulate a child existence to infer
   information their parent existence?</li>
 <li> &hellip;</li>
 </ul>
@@ -117,8 +116,8 @@ existence.  Here are some examples for questions about existence <span class="ig
     a_{e_m, 1} & a_{e_m, 2} & a_{e_m, 3} & \dots & a_{e_m, n} \\
 \end{bmatrix}$$</span></p>
 
-<p>We can estimate answers in matrix <span class="ignored">\(\mathbf{A}\)</span> by estimating the probability
-<span class="ignored">\(\Pr(a_{j, j} = \text{Yes})\)</span>, for every answer in the matrix.  I.e.:
+<p>We can estimate answers in matrix <span class="ignored">$\mathbf{A}$</span> by estimating the probability
+<span class="ignored">$\Pr(a_{j, j} = \text{Yes})$</span>, for every answer in the matrix.  I.e.:
 <span class="ignored">$$\mathbf{\hat A} =
 \begin{bmatrix}
     \hat\Pr(a_{e_0, 1}    = \text{Yes}) & \dots & \hat\Pr(a_{e_0, n} = \text{Yes}) \\
@@ -127,7 +126,7 @@ existence.  Here are some examples for questions about existence <span class="ig
     \hat\Pr(a_{e_m, 1}    = \text{Yes}) & \dots & \hat\Pr(a_{e_m, n} = \text{Yes}) \\
 \end{bmatrix}$$</span></p>
 
-<h3 id="sec_2.3"><a href="#sec_2.3">2.3. how to find <span class="ignored">\(\hat\Pr(a_{i, j} = \text{Yes})\)</span>?</a></h3>
+<h3 id="sec_1.3"><a href="#sec_1.3">1.3.</a> how to find <span class="ignored">$\hat\Pr(a_{i, j} = \text{Yes})$</span>?</h3>
 
 <p>The short answer is:  in a similar way to how people predict the future.  E.g.
 some predict future stock market prices by analyzing past years (2018, 2017,
@@ -139,17 +138,17 @@ past years.  E.g.:</p>
 
 <ol>
 <li> Analyze past data gathered from years 2010 and 2011, then hypothesize a model
-  <span class="ignored">\(g_1\)</span> about price changes.  Test <span class="ignored">\(g_1\)</span> on year 2012.  </li>
+  <span class="ignored">$g_1$</span> about price changes.  Test <span class="ignored">$g_1$</span> on year 2012.  </li>
 <li> Analyze past data gathered from years 2010, 2011 and 2012, then hypothesize a
-  model <span class="ignored">\(g_2\)</span> by improving  <span class="ignored">\(g_2\)</span>.  Test <span class="ignored">\(g_1\)</span> on data from year 2013.  </li>
+  model <span class="ignored">$g_2$</span> by improving  <span class="ignored">$g_2$</span>.  Test <span class="ignored">$g_1$</span> on data from year 2013.  </li>
 <li> &hellip;</li>
 <li> Analyze past data gathered from years 2010, 2011, &hellip;,  2018, then
-  hypothesize a model <span class="ignored">\(g_6\)</span> by improving  <span class="ignored">\(g_5\)</span>.  Use model <span class="ignored">\(g_6\)</span> to
+  hypothesize a model <span class="ignored">$g_6$</span> by improving  <span class="ignored">$g_5$</span>.  Use model <span class="ignored">$g_6$</span> to
   predict the future that is 2019<sup><a href="#fn_future">1</a></sup>!.  </li>
 </ol>
-<p>But the problem with finding <span class="ignored">\(\hat\Pr(a_{i, j} = \text{Yes})\)</span> is that we
+<p>But the problem with finding <span class="ignored">$\hat\Pr(a_{i, j} = \text{Yes})$</span> is that we
 currently lack any past observations.  Therefore, if we try to define
-<span class="ignored">\(\mathbf{\hat A}\)</span> now, with our little knowledge, it might look like this:</p>
+<span class="ignored">$\mathbf{\hat A}$</span> now, with our little knowledge, it might look like this:</p>
 
 <p><span class="ignored">$$\mathbf{\hat A_1} =
 \begin{bmatrix}
@@ -159,7 +158,7 @@ currently lack any past observations.  Therefore, if we try to define
     0.5 & 0.5 & \dots & 0.5 \\
 \end{bmatrix}$$</span></p>
 
-<p><span class="ignored">\(\mathbf{\hat A_1}\)</span> is obviously pretty useless!</p>
+<p><span class="ignored">$\mathbf{\hat A_1}$</span> is obviously pretty useless!</p>
 
 <p>Here is my suggestion:</p>
 
@@ -174,9 +173,9 @@ currently lack any past observations.  Therefore, if we try to define
   create their own simulation (inside our super computers), and have their own
   big bangs!</li>
 <li> We observe simulations in the simulations, too.  This way, we keep collecting
-  information about existences <span class="ignored">\(e_{0+1}, e_{0+2}, \ldots\)</span> that are children
-  to our existence <span class="ignored">\(e_0\)</span>.  Since they are running in our supercomputers, we
-  can also find the correct answers to questions, such as <span class="ignored">\(q_{e_1, 1}\)</span>.  Eventually, we end up creating a new questions matrix:</li>
+  information about existences <span class="ignored">$e_{0+1}, e_{0+2}, \ldots$</span> that are children
+  to our existence <span class="ignored">$e_0$</span>.  Since they are running in our supercomputers, we
+  can also find the correct answers to questions, such as <span class="ignored">$q_{e_1, 1}$</span>.  Eventually, we end up creating a new questions matrix:</li>
 <li> Then, observing all that, we create these matrices:
     <span class="ignored">$$    \mathbf{Q_s} =
     \begin{bmatrix}
@@ -202,14 +201,14 @@ currently lack any past observations.  Therefore, if we try to define
 
 </li>
 </ol>
-<p>By analyzing <span class="ignored">\(\mathbf{Q_s}\)</span> and <span class="ignored">\(\mathbf{A_s}\)</span>, we <em>may</em> identify
+<p>By analyzing <span class="ignored">$\mathbf{Q_s}$</span> and <span class="ignored">$\mathbf{A_s}$</span>, we <em>may</em> identify
 patterns that link properties in child simulations against their parent
 simulations.  We can also test the model using <em>train/validation/test</em> splits.
 Until we find an answering model that has an error that is low enough.  Let's
-call this model <span class="ignored">\(\hat g\)</span>.</p>
+call this model <span class="ignored">$\hat g$</span>.</p>
 
-<p>Finally, by running model <span class="ignored">\(\hat g\)</span> on the original questions <span class="ignored">\(\mathcal{Q}\)</span>,
-we get a better answers matrix <span class="ignored">\(\mathcal{\hat A_2}\)</span>:</p>
+<p>Finally, by running model <span class="ignored">$\hat g$</span> on the original questions <span class="ignored">$\mathcal{Q}$</span>,
+we get a better answers matrix <span class="ignored">$\mathcal{\hat A_2}$</span>:</p>
 
 <p><span class="ignored">$$\mathbf{\hat A_2} =
 \begin{bmatrix}
@@ -223,7 +222,7 @@ we get a better answers matrix <span class="ignored">\(\mathcal{\hat A_2}\)</spa
 existences in our universe that we made, we might be able to answer questions
 about the parent existence that is simulating us (if we are being simulated)!</p>
 
-<h3 id="sec_2.4"><a href="#sec_2.4">2.4. scope</a></h3>
+<h3 id="sec_1.4"><a href="#sec_1.4">1.4.</a> scope</h3>
 
 <ul>
 <li> Can't simulate a universe that can solve problems that are not computable in
@@ -239,7 +238,7 @@ see no reason why those limitations would by any means imply that &ldquo;<em>we 
 answer any question at all</em>&rdquo;.</p>
 
 <p>IMO, if, in 100 years of supercomputer simulation, we manage to change a
-probability, say <span class="ignored">\(\hat\Pr(a_{e_0, 1} = \text{Yes})\)</span>, from 0.5 into, say
+probability, say <span class="ignored">$\hat\Pr(a_{e_0, 1} = \text{Yes})$</span>, from 0.5 into, say
 0.4999, and show that it's statitically significant, then this would be a great
 achievement.  E.g., if we assume that we are being simulated by a parent
 universe/existence, then that wold give us 0.000000028854 gained
@@ -259,22 +258,22 @@ the a parent universe/existence that is simulating us (if simulating us)!</p>
 
 
 <article>
-<h2 id="sec_3"><a href="#sec_3">3. what is <em>good</em>?</a></h2>
+<h2 id="sec_2"><a href="#sec_2">2.</a> what is <em>good</em>?</h2>
 
-<p>When people debate, they often say things like: <span class="ignored">\(x\)</span> is good, <span class="ignored">\(y\)</span> is not
-good, why is <span class="ignored">\(z\)</span> good? Etc.  Yet rarely ever they discuss the fundamental
+<p>When people debate, they often say things like: <span class="ignored">$x$</span> is good, <span class="ignored">$y$</span> is not
+good, why is <span class="ignored">$z$</span> good? Etc.  Yet rarely ever they discuss the fundamental
 question: what is <em>good</em> itself? Based on what criteria a thing becomes good?</p>
 
 <p>It is logically impossible for two people to <em>meaningfully</em> debate whether
-<span class="ignored">\(x\)</span> is good, while them having different definitions of <em>good</em>.  If they ever
+<span class="ignored">$x$</span> is good, while them having different definitions of <em>good</em>.  If they ever
 conclude something correctly, it must be thanks to the amount of sheer dumb
-luck that accidentally served them.  As a result, <span class="ignored">\(99.99\%\)</span><sup><a href="#fn_assnumber">2</a></sup> of all
+luck that accidentally served them.  As a result, <span class="ignored">$99.99\%$</span><sup><a href="#fn_assnumber">2</a></sup> of all
 debates are useless and cyclic.</p>
 
 <p>To cut the chase short, here is what I think is the <em>best</em> definition of
 <em>good</em>:</p>
 
-<p id="cite_defgood"><a href="#cite_defgood">Definition 1.</a> <em>A thing <span class="ignored">\(t\)</span> is good for <span class="ignored">\(x\)</span> if <span class="ignored">\(t\)</span> maximizes <span class="ignored">\(x\)</span>'s
+<p id="cite_defgood"><a href="#cite_defgood">Definition 1.</a> <em>A thing <span class="ignored">$t$</span> is good for <span class="ignored">$x$</span> if <span class="ignored">$t$</span> maximizes <span class="ignored">$x$</span>'s
               survivabiliy.</em></p>
 
 <p> <a href="#cite_defgood">Definition 1</a> has these nice properties:</p>

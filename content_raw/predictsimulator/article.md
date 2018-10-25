@@ -18,7 +18,7 @@ image:7skies
 url:https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mohammed%C2%B4s_Paradise.jpg/220px-Mohammed%C2%B4s_Paradise.jpg
 alt:Seven paradises
 caption:An ancient dude's imagination of a 7 layered worlds view.  Was he
-thinking \(m=-7\)?
+thinking $m=-7$?
 
 footnote:future
 text:This column is written in 2018.
@@ -39,28 +39,28 @@ If we are in a simulation, we don't know whether the form of existence outside
 this simulation is, _itself_, real either.  We might be in a pretty deep
 recursion of simulations.
 
-To simplify the language, let \(e_0\) be the form of existence that we refer to
-as _"the universe''_, and \(e_{-1}\) be the form of existence that is hosting a
-machine that is simulating the form of existence \(e_0\).
+To simplify the language, let $e_0$ be the form of existence that we refer to
+as _"the universe''_, and $e_{-1}$ be the form of existence that is hosting a
+machine that is simulating the form of existence $e_0$.
 
-You may subjectively think that the form of existence \(e_{-1}\) is more real
-than the one referred to by \(e_0\), but \(e_{-1}\) itself could also be
+You may subjectively think that the form of existence $e_{-1}$ is more real
+than the one referred to by $e_0$, but $e_{-1}$ itself could also be
 nothing but a yet another simulation in a yet grander parent form of existence
-\(e_{-2}\).
+$e_{-2}$.
 
-Generally, for any \(i > m\), let \(e_i\) be a form of existence that is being
-simulated in a machine in \(e_{i-1}\).  Let \(e_m\) be the master form of
-existence that is not simulated by any other simulation.  If \(m = \infty\),
+Generally, for any $i > m$, let $e_i$ be a form of existence that is being
+simulated in a machine in $e_{i-1}$.  Let $e_m$ be the master form of
+existence that is not simulated by any other simulation.  If $m = \infty$,
 then the recursion of simulations keeps going on indefinitely.
 
 Is the ancient concept of a multi-layered skies, or worlds, related to this
 concept of nested simulations?  [7skies] shows an example of such ancient
-imaginations that might suggest that \(m=-7\).
+imaginations that might suggest that $m=-7$.
 
-## what to know about \(e_{i-1}\)?
+## what to know about $e_{i-1}$?
 
-Basically we want to answer some binary questions about the existences \(e_0,
-e_{-1}, \ldots, e_m\).  Let's put them in a matrix:
+Basically we want to answer some binary questions about the existences $e_0,
+e_{-1}, \ldots, e_m$.  Let's put them in a matrix:
 
 $$
 \mathbf{Q} =
@@ -73,11 +73,11 @@ $$
 $$
 
 Obviously you can see that each row contains questions about a specific
-existence.  Here are some examples for questions about existence \(e_{-1}\):
+existence.  Here are some examples for questions about existence $e_{-1}$:
   
-* Question \(q_{e_{-1}, 1}\): did \(e_{-1}\) simulate a child existence to test
+* Question $q_{e_{-1}, 1}$: did $e_{-1}$ simulate a child existence to test
   criminals in their existence?
-* Question \(q_{e_{-1}, 2}\): did \(e_{-1}\) simulate a child existence to infer
+* Question $q_{e_{-1}, 2}$: did $e_{-1}$ simulate a child existence to infer
   information their parent existence?
 * ...
 
@@ -92,8 +92,8 @@ $$
 \end{bmatrix}
 $$
 
-We can estimate answers in matrix \(\mathbf{A}\) by estimating the probability
-\(\Pr(a_{j, j} = \text{Yes})\), for every answer in the matrix.  I.e.:
+We can estimate answers in matrix $\mathbf{A}$ by estimating the probability
+$\Pr(a_{j, j} = \text{Yes})$, for every answer in the matrix.  I.e.:
 $$
 \mathbf{\hat A} =
 \begin{bmatrix}
@@ -105,7 +105,7 @@ $$
 $$
 
 
-## how to find \(\hat\Pr(a_{i, j} = \text{Yes})\)?
+## how to find $\hat\Pr(a_{i, j} = \text{Yes})$?
 
 The short answer is:  in a similar way to how people predict the future.  E.g.
 some predict future stock market prices by analyzing past years (2018, 2017,
@@ -116,17 +116,17 @@ The future stock market prediction works, because we have seen input from the
 past years.  E.g.:
 
 + Analyze past data gathered from years 2010 and 2011, then hypothesize a model
-  \(g_1\) about price changes.  Test \(g_1\) on year 2012.  
+  $g_1$ about price changes.  Test $g_1$ on year 2012.  
 + Analyze past data gathered from years 2010, 2011 and 2012, then hypothesize a
-  model \(g_2\) by improving  \(g_2\).  Test \(g_1\) on data from year 2013.  
+  model $g_2$ by improving  $g_2$.  Test $g_1$ on data from year 2013.  
 + ...
 + Analyze past data gathered from years 2010, 2011, ...,  2018, then
-  hypothesize a model \(g_6\) by improving  \(g_5\).  Use model \(g_6\) to
+  hypothesize a model $g_6$ by improving  $g_5$.  Use model $g_6$ to
   predict the future that is 2019[future]!.  
 
-But the problem with finding \(\hat\Pr(a_{i, j} = \text{Yes})\) is that we
+But the problem with finding $\hat\Pr(a_{i, j} = \text{Yes})$ is that we
 currently lack any past observations.  Therefore, if we try to define
-\(\mathbf{\hat A}\) now, with our little knowledge, it might look like this:
+$\mathbf{\hat A}$ now, with our little knowledge, it might look like this:
 
 $$
 \mathbf{\hat A_1} =
@@ -138,7 +138,7 @@ $$
 \end{bmatrix}
 $$
 
-\(\mathbf{\hat A_1}\) is obviously pretty useless!
+$\mathbf{\hat A_1}$ is obviously pretty useless!
 
 Here is my suggestion:
 
@@ -152,9 +152,9 @@ Here is my suggestion:
   create their own simulation (inside our super computers), and have their own
   big bangs!
 + We observe simulations in the simulations, too.  This way, we keep collecting
-  information about existences \(e_{0+1}, e_{0+2}, \ldots\) that are children
-  to our existence \(e_0\).  Since they are running in our supercomputers, we
-  can also find the correct answers to questions, such as \(q_{e_1, 1}\).  Eventually, we end up creating a new questions matrix:
+  information about existences $e_{0+1}, e_{0+2}, \ldots$ that are children
+  to our existence $e_0$.  Since they are running in our supercomputers, we
+  can also find the correct answers to questions, such as $q_{e_1, 1}$.  Eventually, we end up creating a new questions matrix:
 + Then, observing all that, we create these matrices:
     $$
     \mathbf{Q_s} =
@@ -182,14 +182,14 @@ Here is my suggestion:
   universes, or all possible laws of physics.  We can use [lln] to reach stable
   conclusions, without needing to simulate all possible cases.
 
-By analyzing \(\mathbf{Q_s}\) and \(\mathbf{A_s}\), we _may_ identify
+By analyzing $\mathbf{Q_s}$ and $\mathbf{A_s}$, we _may_ identify
 patterns that link properties in child simulations against their parent
 simulations.  We can also test the model using _train/validation/test_ splits.
 Until we find an answering model that has an error that is low enough.  Let's
-call this model \(\hat g\).
+call this model $\hat g$.
 
-Finally, by running model \(\hat g\) on the original questions \(\mathcal{Q}\),
-we get a better answers matrix \(\mathcal{\hat A_2}\):
+Finally, by running model $\hat g$ on the original questions $\mathcal{Q}$,
+we get a better answers matrix $\mathcal{\hat A_2}$:
 
 $$
 \mathbf{\hat A_2} =
@@ -220,7 +220,7 @@ see no reason why those limitations would by any means imply that "_we cannot
 answer any question at all_''.
 
 IMO, if, in 100 years of supercomputer simulation, we manage to change a
-probability, say \(\hat\Pr(a_{e_0, 1} = \text{Yes})\), from 0.5 into, say
+probability, say $\hat\Pr(a_{e_0, 1} = \text{Yes})$, from 0.5 into, say
 0.4999, and show that it's statitically significant, then this would be a great
 achievement.  E.g., if we assume that we are being simulated by a parent
 universe/existence, then that wold give us 0.000000028854 gained

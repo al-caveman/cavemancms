@@ -1,5 +1,5 @@
 definition  : defgood
-text        : A thing \(t\) is good for \(x\) if \(t\) maximizes \(x\)'s
+text        : A thing $t$ is good for $x$ if $t$ maximizes $x$'s
               survivabiliy.
 
 quotation: pplgood1
@@ -25,14 +25,14 @@ text:Number pulled out of my [assismo], but I hope you get the point I am
 
 # what is _good_?
 
-When people debate, they often say things like: \(x\) is good, \(y\) is not
-good, why is \(z\) good? Etc.  Yet rarely ever they discuss the fundamental
+When people debate, they often say things like: $x$ is good, $y$ is not
+good, why is $z$ good? Etc.  Yet rarely ever they discuss the fundamental
 question: what is _good_ itself? Based on what criteria a thing becomes good?
 
 It is logically impossible for two people to _meaningfully_ debate whether
-\(x\) is good, while them having different definitions of _good_.  If they ever
+$x$ is good, while them having different definitions of _good_.  If they ever
 conclude something correctly, it must be thanks to the amount of sheer dumb
-luck that accidentally served them.  As a result, \(99.99\%\)[assnumber] of all
+luck that accidentally served them.  As a result, $99.99\%$[assnumber] of all
 debates are useless and cyclic.
 
 To cut the chase short, here is what I think is the _best_ definition of

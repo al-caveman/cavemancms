@@ -13,7 +13,7 @@ view.  But, I think it reflects how carefully CaveMark is developed.
 # cavemark is out!
 
 CavemanCMS, and all articles in this website, currently use [cavemark] as their
-markdown parser.  Neat \(\LaTeX\)-like formatting with little effort!
+markdown parser.  Neat $\LaTeX$-like formatting with little effort!
 
 CaveMark is nice because it:
 

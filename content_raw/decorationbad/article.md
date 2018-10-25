@@ -1,13 +1,13 @@
 definition:smartdude
-text: A dude \(x\) is said to be smart if, and only if, \(x\) does stuff that
+text: A dude $x$ is said to be smart if, and only if, $x$ does stuff that
       maximize his survivability, and avoids stuff that limit him from
       maximizing his survivability.  This implies that he eats healthy food,
       learns juicy mathy sciency stuff, avoids wasting his time, etc.
 
 definition:decorative
-text: For a given world \(w\), a thing \(t_w\) in world \(w\) is said to be
-      decorative if, and only if, \(t_w\) does not help its owner maximize his
-      survivability in world \(w\).  I.e. has no real use.  E.g. bunch of
+text: For a given world $w$, a thing $t_w$ in world $w$ is said to be
+      decorative if, and only if, $t_w$ does not help its owner maximize his
+      survivability in world $w$.  I.e. has no real use.  E.g. bunch of
       pretty pics hanging on the wall of your toilet.
 
 theorem:smartworld
