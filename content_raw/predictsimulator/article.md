@@ -6,14 +6,6 @@ link:ligo
 url:https://en.wikipedia.org/wiki/LIGO
 text:Laser Interferometer Gravitational-Wave Observatory (LIGO)
 
-link:uncountableset
-url:https://en.wikipedia.org/wiki/Uncountable_set
-text:uncountable set
-
-link:lln
-url:https://en.wikipedia.org/wiki/Law_of_large_numbers
-text:law of large numbers
-
 image:7skies
 url:https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mohammed%C2%B4s_Paradise.jpg/220px-Mohammed%C2%B4s_Paradise.jpg
 alt:Seven paradises
@@ -35,196 +27,48 @@ herein is _OMG mega freaking dope cool_ cool.
 
 ## how many nested simulations?
 
-If we are in a simulation, we don't know whether the form of existence outside
-this simulation is, _itself_, real either.  We might be in a pretty deep
-recursion of simulations.
-
-To simplify the language, let $e_0$ be the form of existence that we refer to
-as _"the universe''_, and $e_{-1}$ be the form of existence that is hosting a
-machine that is simulating the form of existence $e_0$.
-
-You may subjectively think that the form of existence $e_{-1}$ is more real
-than the one referred to by $e_0$, but $e_{-1}$ itself could also be
-nothing but a yet another simulation in a yet grander parent form of existence
-$e_{-2}$.
-
-Generally, for any $i > m$, let $e_i$ be a form of existence that is being
-simulated in a machine in $e_{i-1}$.  Let $e_m$ be the master form of
-existence that is not simulated by any other simulation.  If $m = \infty$,
-then the recursion of simulations keeps going on indefinitely.
+IMO, our universe ($e_0$) could be simulated in a parent universe ($e_{-1}$),
+and latter could be itself simulated in a grand parent universe ($e_{-2}$),
+etc, until we reach the grand daddy of them all $e_{-m}$ (unless $m=\infty$,
+then we will never reach the grand daddy).
 
 Is the ancient concept of a multi-layered skies, or worlds, related to this
 concept of nested simulations?  [7skies] shows an example of such ancient
 imaginations that might suggest that $m=-7$.
 
-## what to know about $e_{i-1}$?
+## what to know about $e_{-1}$?
 
-Basically we want to answer some binary questions about the existences $e_0,
-e_{-1}, \ldots, e_m$.  Let's put them in a matrix:
+IMO, universes that end up simulating other universes, probably must be sharing
+something common between them.  After all, they are the universes that ended up
+simulating others.
 
-$$
-\mathbf{Q} =
-\begin{bmatrix}
-    q_{e_0, 1} & q_{e_0, 2} & q_{e_0, 3} & \dots & q_{e_0, n} \\
-    q_{e_{-1}, 1} & q_{e_{-1}, 2} & q_{e_{-1}, 3} & \dots & q_{e_{-1}, n} \\
-    \vdots \\
-    q_{e_m, 1} & q_{e_m, 2} & q_{e_m, 3} & \dots & q_{e_m, n} \\
-\end{bmatrix}
-$$
+So, IMO, if we:
 
-Obviously you can see that each row contains questions about a specific
-existence.  Here are some examples for questions about existence $e_{-1}$:
-  
-* Question $q_{e_{-1}, 1}$: did $e_{-1}$ simulate a child existence to test
-  criminals in their existence?
-* Question $q_{e_{-1}, 2}$: did $e_{-1}$ simulate a child existence to infer
-  information their parent existence?
-* ...
++ Simulate many universes (e.g. $e_{+1}, e_{+2}, \ldots$), each initialized
+  with randomized physics laws.  So each universe seems independent from each
+  other, and our universe.
++ Wait to see which ones end up simulating other universes.
++ Look at those that are simulating other universes, and see if they share
+  unique patterns that non-simulating universes lack.
 
-Then our _wish_ is to find the answers matrix:
-$$
-\mathbf{A} =
-\begin{bmatrix}
-    a_{e_0, 1} & a_{e_0, 2} & a_{e_0, 3} & \dots & a_{e_0, n} \\
-    a_{e_{-1}, 1} & a_{e_{-1}, 2} & a_{e_{-1}, 3} & \dots & a_{e_{-1}, n} \\
-    \vdots \\
-    a_{e_m, 1} & a_{e_m, 2} & a_{e_m, 3} & \dots & a_{e_m, n} \\
-\end{bmatrix}
-$$
+I mean, imagine if almost all universes that we simulate, that themselves end
+up simulating others, share some common properties that is only unique among
+them (but not among universes that don't simulate other universes), won't you
+then feel that our parent universe is probably more likely to also have those
+properties?  After all it is also one that has simulated another universe (our
+universe).
 
-We can estimate answers in matrix $\mathbf{A}$ by estimating the probability
-$\Pr(a_{j, j} = \text{Yes})$, for every answer in the matrix.  I.e.:
-$$
-\mathbf{\hat A} =
-\begin{bmatrix}
-    \hat\Pr(a_{e_0, 1}    = \text{Yes}) & \dots & \hat\Pr(a_{e_0, n} = \text{Yes}) \\
-    \hat\Pr(a_{e_{-1}, 1} = \text{Yes}) & \dots & \hat\Pr(a_{e_{-1}, n} = \text{Yes}) \\
-    \vdots \\
-    \hat\Pr(a_{e_m, 1}    = \text{Yes}) & \dots & \hat\Pr(a_{e_m, n} = \text{Yes}) \\
-\end{bmatrix}
-$$
+## limitations
 
+We probably can't simulate a rat's ass these days, so all this is wishful
+thinking that, one day, when computers are powerful enough, we might have
+better guesses about how might our parent universe be.
 
-## how to find $\hat\Pr(a_{i, j} = \text{Yes})$?
+But there is certain amount of badass-ness that our universe can't simulate.
+E.g. our universe can't simulate a universe that can solve problems that are
+not solvable by Turing machines.
 
-The short answer is:  in a similar way to how people predict the future.  E.g.
-some predict future stock market prices by analyzing past years (2018, 2017,
-...).  It generally works for them, and their models offer answers notably
-better than random-chance guessing.
-
-The future stock market prediction works, because we have seen input from the
-past years.  E.g.:
-
-+ Analyze past data gathered from years 2010 and 2011, then hypothesize a model
-  $g_1$ about price changes.  Test $g_1$ on year 2012.  
-+ Analyze past data gathered from years 2010, 2011 and 2012, then hypothesize a
-  model $g_2$ by improving  $g_2$.  Test $g_1$ on data from year 2013.  
-+ ...
-+ Analyze past data gathered from years 2010, 2011, ...,  2018, then
-  hypothesize a model $g_6$ by improving  $g_5$.  Use model $g_6$ to
-  predict the future that is 2019[future]!.  
-
-But the problem with finding $\hat\Pr(a_{i, j} = \text{Yes})$ is that we
-currently lack any past observations.  Therefore, if we try to define
-$\mathbf{\hat A}$ now, with our little knowledge, it might look like this:
-
-$$
-\mathbf{\hat A_1} =
-\begin{bmatrix}
-    0.5 & 0.5 & \dots & 0.5 \\
-    0.5 & 0.5 & \dots & 0.5 \\
-    \vdots \\
-    0.5 & 0.5 & \dots & 0.5 \\
-\end{bmatrix}
-$$
-
-$\mathbf{\hat A_1}$ is obviously pretty useless!
-
-Here is my suggestion:
-
-+ Using computers, or some machines, we run existence simulations.  E.g.
-  imagine a large super computer simulating big bang, with some laws of
-  physics.  We may try laws of physics similar to our's, or try random laws of
-  physics for each simulation instance.  E.g. thousands of big bang
-  simulations,each with their own laws of physics.
-+ We observe the existences that form in the simulations.
-+ Some of those simulations may develop intelligent life that, themselves, will
-  create their own simulation (inside our super computers), and have their own
-  big bangs!
-+ We observe simulations in the simulations, too.  This way, we keep collecting
-  information about existences $e_{0+1}, e_{0+2}, \ldots$ that are children
-  to our existence $e_0$.  Since they are running in our supercomputers, we
-  can also find the correct answers to questions, such as $q_{e_1, 1}$.  Eventually, we end up creating a new questions matrix:
-+ Then, observing all that, we create these matrices:
-    $$
-    \mathbf{Q_s} =
-    \begin{bmatrix}
-        q_{e_0, 1} & q_{e_0, 2} & q_{e_0, 3} & \dots & q_{e_0, n} \\
-        q_{e_{1}, 1} & q_{e_{1}, 2} & q_{e_{1}, 3} & \dots & q_{e_{1}, n} \\
-        \vdots \\
-        q_{e_w, 1} & q_{e_w, 2} & q_{e_w, 3} & \dots & q_{e_w, n} \\
-    \end{bmatrix}
-    $$
-
-    And also its answers matrix!
-    $$
-    \mathbf{A_s} =
-    \begin{bmatrix}
-        a_{e_0, 1} & a_{e_0, 2} & a_{e_0, 3} & \dots & a_{e_0, n} \\
-        a_{e_{1}, 1} & a_{e_{1}, 2} & a_{e_{1}, 3} & \dots & a_{e_{1}, n} \\
-        \vdots \\
-        a_{e_w, 1} & a_{e_w, 2} & a_{e_w, 3} & \dots & a_{e_w, n} \\
-    \end{bmatrix}
-    $$
-+ With enough repetition of simulations, we might get to also estimate things
-  like confidence intervals, or statistical significance measures to better
-  test our hypothesis/answers.  _Note:_  no need to simulate all possible
-  universes, or all possible laws of physics.  We can use [lln] to reach stable
-  conclusions, without needing to simulate all possible cases.
-
-By analyzing $\mathbf{Q_s}$ and $\mathbf{A_s}$, we _may_ identify
-patterns that link properties in child simulations against their parent
-simulations.  We can also test the model using _train/validation/test_ splits.
-Until we find an answering model that has an error that is low enough.  Let's
-call this model $\hat g$.
-
-Finally, by running model $\hat g$ on the original questions $\mathcal{Q}$,
-we get a better answers matrix $\mathcal{\hat A_2}$:
-
-$$
-\mathbf{\hat A_2} =
-\begin{bmatrix}
-    0.55 & 0.49 & \dots & 0.38 \\
-    0.51 & 0.5 & \dots & 0.43 \\
-    \vdots \\
-    0.5 & 0.5 & \dots & 0.5 \\
-\end{bmatrix}
-$$
-
-There you go! By analyzing our universe, and child simulations of other
-existences in our universe that we made, we might be able to answer questions
-about the parent existence that is simulating us (if we are being simulated)!
-
-## scope
-
-* Can't simulate a universe that can solve problems that are not computable in
-  our universe.
-* Can't simulate too big universes.  E.g. clearly can't simulate a universe as
-  big as ours as there is no enough matter to compute and store states.
-
-So we are limited to small-enough simulations that hundreds of supercomputers
-can compute in 100s of years.
-
-Yes, the limitations should limit the information that we get.  But, I still
-see no reason why those limitations would by any means imply that "_we cannot
-answer any question at all_''.
-
-IMO, if, in 100 years of supercomputer simulation, we manage to change a
-probability, say $\hat\Pr(a_{e_0, 1} = \text{Yes})$, from 0.5 into, say
-0.4999, and show that it's statitically significant, then this would be a great
-achievement.  E.g., if we assume that we are being simulated by a parent
-universe/existence, then that wold give us 0.000000028854 gained
-information bits in that examples.
-
-IMO that is amazing, because we have literally gained some information about
-the a parent universe/existence that is simulating us (if simulating us)!
+But, still, if we do these simulations, we can possibly end up updating our
+probability model about our parent universe's properties.  Currently, we know
+nothing.  But after those simulations, maybe we could say "_welp.. probably it
+has X!_''.
