@@ -26,12 +26,9 @@ herein is _OMG mega freaking dope cool_ cool.
 
 ## how many nested simulations?
 
-IMO, our universe could be simulated in a parent universe,
-and latter could be itself simulated in a grand parent universe,
-etc, until we reach the grand daddy of them all (if the grand daddy is
-$\infty$, then we will never reach the grand daddy).
-
-Look at [7skies]... some ancient dudes had some related thoughts.
+IMO, our universe could be simulated in a parent universe, and latter could be
+itself simulated in a grand parent universe, etc.  Look at [7skies]... some
+ancient dudes had some related thoughts.
 
 ## what to know about it?
 
