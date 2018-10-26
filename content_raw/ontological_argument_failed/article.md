@@ -15,7 +15,8 @@ The argument starts by defining God as:
 [!god]
 
 This, by definition, implies that God exists, because maximal greatness implies
-existence.  So, yeah, things that are defined to exist, exist.  Duh.
+existence.  Also, "_being_'' requires existence as far as I understand English.
+So, yeah, things that are defined to exist, exist.  Duh.
 
 So a better definition is:
 
