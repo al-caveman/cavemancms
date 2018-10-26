@@ -267,11 +267,158 @@ definition so far.  What do you think?  Can you find any better definition than
 </article>
 
 
+<article>
+<h2 id="sec_5"><a href="#sec_5">5.</a> cavemark is out!</h2>
+
+<p>CavemanCMS, and all articles in this website, currently use  <a href="https://github.com/al-caveman/cavemark">CaveMark</a> as their
+markdown parser.  Neat <span class="ignored">$\LaTeX$</span>-like formatting with little effort!</p>
+
+<p>CaveMark is nice because it:</p>
+
+<ol>
+<li> Follows typesetting principles.</li>
+<li> Is the
+fastest<sup><a href="#fn_clarifyspeed">4</a></sup> pure-Python markdown parser around.  It easily beats
+ <a href="https://github.com/lepture/mistune">mistune</a> in CPython3:<p><pre><code>mistune : 18.17786209 seconds
+cavemark: 9.386662586 seconds (1.9 times faster!)</code></pre></p>
+
+<p>in CPython2:</p>
+
+<p><pre><code>mistune : 19.72612286 seconds
+cavemark: 9.484875202 seconds (2.1 times faster!)</code></pre></p>
+
+<p>in PyPy3:</p>
+
+<p><pre><code>mistune : 12.31156345 seconds
+cavemark: 3.191607327 seconds (3.9 times faster!)</code></pre></p>
+
+<p>and in PyPy2:</p>
+
+<p><pre><code>mistune : 8.993317127 seconds
+cavemark: 1.470407009 seconds (6.1 times faster!)</code></pre></p>
+
+</li>
+</ol>
+<footer>
+<hr/>
+<ul style="list-style:none;padding:0; margin:0;"><li id="fn_clarifyspeed"><small>4. For a Python module, speed, by itself, is not a major criterion in my
+view.  But, I think it reflects how carefully CaveMark is developed.</small></li>
+</ul>
+</footer>
+
+
+</article>
+
+
+<article>
+<h2 id="sec_6"><a href="#sec_6">6.</a> cavemancms soon!</h2>
+
+<p>CMS = content management system.  E.g. thing that manages content in you blog,
+or site.  But they all suck.  So I am making the best CMS ever.  It's called
+<em>CavemanCMS</em>.</p>
+
+<p>Usually, existing CMS that are dynamic, e.g. those that allow you to post, and
+your users to reply in somewhat real time, require you to run a dynamic web
+server.  E.g. maybe FastCGI with PHP/Python, etc.  Of course, right?</p>
+
+<p>But here is the magic:  with CavemanCMS, you shall have a fully dynamic CMS,
+yet your website remains fully static.  You shall upload all you want, yet your
+web server will not even need to support anything other than GET requests.</p>
+
+<p>And it shall also be blazing fast.  Stay tuned.  This shit is awesome.  God
+willing will make some noise.  Trust.</p>
+
+
+</article>
+
+
+<article>
+<h2 id="sec_7"><a href="#sec_7">7.</a> how muscle works</h2>
+
+<p>Below is a summary of what I have found so far:</p>
+
+<ul>
+<li> <em>Muscle stimulation period:</em> some site (forgot) suggested that the
+growth-stimulating effect starts hours after a workout, and lasts 24 hours.<p>But not sure, what's the optimum resting period between workout days for
+strength, hypertrophy, etc?  Gotta search this..  Someone in YouTube said
+48 hours (WTF?).  Also  <a href="https://www.nautilusplus.com/is-it-necessary-to-rest-24-hours-between-workouts/">some site</a> says 48-72 hours.</p>
+
+</li>
+<li> <em>Strength vs. Hypertrophy:</em> someone (on utube) suggested that strength
+training creates more muscle, while hypertrophy enlarges muscle's appearance by
+storing more water in the muscle.
+</li>
+<li> <em>Number of sets:</em> someone (forgot where) suggested that 3 sets training
+is better than 1 for strength (maximum 1 repetition), and size (circumference
+of chest and thigh).
+</li>
+<li> <em>Resting period between sets</em>:  <a href="https://journals.lww.com/nsca-scj/Fulltext/2008/06000/A_Brief_Review__How_Much_Rest_between_Sets_.9.aspx">some journal</a>
+suggests that optimum resting period between sets is: 2-5mins for strength
+training, 30-90secs for hypertrophy or endurance.</li>
+</ul>
+
+</article>
+
+
+<article>
+<h2 id="sec_8"><a href="#sec_8">8.</a> me not like decoration; here why</h2>
+
+<p>1st, let's define a couple of things.   <a href="#cite_smartdude">Definition 9</a> defines what is a <em>smart</em>
+dude, and  <a href="#cite_decorative">Definition 10</a> defines what is a decorative item.</p>
+
+<p id="cite_smartdude"><strong><a href="#cite_smartdude">Definition 9.</a></strong> <em>A dude <span class="ignored">$x$</span> is said to be smart if, and only if, <span class="ignored">$x$</span> does stuff that
+      maximize his survivability, and avoids stuff that limit him from
+      maximizing his survivability.  This implies that he eats healthy food,
+      learns juicy mathy sciency stuff, avoids wasting his time, etc.</em></p>
+
+<p id="cite_decorative"><strong><a href="#cite_decorative">Definition 10.</a></strong> <em>For a given world <span class="ignored">$w$</span>, a thing <span class="ignored">$t_w$</span> in world <span class="ignored">$w$</span> is said to be
+      decorative if, and only if, <span class="ignored">$t_w$</span> does not help its owner maximize his
+      survivability in world <span class="ignored">$w$</span>.  I.e. has no real use.  E.g. bunch of
+      pretty pics hanging on the wall of your toilet.</em></p>
+
+<p>Think a bit.  If you agree with  <a href="#cite_smartdude">Definition 9</a> and  <a href="#cite_decorative">Definition 10</a>, then  <a href="#cite_smartworld">Theorem 3</a>
+is true by definition.</p>
+
+<p id="cite_smartworld"><strong><a href="#cite_smartworld">Theorem 3.</a></strong> <em>In a world with only smart dudes, then they will not allocate
+      any resource, e.g. money/time, to make/buy decorative stuff.  i.e. no
+      fancy pics hanging on walls, statues, fancy stitching on clothing, etc.
+      but all resources will be used to maximize their survivability.</em></p>
+
+<p>Based on  <a href="#cite_smartworld">Theorem 3</a>, it's easy to see why  <a href="#cite_dumbworld">Theorem 4</a> is also true.</p>
+
+<p id="cite_dumbworld"><strong><a href="#cite_dumbworld">Theorem 4.</a></strong> <em>A world with dudes investing some resource in making/buying
+      decorative items, is necessarily a world that has at least 1 non-smart
+      person.</em></p>
+
+<p>Now let's be more specific on how the world with some non-smarties, as in the
+ <a href="#cite_dumbworld">Theorem 4</a>, would look like:</p>
+
+<ul>
+<li> <em>Possibility 1:</em> Non-smarties are doing a mistake for making/buying
+  useless stuff that don't help maximize their survivability.
+</li>
+<li> <em>Possibility 2:</em> Smarties make/buy decorative items because it
+  happens that some non-smarties get manipulated this way more effectively for
+  the selfish gains of the smarties.
+</li>
+<li> <em>Possibility 3:</em> A mixture of the other possibilities above.</li>
+<li> <em>Possibility 4:</em> What else?  I can't find any..  This list seems
+  complete, IMO.</li>
+</ul>
+<p>As you can see, they are all sad cases.  I.e. either exploiting smarties, or
+misguided non-smarties.  This is why I dislike decorative items: because they
+seem to only reflect sad underlying realities (possibilities above are sad
+cases IMO, and decorative items remind me of them).</p>
+
+
+</article>
+
+
     <!-- navigation -->
     <nav>
         <h2>more &ldquo;<em>theories</em>&rdquo; for u</h2>
         <p>
-            <a href='./page/3'>page 3</a>, <a href='./page/2'>page 2</a>, <a href='./page/1'>page 1</a>. <a href='lol'>site map</a>.
+            <a href='./page/2'>page 2</a>, <a href='./page/1'>page 1</a>. <a href='lol'>site map</a>.
         </p>
     </nav>
 
