@@ -9,8 +9,7 @@ text:Laser Interferometer Gravitational-Wave Observatory (LIGO)
 image:7skies
 url:https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mohammed%C2%B4s_Paradise.jpg/220px-Mohammed%C2%B4s_Paradise.jpg
 alt:Seven paradises
-caption:An ancient dude's imagination of a 7 layered worlds view.  Was he
-thinking $m=-7$?
+caption:Was dude thinking of simulations?
 
 footnote:future
 text:This column is written in 2018.
@@ -27,16 +26,14 @@ herein is _OMG mega freaking dope cool_ cool.
 
 ## how many nested simulations?
 
-IMO, our universe ($e_0$) could be simulated in a parent universe ($e_{-1}$),
-and latter could be itself simulated in a grand parent universe ($e_{-2}$),
-etc, until we reach the grand daddy of them all $e_{-m}$ (unless $m=\infty$,
-then we will never reach the grand daddy).
+IMO, our universe could be simulated in a parent universe,
+and latter could be itself simulated in a grand parent universe,
+etc, until we reach the grand daddy of them all (if the grand daddy is
+$\infty$, then we will never reach the grand daddy).
 
-Is the ancient concept of a multi-layered skies, or worlds, related to this
-concept of nested simulations?  [7skies] shows an example of such ancient
-imaginations that might suggest that $m=-7$.
+Look at [7skies]... some ancient dudes had some related thoughts.
 
-## what to know about $e_{-1}$?
+## what to know about it?
 
 IMO, universes that end up simulating other universes, probably must be sharing
 something common between them.  After all, they are the universes that ended up
@@ -44,9 +41,8 @@ simulating others.
 
 So, IMO, if we:
 
-+ Simulate many universes (e.g. $e_{+1}, e_{+2}, \ldots$), each initialized
-  with randomized physics laws.  So each universe seems independent from each
-  other, and our universe.
++ Simulate many universes, each initialized with randomized physics laws.  So
+  each universe seems independent from each other, and our universe.
 + Wait to see which ones end up simulating other universes.
 + Look at those that are simulating other universes, and see if they share
   unique patterns that non-simulating universes lack.
