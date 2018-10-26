@@ -4,7 +4,7 @@ text:God is a maximally great being.
 definition:godbetter
 text:God is a concept for a:
 $$\begin{cases}
-\text{maximally great being} & \text{ if existing}\\
+\text{maximally great being} & \text{ if existing IRL}\\
 \text{fictional character} & \text{ else}\\
 \end{cases}$$
 
