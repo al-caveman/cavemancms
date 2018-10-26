@@ -2,7 +2,11 @@ definition:god
 text:God is a maximally great being.
 
 definition:godbetter
-text:God is a concept that, only if existing, is a maximally great being.
+text:God is a concept for a:
+$$\begin{cases}
+\text{maximally great being} & \text{ if existing}\\
+\text{fictional character} & \text{ else}\\
+\end{cases}$$
 
 # where does the ontological argument go wrong
 
