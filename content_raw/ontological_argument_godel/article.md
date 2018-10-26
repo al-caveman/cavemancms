@@ -57,9 +57,6 @@ text    :The subset that I think I understood.
 
 ## my attempt after [godel]'s footsteps
 
-[godel] didn't define what's positive.  I dunno why.  IMO it's easy to show
-what's _positive_ by linking it to _good_ as I did earlier[detailselsewhere]:
-
 footnote:detailselsewhere
 text    :Details is already posted in another column.  Plz read that if you
          don't believe me; maybe it will help.
@@ -70,6 +67,9 @@ text      :A property $b$ is positive if it's good for $x$.
 definition:good
 text      :A property $b$ is good for $x$ if helps maximizing $x$'s
            survivability[detailselsewhere].
+
+[godel] didn't define what's positive.  I dunno why.  IMO it's easy to show
+what's _positive_ by linking it to _good_ as I did earlier[detailselsewhere]:
 
 [!positive][!good]
 
