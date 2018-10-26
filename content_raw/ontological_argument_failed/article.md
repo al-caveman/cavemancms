@@ -27,4 +27,6 @@ So a better definition is:
 
 [!godbetter]
 
+Now, good luck proving God's existence using [godbetter].
+
 [!notyet]
