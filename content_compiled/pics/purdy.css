@@ -169,13 +169,17 @@ main article code {
 }
 main article a {
     color: #cccccc;
-    font-weight: bold;
-    text-decoration: underline ;
+    text-decoration: underline;
 }
 main article a:hover {
     color: #eeeeee;
-    font-weight: bold;
     text-decoration: underline;
+}
+main article strong a {
+    text-decoration: none;
+}
+main article strong a:hover {
+    text-decoration: none;
 }
 main article .ignored {
     color: #cccccc;
