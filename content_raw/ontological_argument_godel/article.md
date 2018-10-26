@@ -68,8 +68,10 @@ definition:good
 text      :A property $b$ is good for $x$ if helps maximizing $x$'s
            survivability[detailselsewhere].
 
-[godel] didn't define what's positive.  I dunno why.  IMO it's easy to show
-what's _positive_ by linking it to _good_ as I did earlier[detailselsewhere]:
+[godel] didn't define what's positive.  Some say he didn't because he felt it i
+subjectively/morally agreed upon.  But I already did the work of defining
+subjectively/morally poisitive things.  IMO it's easy to show what's _positive_
+by linking it to _good_ as I did earlier[detailselsewhere]:
 
 [!positive][!good]
 
