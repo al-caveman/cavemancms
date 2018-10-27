@@ -23,7 +23,7 @@ h2 a.hindex {
     font-weight: bold;
 }
 h2 a.hindex:hover {
-    background-color: lime;
+    background-color: white;
     color: black;
     text-decoration: none;
 }
