@@ -1,8 +1,8 @@
 note:workout2failure
-text:If any of the workouts above are not causing you to fail by the last
-     repetition, then increase the weight.  E.g. if 10 pull-ups is too easy,
-     hold extra weight by your legs to make the pull-up harder so that you fail
-     by the 10th pull-up.
+text:If any of the workouts above is not causing you to fail by the last
+     repetition, then add some weight.  E.g. if 10 pull-ups is too easy, hold
+     extra weight by your legs to increase the resistance so that you fail by
+     the 10th pull-up.
 
 #dukkha_workout_routine the dukkha routine
 
