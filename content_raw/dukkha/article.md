@@ -7,7 +7,7 @@ sot he whole thing takes only 10 to 15 minutes maximum.
 
 * 1 dumbbell.
 * Something horizontal to hang on to do pull-ups.
-* 2 circular ropes to hang on the pull-up to do the suspension dips.
+* 2 circular ropes to hang on the horizontal thing to do the suspension dips.
 
 ## time needed
 
