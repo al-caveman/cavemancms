@@ -8,13 +8,8 @@ text:TDEE Calculator
 
 #dukkha_workout_routine the [dukkha] routine
 
-I propose to you the _[dukkha] workout routine_.  Each workout is a single set,
-sot he whole thing takes only 10 to 15 minutes maximum.
-
-Why does this routine's name contain the word [dukkha]?  Because it's 10
-minutes, per day, worth of suffering.  The suffering only lasts 10 to 15
-minutes a day.  Every day, before you start, you _must_ say this "_it's gonna
-hurt_''.
+I propose to you the _[dukkha] workout routine_ --- a workout tailored
+specifically for the needs of the modern man of the $21^{st}$ century.
 
 ## advantages
 
