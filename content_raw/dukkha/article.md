@@ -8,7 +8,7 @@ text:TDEE Calculator
 
 #dukkha_workout_routine the [dukkha] routine
 
-I propose to you the _[dukkha] workout routine_ --- a workout tailored
+I propose to you the _[dukkha] workout routine_ --- a workout routine tailored
 specifically for the needs of the modern man of the $21^{st}$ century.
 
 ## advantages
