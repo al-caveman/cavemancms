@@ -10,7 +10,7 @@ url:https://www.youtube.com/watch?v=hk14dShQMlY
 image   :nuke
 url     :https://cave.mn/pics/nuke.png
 alt     :nuke blast
-caption :?
+caption :...?
 
 #sodom sodom and gomorrah
 
