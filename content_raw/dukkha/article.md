@@ -13,9 +13,11 @@ specifically for the needs of the modern man of the $21^{st}$ century.
 
 ## advantages
 
-* Covers most of your muscles, and leads proportional muscle growth.
 * Can be done in many places as it requires very few tools.
-* Can be done by busy people as it requires only 10 to 15 minutes..
+* Can be done by busy people as it requires only 10 to 15 minutes.
+* Covers most of your muscles, and leads proportional muscle growth.  In about
+  a month of following this routine, my cold-flexed biceps got bigger by 1
+  inch --- This Shit Works(tm).
 
 ## resources needed
 
