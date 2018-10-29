@@ -1,10 +1,8 @@
 link: maybesimulator
 url : https://www.scientificamerican.com/article/are-we-living-in-a-computer-simulation/
-text:we _might_ be in a simulation
 
 link:ligo
 url:https://en.wikipedia.org/wiki/LIGO
-text:Laser Interferometer Gravitational-Wave Observatory (LIGO)
 
 image:7skies
 url:https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mohammed%C2%B4s_Paradise.jpg/220px-Mohammed%C2%B4s_Paradise.jpg
@@ -16,12 +14,13 @@ text:This column is written in 2018.
 
 # how is the simulator?
 
-As you might have already heard, [maybesimulator] right now.  In this column I
-describe a test that lays the foundation for a principled approach to estimate
-properties about the parent existence that is simulating us!
+As you might have already heard, [maybesimulator:we _might_ be in a simulation]
+right now.  In this column I describe a test that lays the foundation for a
+principled approach to estimate properties about the parent existence that is
+simulating us!
 
 The shit herein is _pretty dope_ and opens new gates to a whole new class of
-observatories.  If you think that the [ligo] was _freaking_ cool, then my shit
+observatories.  If you think that the [ligo:Laser Interferometer Gravitational-Wave Observatory (LIGO)] was _freaking_ cool, then my shit
 herein is _OMG mega freaking dope cool_ cool.
 
 ## how many nested simulations?

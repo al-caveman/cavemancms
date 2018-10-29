@@ -17,10 +17,9 @@ text     : But what if happiness is not a function of evolution, but rather a
 
 link:assismo
 url:https://youtu.be/RAGcDi0DRtU?t=106
-text:ass
 
 footnote:assnumber
-text:Number pulled out of my [assismo], but I hope you get the point I am
+text:Number pulled out of my [assismo:ass], but I hope you get the point I am
      trying to convey.
 
 # what is _good_?

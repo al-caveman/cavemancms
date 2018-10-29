@@ -1,12 +1,11 @@
 link: prisonersdilemma
 url : https://en.wikipedia.org/wiki/Prisoner's_dilemma
-text: prisoner's dilemma
 
 # the godly prisoner's dilemma is better imo
 
-You have probably heard of the [prisonersdilemma].  I call it the _Godless_
-prisoner's dilemma for the obvious reason: it lacks God.  this should be fair
-enough.
+You have probably heard of the [prisonersdilemma:prisoner's dilemma].  I call
+it the _Godless_ prisoner's dilemma for the obvious reason: it lacks God.  this
+should be fair enough.
 
 A quick reminder of the _Godless_ dilemma: it says something like, 2 dudes in a
 prison with these options: if one snitches, but the other doesn't, the snitcher

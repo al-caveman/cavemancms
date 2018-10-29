@@ -1,10 +1,8 @@
 link:godel
 url :https://en.wikipedia.org/wiki/Kurt_G%C3%B6del
-text:Gödel
 
 link:godelsaid
 url:https://en.wikipedia.org/wiki/Ontological_argument#Kurt_G%C3%B6del
-text:things
 
 definition: godlike
 text      : $x$ is God-like $\iff$ $x$ only has positive properties.
@@ -38,9 +36,9 @@ text   : The property "God-like'' is exemplified.
 footnote:watiunderstood
 text    :The subset that I think I understood.
 
-# [godel]'s ontological argument[watiunderstood]
+# [godel:Gödel]'s ontological argument[watiunderstood]
 
-[godel] said [godelsaid] like this[watiunderstood]:
+[godel:Gödel] said [godelsaid:things] like this[watiunderstood]:
 
 [!godlike]
 [!godessence]
@@ -49,13 +47,13 @@ text    :The subset that I think I understood.
 [!propertygodlike]
 [!propertyexistence]
 
-## [godel]'s conclusions[watiunderstood]
+## [godel:Gödel]'s conclusions[watiunderstood]
 
 [!positivesconsistent]
 [!godconsistent]
 [!godexemplified]
 
-## my attempt after [godel]'s footsteps
+## my attempt after [godel:Gödel]'s footsteps
 
 footnote:detailselsewhere
 text    :Details is already posted in another column.  Plz read that if you
@@ -68,7 +66,7 @@ definition:good
 text      :A property $b$ is good for $x$ if helps maximizing $x$'s
            survivability[detailselsewhere].
 
-[godel] didn't define what's positive.  Some say he didn't because he felt it
+[godel:Gödel] didn't define what's positive.  Some say he didn't because he felt it
 is subjectively/morally obvious.  But I already did the work of objectively
 defining poisitive things, without needing the subjective/moral agreement.  IMO
 it's easy to show what's _positive_ by linking it to _good_ as I did
@@ -79,6 +77,6 @@ earlier[detailselsewhere]:
 Welp... by [godlike], [positive] and [good], God exists by, welp, definition.
 Since survivability _is_ existence ---  Q.E.D.
 
-So, as you see, [godel]'s path is kinda boring.  The moment he _defines_ God to
+So, as you see, [godel:Gödel]'s path is kinda boring.  The moment he _defines_ God to
 be all-positive, is the moment he defines God to exist.  So all that dance that
-[godel] did is kinda weasely IMO.
+[godel:Gödel] did is kinda weasely IMO.

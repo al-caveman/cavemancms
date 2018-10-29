@@ -1,15 +1,13 @@
 link:dukkha
 url:https://en.wikipedia.org/wiki/Dukkha
-text:Dukkha
 
 link:tdeecalculator
 url:https://tdeecalculator.net/
-text:TDEE Calculator
 
-#dukkha_workout_routine the [dukkha] routine
+#dukkha_workout_routine the [dukkha:Dukkha] routine
 
-I propose to you the _[dukkha] workout routine_ --- a workout routine tailored
-specifically for the needs of the modern man of the $21^{st}$ century.
+I propose to you the _[dukkha:Dukkha] workout routine_ --- a workout routine
+tailored specifically for the needs of the modern man of the $21^{st}$ century.
 
 ## advantages
 
@@ -54,7 +52,7 @@ repetition.
 
 * 1 serving of multi-vitamin pills.  Let's get real, most of us don't have much
   time to eat diverse-enough set of fruits.
-* An amount of proteins as suggested by the [tdeecalculator], given the
-  constraint that the total calories does not exceed what's suggested by the
-  [tdeecalculator].
+* An amount of proteins as suggested by the [tdeecalculator:TDEE Calculator],
+  given the constraint that the total calories does not exceed what's also
+  suggested by [tdeecalculator:it].
 * Drink a good amount of water.

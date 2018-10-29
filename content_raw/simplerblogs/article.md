@@ -1,6 +1,5 @@
 link:nginx
 url:https://nginx.org/
-text:nginx
 
 # a simpler way for users to reply to blogs
 
@@ -43,8 +42,8 @@ So much redundancies.  Since I'll already have an email server, here is how
 I'll solve this problem for this blog, in order to less-redundantly allow for
 user posts:
 
-* Blog's web server will be a read-only [nginx].  Nothing dynamic, just
-   vanilla [nginx].
+* Blog's web server will be a read-only [nginx:NGINX].  Nothing dynamic, just
+   vanilla [nginx:NGINX].
 * Each blog post will have a unique identifier, say, the
    identifier is `123456` for this post.
 * The reply link will be a `mailto` anchor
@@ -63,7 +62,7 @@ As a side effect:
 
 * I'll not need to create user registration forms.
 * I'll not need to create post-reply forms.
-* Since [nginx] will be fully dealing with static content,
+* Since [nginx:NGINX] will be fully dealing with static content,
   if-modified-since will work conveniently out of the box, and be
   mega fast.
 

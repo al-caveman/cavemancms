@@ -1,18 +1,16 @@
 link:mistune
 url:https://github.com/lepture/mistune
-text:mistune
 
 link:cavemark
 url:https://github.com/al-caveman/cavemark
-text:CaveMark
 
 footnote:clarifyspeed
 text:For a Python module, speed, by itself, is not a major criterion in my
 view.  But, I think it reflects how carefully CaveMark is developed.
 
-# cavemark is out!
+# [cavemark:CaveMark] is out!
 
-CavemanCMS, and all articles in this website, currently use [cavemark] as their
+CavemanCMS, and all articles in this website, currently use [cavemark:CaveMark] as their
 markdown parser.  Neat $\LaTeX$-like formatting with little effort!
 
 CaveMark is nice because it:
@@ -20,7 +18,7 @@ CaveMark is nice because it:
 + Follows typesetting principles.
 + Is the
 fastest[clarifyspeed] pure-Python markdown parser around.  It easily beats
-[mistune] in CPython3:
+[mistune:mistune] in CPython3:
 
  ```
 mistune : 18.17786209 seconds
