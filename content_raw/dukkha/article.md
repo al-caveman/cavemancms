@@ -32,7 +32,7 @@ specifically for the needs of the modern man of the $21^{st}$ century.
 * Straight-up Suspension dips.
 * Suspension leg lift, up till your torso also curls (not only leg lift).
 * Side moving planks.
-* Single-legged squad, with full leg extension up to a point where you also
+* Single-legged squat, with full leg extension up to a point where you also
   extend your feet (i.e. single-legged standing calf raise).
 * Shoulder press.
 * Chest-pull.
