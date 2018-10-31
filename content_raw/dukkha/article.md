@@ -6,8 +6,8 @@ url:https://tdeecalculator.net/
 
 #dukkha_workout_routine the [dukkha:Dukkha] routine
 
-I propose to you the _[dukkha:Dukkha] workout routine_ --- a workout routine
-tailored specifically for the needs of the modern man of the $21^{st}$ century.
+I propose to you the _[dukkha:Dukkha] routine_ --- a workout routine tailored
+specifically for the needs of the modern man of the $21^{st}$ century.
 
 ## advantages
 
