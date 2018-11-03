@@ -1,40 +1,25 @@
 #God_extends_optimization_scope God extends our optimization scope
 
-Imagine a person that does not believe in God, afterlife punishments, nor
-rewards.  Why would such a person's _brain_ conclude to invest in a project
-that its outcomes would benefit people only after well after his death?  Why
-shouldn't he, instead, spend his money to simpler projects where he will enjoy
-the gains within his lifespan of, say, $80$ years?
+IMO if a person doesn't believe in God, then ---logically speaking--- his
+_brain_ has no reason to justify investing effort in any long-term project that
+will only profit after person's death.  His _brain_ will only accept investing
+in projects that will be profitable during his lifespan.
 
-If the person believes in no God or afterlife judgements, he will _always_ be
-in a conflict between his feelings and his brain: 
+The only way to get your _brain_ to accept that investing in such long-term
+projects is a good idea, is to have some kind of punishments/rewards system
+that will apply to you after your death---AKA a fair God.
 
-* Depending on how lovely the person is, his feelings _may_ push him to be nice
-  to future humans in order to be remembered.
-* Regardless of how nice he is, his brain _will always_ tell him that this is
-  stupid and makes no sense.  The brain is also right.  There is no logical
-  reason to invest your hard-earned money in something that you won't enjoy in
-  your lifespan.  Why care about life after your death?
+There you go:  on advantage of believing in a fair God is that it makes your
+_brain_ accept investing in long-term projects that would benefit humanity in
+the long run, even though you might be alive to see that day.
 
-IMO, the fact that this conflict exists in a Godless world, the expected number
-of cases where an individual may act to perform actions that are useful for
-humans in the long run, will decrease---let's call this: _increased expected
-crab mentality rate_.
+The only way a Godless person can do that is by having his _feelings_ push him
+to care about past his death (but not his _brain_).  Worse, such _feelings_
+would always face resistance from the _brain_.
 
-The increased crab mentality rate is obviously bad, because in the space of
-possible actions that can maximize humanity's survivability, lies actions that
-their gains can be manifested only in the very long run past the lifespan of a
-single human.  Therefore it's a pity to live in a culture where humans have
-reduced incentives to invest in such long-term projects.
-
-IMO the solution is to believing in a fair God.  Only then the brain will find
-reasons to justify investments in long-term projects that benefit humanity.
-This way, both feelings and logical thinking are agreeing to help humanity
-maximize its survivability; since a fair God would appreciate such good deeds.
-
-Therefore, IMO, an honest atheist should at least appreciate that believe in
-religions with _fair powerful Gods_ is good, and that such religions exist
-because of our brain's attempt to maximize its survivability as a specie.
+But, a Godly person would have his _brain_ and _feelings_ in agreement about
+investments in positive long-term projects that benefit humanity, because the
+believe in the fair God implies a fair reward even after one's death.
 
 note:godmightbereal
 text:Even though this column discussed God from an atheist's perspective, it
