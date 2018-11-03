@@ -22,7 +22,7 @@ footnote:assnumber
 text:Number pulled out of my [assismo:ass], but I hope you get the point I am
      trying to convey.
 
-# what is _good_?
+#what_is_good what is _good_?
 
 When people debate, they often say things like: $x$ is good, $y$ is not
 good, why is $z$ good? Etc.  Yet rarely ever they discuss the fundamental
