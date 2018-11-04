@@ -1,4 +1,26 @@
+definition:very_long_term_proj_def
+text:     :A project $p$, that is founded by founders in $\mathcal{F}$, is said
+           to be "very long-term'' if, and only if, $p$ is expected to be
+           profitable only after the death of the founders in $\mathcal{F}$.
+
+theorem:god_extends_optimization_scope
+text   :The probability of having person $x$ found a very long-term project $p$
+        is higher when person $x$ believes in a fair God, than the alternative
+        case when $x$ is Godless.
+
+note:godmightbereal
+text:Even though this column discussed God from an atheist's perspective, it
+     does not mean that God is unreal.  It just means that even an atheist
+     should find a reason to appreciate believe in God---unless he is suicidal
+     and doesn't care about humanity's survivability.
+
 #God_extends_optimization_scope God extends our optimization scope
+
+[!very_long_term_proj_def]
+
+[!god_extends_optimization_scope]
+
+## [god_extends_optimization_scope]'s proof
 
 IMO if a person doesn't believe in God, then ---logically speaking--- his
 _brain_ has no reason to justify investing effort in any long-term project that
@@ -20,11 +42,5 @@ would always face resistance from the _brain_.
 But, a Godly person would have his _brain_ and _feelings_ in agreement about
 investments in positive long-term projects that benefit humanity, because the
 believe in the fair God implies a fair reward even after one's death.
-
-note:godmightbereal
-text:Even though this column discussed God from an atheist's perspective, it
-     does not mean that God is unreal.  It just means that even an atheist
-     should find a reason to appreciate believe in God---unless he is suicidal
-     and doesn't care about humanity's survivability.
 
 [!godmightbereal]
