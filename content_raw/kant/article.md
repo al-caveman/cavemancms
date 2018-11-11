@@ -6,18 +6,17 @@ link: categoricalimp
 url : https://en.wikipedia.org/wiki/Categorical_imperative
 text: categorical imperative
 
+link: watisgood
+url :page/2/#what_is_good
+
 quotation: thecategoricalimp
 text     : Act only according to that maxim whereby you can, at the same time,
            will that it should become a universal law.
 author   : Immanuel Kant (1785)
 
 quotation: dogood
-text     : Do what is good for humanity.
+text     : Do what is [watisgood:good] for humanity.
 author   : caveman (2018)
-
-link: watisgood
-url :page/2/#what_is_good
-
 
 #kants_shit_is_obsolete [kant]'s [categoricalimp] is obsolete
 
@@ -28,8 +27,6 @@ I just wanna say that [kant]'s [categoricalimp]:
 Is obsoleted by my superior alternative:
 
 [!dogood]
-
-Where _good_ is _objectively_ defined [watisgood:here].
 
 _Why?_ you may ask.  Bcoz _simpler_ and _correcter_.  The _simpler_ is maybe
 easy to see, but why _correcter_?
