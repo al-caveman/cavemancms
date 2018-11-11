@@ -12,7 +12,7 @@ text     : Act only according to that maxim whereby you can, at the same time,
 author   : Immanuel Kant (1785)
 
 quotation: dogood
-text     : Do what is good.
+text     : Do what is good for humanity.
 author   : caveman (2018)
 
 link: watisgood
