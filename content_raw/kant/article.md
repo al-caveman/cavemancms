@@ -24,7 +24,7 @@ I just wanna say that [kant]'s [categoricalimp]:
 
 [!thecategoricalimp]
 
-Is obsoleted by my superior alternative:
+is obsoleted by my superior alternative:
 
 [!dogood]
 
