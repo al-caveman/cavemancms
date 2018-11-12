@@ -1,5 +1,5 @@
 definition:very_long_term_proj_def
-text:     :A project $p$, that is founded by founders in $\mathcal{F}$, is said
+text      :A project $p$, that is founded by founders in $\mathcal{F}$, is said
            to be "very long-term'' if, and only if, $p$ is expected to be
            profitable only after the death of the founders in $\mathcal{F}$.
 
