@@ -1,12 +1,12 @@
 definition:very_long_term_proj_def
-text      :A project $p$, that is founded by founders in $\mathcal{F}$, is said
-           to be "very long-term'' if, and only if, $p$ is expected to be
-           profitable only after the death of the founders in $\mathcal{F}$.
+text      :A project $p$, that is founded by founder $x$, is said to be "a very
+           long-term project'' if, and only if, $p$ is expected to be
+           profitable only after the death of $x$.
 
 theorem:god_extends_optimization_scope
-text   :The probability of having person $x$ found a very long-term project $p$
-        is higher when person $x$ believes in a fair God, than the alternative
-        case when $x$ is Godless.
+text   :The probability of having person $x$ found a very long-term project is
+        higher when person $x$ believes in a fair God, than the alternative
+        case when $x$ doesn't.
 
 note:godmightbereal
 text:Even though this column discussed God from an atheist's perspective, it
