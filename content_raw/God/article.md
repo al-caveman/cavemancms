@@ -6,7 +6,7 @@ text      :A project $p$ is said to be "a very long-term project'' if, and only
 theorem:god_extends_optimization_scope
 text   :The probability of having person $x$ found a very long-term project is
         higher when person $x$ believes in a fair God, than the alternative
-        case when $x$ doesn't.
+        case where $x$ doesn't.
 
 note:godmightbereal
 text:Even though this column discussed God from an atheist's perspective, it
