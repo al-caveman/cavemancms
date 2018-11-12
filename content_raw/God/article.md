@@ -1,7 +1,7 @@
 definition:very_long_term_proj_def
-text      :A project $p$, that is founded by founder $x$, is said to be "a very
-           long-term project'' if, and only if, $p$ is expected to be
-           profitable only after the death of $x$.
+text      :A project $p$ is said to be "a very long-term project'' if, and only
+           if, founder of $p$, i.e. dude $x$, knows that $p$ will be profitable
+           only after $x$'s death.
 
 theorem:god_extends_optimization_scope
 text   :The probability of having person $x$ found a very long-term project is
