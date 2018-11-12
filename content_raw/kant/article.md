@@ -9,14 +9,12 @@ text: categorical imperative
 link: watisgood
 url :page/2/#what_is_good
 
-quotation: thecategoricalimp
-text     : Act only according to that maxim whereby you can, at the same time,
-           will that it should become a universal law.
-author   : Immanuel Kant (1785)
+rule: thecategoricalimp
+text: Act only according to that maxim whereby you can, at the same time,
+      will that it should become a universal law.
 
-quotation: dogood
-text     : Do what is [watisgood:good] for humanity.
-author   : caveman (2018)
+rule: dogood
+text: Do what is [watisgood:good] for humanity.
 
 #kants_shit_is_obsolete [kant]'s [categoricalimp] is obsolete
 
