@@ -32,6 +32,8 @@ is obsoleted by my superior alternative:
 _Why?_ you may ask.  Bcoz _simpler_ and _correcter_.  The _simpler_ is maybe
 easy to see, but why _correcter_?
 
+## suicide case
+
 [dogood] is correcter than [thecategoricalimp] because former is much more
 objective than the latter.  E.g. with [thecategoricalimp] a suicidal person may
 say "_Welp... I'm OK to be killed, therefore it is also OK for me to kill
@@ -42,6 +44,8 @@ _saachan_ for telling me.].  So [categoricalimpsuicide:he added a special case]
 to handle the suicide.  IMO he is basically adding the exception "_let's also
 not get extinct!_''[:I'm paraphrasing [kant]'s words in my own's.] --- my
 [dogood] handles this issue cleanly without needing to add any special case!
+
+## fancy facility case
 
 Here is another example beyond the suicide case earlier where my [dogood]
 trumps [kant]'s [thecategoricalimp]:
