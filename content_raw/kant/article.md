@@ -54,7 +54,7 @@ trumps [kant]'s [thecategoricalimp]:
   really advanced research to save humanity.
 * But this facility is soooOoOo big that there can be only one of its kind on
   Earth.  If any one else tried to build another facility of this kind, it will
-  harm the functionality of my facility.  It's some kind of advanced research.
+  harm the functionality of the other.  It's some kind of advanced research.
 * This means I will want to build this good facility, yet at the same time not
   want anyone else to build a similar facility.
 
