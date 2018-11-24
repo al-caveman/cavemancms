@@ -14,7 +14,7 @@ link: categoricalimpsuicide
 url : https://en.wikipedia.org/wiki/Categorical_imperative#Suicide
 
 link: watisgood
-url :page/2/#what_is_good
+url :https://cave.mn/page/2/#what_is_good
 
 rule: thecategoricalimp
 text: Act only according to that maxim whereby you can, at the same time,
