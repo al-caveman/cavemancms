@@ -36,10 +36,6 @@ is obsoleted by my superior alternative:
 _Why?_ you may ask.  Bcoz _simpler_ and _correcter_.  The _simpler_ is maybe
 easy to see, but why _correcter_?
 
-IMO the reason [kant] didn't see [dogood] is maybe in part because he was from
-the 1700s, while evolution came later IMO since [darwin] is an 1800s dude.
-This matters because it relates to how I define [watisgood:good].
-
 ## suicide case
 
 [dogood] is correcter than [thecategoricalimp] because former is much more
@@ -72,3 +68,10 @@ that obviously good research facility!  IMO this shows a limitation in
 
 While my [dogood] does not suffer from any of those exceptions.
 As you see, my shit is simpler and better than [kant]'s shit.
+
+## why didn't [kant] see [dogood]?
+
+Maybe in part because he was from the 1700s, while evolution came later IMO
+since [darwin] is an 1800s dude.  This matters because it relates to how I
+define [watisgood:good].
+
