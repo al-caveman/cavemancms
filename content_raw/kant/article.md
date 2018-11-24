@@ -72,6 +72,5 @@ As you see, my shit is simpler and better than [kant]'s shit.
 ## why did [kant] miss this?
 
 IMO the reason [kant] didn't see [dogood] is maybe in part because he was from
-the 1700s, while evolution (random mutations + survivability maximization) came
-later IMO since [darwin] is an 1800s dude.  This matters because it relates to
-how I define [watisgood:good].
+the 1700s, while evolution came later IMO since [darwin] is an 1800s dude.
+This matters because it relates to how I define [watisgood:good].
