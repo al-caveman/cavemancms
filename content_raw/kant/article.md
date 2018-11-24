@@ -40,8 +40,8 @@ easy to see, but why _correcter_?
 
 [dogood] is correcter than [thecategoricalimp] because former is much more
 objective than the latter.  E.g. with [thecategoricalimp] a suicidal person may
-say "_Welp... I'm OK to be killed, therefore it is also OK for me to kill
-others_''.  This problem does not exist in [dogood].
+say "_Welp... I'm OK to be killed by others, therefore it is also OK for me to
+kill others_''.  This problem does not exist in [dogood].
 
 But [kant] knew of that suicide issue and proposed a solution[:Thanks to
 _saachan_ for telling me.].  So [categoricalimpsuicide:he added a special case]
