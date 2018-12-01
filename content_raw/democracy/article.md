@@ -1,6 +1,6 @@
 conjecture:majvotingsucks
 text      :_Ideally_[:Assuming no strategic dishonest voting, or exploitations
-           by foreign faggots.], when the voters are any one the entire
+           by foreign faggots.], when the voters are any from the entire
            population, the majority of voters are non-experts on the subject
            that they are voting on.
 
