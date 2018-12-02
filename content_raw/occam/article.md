@@ -108,10 +108,10 @@ First let's define some basic tools[:IMO the tools are pretty fair and you
 shouldn't face much unease accepting them.]:
 
 link    :goodmore
-url     :https://cave.mn/page/2/index.html#what_is_good
+url     :https://cave.mn/page/2/#what_is_good
 
 link    :godoptiscope
-url     :https://cave.mn/page/4/index.html#God_extends_optimization_scope
+url     :https://cave.mn/page/4/#God_extends_optimization_scope
 
 link    :fornicationdivorce
 url     :https://www.dailymail.co.uk/femail/article-4085758/Experts-reveal-sexual-partners-ve-determine-likely-DIVORCE.html
