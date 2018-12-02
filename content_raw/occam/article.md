@@ -184,7 +184,9 @@ survivability of its followers (one is enough, but I show more):
   be more likely to invest in _good_ very long-term projects that non-believers
   won' --- for more info [godoptiscope:read this].
 
-On the other hand, I don't know any case general statistics that show that
+* I can pull more, but I got tired.  So let's stop here.
+
+On the other hand, I don't know any general statistics that show that
 believe in the Abrahamic God is harmful.  You might be thinking of ISIS, or
 religious wars.  But I have two points for you:
 
