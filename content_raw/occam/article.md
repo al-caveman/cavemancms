@@ -2,14 +2,29 @@ link:occamsrazor
 url :https://simple.wikipedia.org/wiki/Occam%27s_razor
 text:Occam's razor
 
+link:occamsrazormath
+url :https://en.wikipedia.org/wiki/Occam%27s_razor#Mathematical
+
 quotation:occamsrazorquote
-text:More things should not be used than are necessary
-author:William of Ockham, 14th century
+text     :More things should not be used than are necessary
+author   :William of Ockham, 14th century
+
+quotation:occamsrazorquotemath
+text     :By definition, all assumptions introduce possibilities for error; if
+          an assumption does not improve the accuracy of a theory, its only
+          effect is to increase the probability that the overall theory is
+          wrong.
+author   :[occamsrazormath:Wikipedia]
+
 
 #imo_occams_razor_is_abused imo [occamsrazor] is abused
 
 IMO nothing is wrong with [occamsrazor] statement in [occamsrazorquote], so I
 agree with it.
+
+Here is another way to say [occamsrazorquote] but in more mathy terms:
+
+[!occamsrazorquotemath]
 
 ##notabused a case where [occamsrazor] is _not_ abused
 
