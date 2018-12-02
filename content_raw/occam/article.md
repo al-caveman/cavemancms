@@ -139,7 +139,7 @@ text        :For any scenario $s$, and for any pair of things $a$ and $b$,
              $a$ achieves the goal of $s$ better than $b$.
 
 axiom   :goal
-text    :Our goal is to maximize what is good.
+text    :Our goal in reality/nature is to maximize what is good.
 
 definition  :good
 text        :A thing is good if it maximizes our survivability.
