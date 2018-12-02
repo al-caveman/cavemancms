@@ -6,6 +6,7 @@ cm = cavemark.CaveMark()
 
 # page saver
 def save_page(page_ids, articles_paths, template, page_dir):
+    print('compiling {}:'.format(page_dir))
     # make html page navigation links
     with open('{}/pagelink.html'.format(template)) as f:
         pagelink = f.read().strip()
@@ -20,6 +21,7 @@ def save_page(page_ids, articles_paths, template, page_dir):
         template_article = f.read()
         html_articles = ''
         for article_path in articles_paths:
+            print('   {}..'.format(article_path))
             with open(article_path) as h:
                 article = h.read().strip()
             cm.parse(article)
