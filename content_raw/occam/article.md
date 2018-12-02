@@ -131,7 +131,7 @@ url     :https://en.wikipedia.org/wiki/Religious_war
 
 definition  :necessary
 text        :For a thing $a$ to be necessary, there must be a senario $s$ where
-             $a$ has maximum utility over other things.
+             $a$ has maximum utility over its alternative things.
 
 definition  :utility
 text        :For any scenario $s$, and for any pair of things $a$ and $b$,
