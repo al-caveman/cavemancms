@@ -34,11 +34,14 @@ url     :https://cave.mn/pics/bias-variance-tradeoff.png
 caption :Bias-variance trade-off.
 alt     :Some shooting targets showing the bias-variance trade-off.
 
-The _drums_ damage is easy to grasp.  But what do I mean by the _bias_ shit?
-Basically music IMO alters how you think.  E.g. depending on the music you
-listen, you may end up being more risky, more cautious, etc.  IMO this is not
-good, because it induces some artificial bias in your brain's function as shown
-in [biasvariance].
+For the _drums_ damage point, evolution-wise, we are more evolved to handle
+sounds found in nature, as opposed to sounds produced by musical instruments.
+This may explain why music is more harmful to our ears than natural sounds.
+
+But what do I mean by the _bias_ shit?  Basically music IMO alters how you
+think.  E.g. depending on the music you listen, you may end up being more
+risky, more cautious, etc.  IMO this is not good, because it induces some
+artificial bias in your brain's function as shown in [biasvariance].
 
 IMO it's better to keep your brain at neutral, so you get thoughts that hit the
 center, without having external bias due to music to drag your thoughts to the
