@@ -1,5 +1,5 @@
 image   :allahuackbar
-url     :/pics/allahuackbar
+url     :/pics/allahuackbar.png
 caption :Allahu ackbar.
 alt     :An energetic alien, sporting beard, next to a board with "Allahu
          ackbar" written on it.
