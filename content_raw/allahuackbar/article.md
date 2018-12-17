@@ -24,7 +24,7 @@ author   :Genesis 1:1, [linkengenesis:any English Bible].
 #allahu_ackbar allahu ackbar
 
 "_Allahu ackbar_'' --- is something about to blow up?  [truckofpeace:Truck of
-peace] again?  --- more on this later.  But for now, what does it mean?
+peace] again?  More on this later.  But for now, what does it mean?
 
 [!allahuackbar]
 
