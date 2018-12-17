@@ -53,8 +53,9 @@ So the string _Allahu ackbar_ means _God is greater_, which ---perhaps--- you
 knew.  But IMO you didn't know that _Allah_ is literally the name of the same
 Biblical God that Arab Christians use.
 
-So, before you say that _Allah = Satan_, put in your mind that this also refers
-to the God of Arab christians as well.
+So, before you say that _Allah = Satan_, plz put in your mind that this also
+refers to the God of Arab Christians as well.  Then, after you put this in your
+mind, you may still say it, but at least knowing what you are saying.
 
 ## usage and function
 
