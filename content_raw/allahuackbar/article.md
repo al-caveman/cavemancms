@@ -110,4 +110,5 @@ that their kill is murder and unjust.
 What about the name _ISIS = Islamic State ... something_?  IMO, obviously, name
 itself doesn't imply function.  E.g. I can call an apple a banana instead, but
 it won't become a banana.  So, IMO, if ISIS violates Islamic rules, but calls
-itself Islamic, then IMO this rather make them liars.
+itself Islamic, then IMO this rather make them liars --- which might not be
+surprising given their political involvement in the proxy war that is in Syria.
