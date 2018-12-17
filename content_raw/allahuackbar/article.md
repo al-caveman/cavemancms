@@ -30,9 +30,9 @@ peace] again?  More on this later.  But for now, what does it mean?
 
 ## meaning
 
-* The trailing _u_ in _Allahu_ is only a vowel that serves a grammatical
-  purpose.  The noun is _Allah_ --- _الله_ in Arabic without the _u_-sounding
-  vowel, _اللهُ_ with the the vowel.
+* _Allahu_ --- The trailing _u_ in _Allahu_ is only a vowel that serves a
+  grammatical purpose.  The noun is _Allah_ --- _الله_ in Arabic without the
+  _u_-sounding vowel, _اللهُ_ with the the vowel.
 
   _Allah_ is literally _God_ in Arabic, with the capital letter _G_.  Is it
   only Muslims' God?  Certainly not.
@@ -47,7 +47,7 @@ peace] again?  More on this later.  But for now, what does it mean?
 
   You can use a translator to verify that _الله_ is referring to _God_.
 
-* _Ackbar_ just means _greater_.
+* _Ackbar_ --- just means _greater_.
 
 So the string _Allahu ackbar_ means _God is greater_, which ---perhaps--- you
 knew.  But IMO you didn't know that _Allah_ is literally the name of the same
