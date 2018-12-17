@@ -101,20 +101,12 @@ punishment:
 [!quranmurder]
 [!genesis96]
 
-Some skeptic's may pick on the word _unjustly_ in [quranmurder], but I tell you
-this:  no key Islamic scholar ever called murder of civilian innocents,
-regardless of faith, justice, including the grand Mufti of Saudi.  In fact, all
-of the key scholars agree that their kill is murder and unjust.
+Some may pick on the word _unjustly_ in [quranmurder], but IMO  no key Islamic
+scholar ever called murder of civilian innocents, regardless of faith, justice,
+including the grand Mufti of Saudi.  In fact, all of the key scholars agree
+that their kill is murder and unjust.
 
-Some ask:  what about _ISIS = Islamic State ... something_?  I say fook ISIS.
-They violate Islam and are basically a mercenary group in a proxy war between
-USA and Russia.  IMO ISIS follows an Islamic _theme_ only to attract fighters
-since it is operating in a Muslim majority country.
-
-If ISIS puts _Islamic_ in their name, but violate Islam, then this doesn't make
-them Islamic, but rather _liars_.
-
-Some sites, such as _www.thereligionofpeace.com_ spread mistranslations, and
-misquotations out of context, of the Quran, and wrongly claim that Quran
-promotes killing non-believers.  This is false.  All fighting verses in Quran
-are in defensive wars where non-Muslims were attacking Muslims in a war.
+What about the name _ISIS = Islamic State ... something_?  IMO, obviously, name
+itself doesn't imply function.  E.g. I can call an apple a banana instead, but
+it won't become a banana.  So, IMO, if ISIS violates Islamic rules, but calls
+itself Islamic, then IMO this rather make them liars.
