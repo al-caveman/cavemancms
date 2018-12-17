@@ -66,7 +66,7 @@ both.
 
 Function --- IMO offers the believer psychological support to allow him to
 contain himself better at times of hardship, without needing to drink
-alcohol[:Alcohol is a depressant that kills 3 million people every year,
+piss[:Alcohol is a depressant that kills 3 million people every year,
 directly, and others indirectly as it damages brain's function.].
 
 ## ~~terrorism~~ crime
