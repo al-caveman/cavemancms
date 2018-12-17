@@ -54,7 +54,7 @@ knew.  But IMO you didn't know that _Allah_ is literally the name of the same
 Biblical God that Arab Christians use.
 
 So, before you say that _Allah = Satan_, put in your mind that this also refers
-to Arab christians' God as well.
+to the God of Arab christians as well.
 
 ## usage and function
 
