@@ -108,8 +108,8 @@ of the key scholars agree that their kill is murder and unjust.
 
 Some ask:  what about _ISIS = Islamic State ... something_?  I say fook ISIS.
 They violate Islam and are basically a mercenary group in a proxy war between
-USA and Russia.  ISIS follows an Islamic _theme_ only to attract fighters since
-it is operating in a Muslim majority country.
+USA and Russia.  IMO ISIS follows an Islamic _theme_ only to attract fighters
+since it is operating in a Muslim majority country.
 
 If ISIS puts _Islamic_ in their name, but violate Islam, then this doesn't make
 them Islamic, but rather _liars_.
