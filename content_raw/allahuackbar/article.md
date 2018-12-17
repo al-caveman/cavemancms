@@ -15,7 +15,7 @@ url     :https://biblehub.com/genesis/1-1.htm
 
 quotation:quotearabgenesis
 text     :فِي الْبَدْءِ خَلَقَ اللهُ السَّمَاوَاتِ وَالارْضَ
-author   :Genesis 1:1, [linkarabgenesis: an Arabic Bible (SVD)]
+author   :Genesis 1:1, [linkarabgenesis: SVD (most popular Arabic Bible)]
 
 quotation:quoteengenesis
 text     :In the beginning God created the heaven and the earth..
