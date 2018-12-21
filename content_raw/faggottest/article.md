@@ -30,10 +30,9 @@ Here is what I think the thought experiment implies:
 + Technically, _in the thought experiment_, the faggot is fucking the anus, not
   the butt, not the legs.
 + The reason a faggot appreciates an anus that's attached to a man's butt is
-  because of the _context_ around the anus (e.g. attached to a hairy man's ass
-  that's attached to a face with shaved beard).
-+ Such context information (e.g. stuff around anus) is a very high-level
-  information that is processed by the brain IMO.
+  because of the _context_ around the anus.  E.g. attached to a hairy man's ass
+  that's attached to a face with shaved beard.
++ Such context information is a very high-level information.
 + High-level context-information is IMO processed by the brain.
 + IMO neural activity about context information is by far mostly influenced by
   the past memory, or environment, than (say) genes.
