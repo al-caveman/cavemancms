@@ -22,8 +22,8 @@ On average, I bet they will say this:
   are born faggots don't you know?_''.
 
 You probably agree.  Because, _I guess_, a male's anus is the same as female's.
-Maybe a female's anus is like a 10 years old boy's anus?  This is also why
-faggots are also crypto pedos.
+Maybe a female's anus is like a 10 years old boy's anus[:I'm just guessing.  I
+never tried any]? This is also why faggots are also crypto pedos.
 
 Here is what I think the thought experiment implies:
 
