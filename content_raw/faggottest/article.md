@@ -35,8 +35,8 @@ Here is what I think the thought experiment implies:
 + Such context information (e.g. stuff around anus) is a very high-level
   information that is processed by the brain IMO.
 + High-level context-information is IMO processed by the brain.
-+ Neural activity about context information is by far mostly influenced by the
-  past memory, or environment, than (say) genes.
++ IMO neural activity about context information is by far mostly influenced by
+  the past memory, or environment, than (say) genes.
 + Therefore, the primary contributor in the making of a faggot is the
   environment, and not the genes (genes might be only a marginal/secondary
   cause).
