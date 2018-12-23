@@ -14,8 +14,8 @@ def save_page(
     html_pagelinks = []
     with open('{}/pagelink.html'.format(templates_path)) as f:
         pagelink = f.read().strip()
-        for page_id in page_ids:
-            if page_id == page_id_cur:
+        for i in page_ids:
+            if i == page_id_cur:
                 with open('{}/pagelink_cur.html'.format(templates_path)) as f:
                     pagelink_cur = f.read().strip()
                     html_pagelinks.append(pagelink_cur.format(**{'PAGEID': i}))
