@@ -5,19 +5,25 @@ cm = cavemark.CaveMark()
 
 
 # page saver
-def save_page(page_ids, articles_paths, template, page_dir):
-    print('compiling {}:'.format(page_dir))
+def save_page(
+        page_ids, articles_paths, templates_path, page_id_cur, page_path_cur
+    ):
+    print('compiling {}:'.format(page_path_cur))
+
     # make html page navigation links
-    with open('{}/pagelink.html'.format(template)) as f:
+    html_pagelinks = []
+    with open('{}/pagelink.html'.format(templates_path)) as f:
         pagelink = f.read().strip()
-        html_pagelinks = ', '.join([
-            pagelink.format(**{
-                'PAGEID': i
-            }) for i in page_ids
-        ])
+        for page_id in page_ids:
+            if page_id == page_id_cur:
+                with open('{}/pagelink_cur.html'.format(templates_path)) as f:
+                    pagelink_cur = f.read().strip()
+                    html_pagelinks.append(pagelink_cur.format(**{'PAGEID': i}))
+            else:
+                html_pagelinks.append(pagelink.format(**{'PAGEID': i}))
 
     # make html articles
-    with open('{}/article.html'.format(template)) as f:
+    with open('{}/article.html'.format(templates_path)) as f:
         template_article = f.read()
         html_articles = ''
         for article_path in articles_paths:
@@ -33,15 +39,15 @@ def save_page(page_ids, articles_paths, template, page_dir):
             html_articles += '\n\n' + html_article
 
     # make html page
-    with open('{}/page.html'.format(template)) as f:
+    with open('{}/page.html'.format(templates_path)) as f:
         html_page = f.read().format(**{
-            'ARTICLES'   : html_articles, 
-            'PAGESLINKS' : html_pagelinks, 
+            'ARTICLES'   : html_articles,
+            'PAGESLINKS' : ', '.join(html_pagelinks),
         })
 
     # save page
-    os.makedirs(page_dir, exist_ok=True)
-    with open('{}/index.html'.format(page_dir), 'w') as f:
+    os.makedirs(page_path_cur, exist_ok=True)
+    with open('{}/index.html'.format(page_path_cur), 'w') as f:
         f.write(html_page)
 
     # forget cavemark citations
@@ -114,7 +120,7 @@ elif current_page_size > 0: # somethings didn't meet page_size_max?
     pages_sizes[-1] += current_page_size
     pages_articles_paths[-1] += current_page_article_paths
 
-# remove old compiled html
+# clean old compiled html
 shutil.rmtree(content_compiled_path)
 
 # save all pages
@@ -123,7 +129,8 @@ for i in range(0, len(pages_ids)):
         pages_ids[::-1],                # reversed page ids (for navigation)
         pages_articles_paths[i][::-1],  # reversed page's articles paths
         tmplt_cntnt_page_others,        # template
-        '{}/page/{}'.format(            # saving dir
+        pages_ids[i],                   # id of current page
+        '{}/page/{}'.format(            # saving path
             content_compiled_path,
             pages_ids[i]
         )
@@ -134,6 +141,7 @@ save_page(
     pages_ids[::-1],
     pages_articles_paths[-1][::-1],
     tmplt_cntnt_page_last,
+    pages_ids[i], # index page is the last page (i taken from code above)
     content_compiled_path
 )
 
