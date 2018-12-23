@@ -5,8 +5,8 @@ This is a thought experiment to investigate what makes a faggot, a faggot.
 Consider the following:
 
 + _Group 1_ --- A blindfoldeded faggot is given a woman's butt, but the faggot
-  is lied to that butt is a man's.  He then f\*\*\*s the butt, then rates it
-  from 1 to 5 (1 is bad, 5 is good).
+  is lied to that the butt is a man's.  He then f\*\*\*s the butt, then rates
+  it from 1 to 5 (1 is bad, 5 is good).
 
 + _Group 2_ --- Same, but the faggot is told the truth that it's a female's
   butt.
