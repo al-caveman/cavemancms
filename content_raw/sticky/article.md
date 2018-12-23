@@ -11,9 +11,14 @@ quotation:massdebates
 text     :by the way I am looking at your blog rn.  this is kickass.
 author   :MassDebates, 2018
 
+quotation:justanotheruser
+text     :man, this is one of the best philosophy websites on the internet
+author   :justanotheruser, 2018
+
 [!howtoreadthisshit]
 
 Testimonials:
 
 [!blap]
 [!massdebates]
+[!justanotheruser]
