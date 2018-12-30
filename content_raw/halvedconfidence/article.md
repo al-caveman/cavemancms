@@ -59,10 +59,7 @@ E.g. if our brain estimates that $\Pr(c\text{ right})=1$, which is the
 strongest case of confidence, then:
 
 $$
-\begin{split}
-    &\Pr(c \text{ right} \cap \text{brain right})\\
-    &=\frac{1}{2} \Pr(c\text{ right})\\
-    &=\frac{1}{2} \times 1\\
-    &=\frac{1}{2}\\
-\end{split}
+\frac{1}{2} \Pr(c\text{ right})
+=\frac{1}{2} \times 1
+=\frac{1}{2}
 $$
