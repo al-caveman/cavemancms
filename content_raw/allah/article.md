@@ -15,8 +15,8 @@ author   :Genesis 1:1, [linkengenesis:any English Bible].
 #allah allah
 
 _Allah_ is literally _God_ in Arabic, with the capital letter _G_.  Allah is
-also used by Arab Christians, and is also in the Arabic translation of the
-Bible as shown in [quotearabgenesis].
+also used by Arab Christians, and is in the Arabic translation of the Bible as
+shown in [quotearabgenesis].
 
 [quotearabgenesis]'s translation in English is:
 
