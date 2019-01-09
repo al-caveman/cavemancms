@@ -43,8 +43,7 @@ objective than the latter.  E.g. with [thecategoricalimp] a suicidal person may
 say "_Welp... I'm OK to be killed by others, therefore it is also OK for me to
 kill others_''.  This problem does not exist in [dogood].
 
-But [kant] knew of that suicide issue and proposed a solution[:Thanks to
-_saachan_ for telling me.].  So [categoricalimpsuicide:he added a special case]
+But [kant] knew of that suicide issue and proposed a solution.  So [categoricalimpsuicide:he added a special case]
 to handle the suicide.  IMO he is basically adding the exception "_let's also
 not get extinct!_''[:I'm paraphrasing [kant]'s words in my own's.] --- my
 [dogood] handles this issue cleanly without needing to add any special case!
