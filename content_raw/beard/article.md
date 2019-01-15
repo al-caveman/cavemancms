@@ -1,6 +1,6 @@
 image  :beardpic
 url    :/pics/beard.png
-caption:A man honoured to grow on _beard_.
+caption:A man honoured to grow under _beard_.
 alt    :A man sporting beard.
 
 image  :trudeaupic
@@ -13,6 +13,6 @@ alt    :Justin Trudeau crying.
 
 You don't grow _beard_, nor that you shave _him_.  It's rather that _beard_
 lets you grow on _him_.  Likewise, when you become too decadent to deserve such
-honour, _beard_ shaves you off --- _beard_ is eternal.
+honour, _beard_ shaves you away --- _beard_ is eternal.
 
 [!beardpic][!trudeaupic]
