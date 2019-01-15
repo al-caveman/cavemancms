@@ -11,8 +11,8 @@ alt    :Justin Trudeau crying.
 
 #beard beard
 
-You don't grow beard, nor that you shave it.  It's rather that the beard lets
-you grow on it.  Likewise, when you become too decadent to deserve such honour,
-the beard shaves you off --- the _beard_ is eternal.
+You don't grow _beard_, nor that you shave _him_.  It's rather that _beard_
+lets you grow on him.  Likewise, when you become too decadent to deserve such
+honour, _beard_ shaves you off --- _beard_ is eternal.
 
 [!beardpic][!trudeaupic]
