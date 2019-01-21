@@ -1,29 +1,29 @@
 axiom:axiomaddass
-text : $a+(b+c) = (a+b)+c$
+text : $a+(b+c) = (a+b)+c$.
 
 axiom:axiomaddidentity
-text :$a+0 = 0+a = a$
+text :$a+0 = 0+a = a$.
 
 axiom:axiomaddinverse
-text :$a+(-a) = (-a)+a = 0$
+text :$a+(-a) = (-a)+a = 0$.
 
 axiom:axiomaddcommutative
-text :$a+b=b+a$
+text :$a+b=b+a$.
 
 axiom:axiommulass
-text :$a(bc) = (ab)c$
+text :$a(bc) = (ab)c$.
 
 axiom:axiommulidentity
-text :$a \cdot 1 = 1 \cdot a = a$
+text :$a \cdot 1 = 1 \cdot a = a$.
 
 axiom:axiommulinverse
-text :$aa^{-1} = a^{-1}a = 1$
+text :$aa^{-1} = a^{-1}a = 1$, for all $a \ne 0$.
 
 axiom:axiommulcommutative
-text :$ab=ba$
+text :$ab=ba$.
 
 axiom:axiomdistributive
-text :$a(b+c) = ab+ac$
+text :$a(b+c) = ab+ac$.
 
 # spivak's calculus problems
 
@@ -76,22 +76,42 @@ Prove these:
     (x-y)(x+y)  &= 0 \\
   \end{split}$$
 
-  Then we divide both sides by the same value.  For now, we pick $(x+y)$:
+  Then we use [axiommulinverse] and multipiply both sides by, first
+  $(x+y)^{-1}$, then later by $(x-y)^{-1}$.  But since [axiommulinverse] is
+  only defined for non-zero numbers, we need to state that those
+  multiplications are for when $(x+y)\ne0$ and $(x-y)\ne0$, respectively.
+  Hence we need to handle $(x+y)=0$ and $(x-y)=0$ separately as well.
+
+  * Case $(x+y) = 0$:
   $$\begin{split}
-    \frac{(x-y)(x+y)}{(x+y)}  &= \frac{0}{(x+y)} \\
+    x+y   &= 0 \\
+    x+y+(-y) &= 0 + (-y)\\
+    x        &= -y\\
+  \end{split}$$
+
+  * Case $(x-y) = 0$:
+  $$\begin{split}
+    x-y   &= 0 \\
+    x-y+y &= 0 + y\\
+    x        &= y\\
+  \end{split}$$
+
+  * Case $(x+y) \ne 0$:
+
+  Using [axiommulinverse]:
+  $$\begin{split}
+    (x-y)(x+y)(x+y)^{-1}    &= 0(x+y)^{-1} \\
     (x-y)       &= 0 \\
     x           &= 0 + y\\
     x           &= y\\
   \end{split}$$
 
-  Then we try to divide both sides by another quantity $(x-y)$ and we get:
+  * Case $(x-y) \ne 0$:
+
+  Using [axiommulinverse]:
   $$\begin{split}
-    \frac{(x-y)(x+y)}{(x-y)}  &= \frac{0}{(x-y)} \\
+    (x-y)(x+y)(x-y)^{-1}    &= 0(x-y)^{-1} \\
     (x+y)       &= 0 \\
     x           &= 0 + (-y)\\
     x           &= -y\\
   \end{split}$$
-
-  So I've proven that $x=y$ or $x=-y$ are possible implications for $x^2=y^2$.
-  But, IMO, I really didn't prove that no other cases could exist.  So my next
-  question is:  how to prove that there is _no other_ possibility?

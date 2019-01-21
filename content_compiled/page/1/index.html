@@ -151,23 +151,23 @@ things:
 
 </p>
 
-<p id="cite_axiomaddass"><strong><a href="#cite_axiomaddass">Axiom 1.</a></strong> <em><span class="ignored">$a+(b+c) = (a+b)+c$</span></em></p>
+<p id="cite_axiomaddass"><strong><a href="#cite_axiomaddass">Axiom 1.</a></strong> <em><span class="ignored">$a+(b+c) = (a+b)+c$</span>.</em></p>
 
-<p id="cite_axiomaddidentity"><strong><a href="#cite_axiomaddidentity">Axiom 2.</a></strong> <em><span class="ignored">$a+0 = 0+a = a$</span></em></p>
+<p id="cite_axiomaddidentity"><strong><a href="#cite_axiomaddidentity">Axiom 2.</a></strong> <em><span class="ignored">$a+0 = 0+a = a$</span>.</em></p>
 
-<p id="cite_axiomaddinverse"><strong><a href="#cite_axiomaddinverse">Axiom 3.</a></strong> <em><span class="ignored">$a+(-a) = (-a)+a = 0$</span></em></p>
+<p id="cite_axiomaddinverse"><strong><a href="#cite_axiomaddinverse">Axiom 3.</a></strong> <em><span class="ignored">$a+(-a) = (-a)+a = 0$</span>.</em></p>
 
-<p id="cite_axiomaddcommutative"><strong><a href="#cite_axiomaddcommutative">Axiom 4.</a></strong> <em><span class="ignored">$a+b=b+a$</span></em></p>
+<p id="cite_axiomaddcommutative"><strong><a href="#cite_axiomaddcommutative">Axiom 4.</a></strong> <em><span class="ignored">$a+b=b+a$</span>.</em></p>
 
-<p id="cite_axiommulass"><strong><a href="#cite_axiommulass">Axiom 5.</a></strong> <em><span class="ignored">$a(bc) = (ab)c$</span></em></p>
+<p id="cite_axiommulass"><strong><a href="#cite_axiommulass">Axiom 5.</a></strong> <em><span class="ignored">$a(bc) = (ab)c$</span>.</em></p>
 
-<p id="cite_axiommulidentity"><strong><a href="#cite_axiommulidentity">Axiom 6.</a></strong> <em><span class="ignored">$a \cdot 1 = 1 \cdot a = a$</span></em></p>
+<p id="cite_axiommulidentity"><strong><a href="#cite_axiommulidentity">Axiom 6.</a></strong> <em><span class="ignored">$a \cdot 1 = 1 \cdot a = a$</span>.</em></p>
 
-<p id="cite_axiommulinverse"><strong><a href="#cite_axiommulinverse">Axiom 7.</a></strong> <em><span class="ignored">$aa^{-1} = a^{-1}a = 1$</span></em></p>
+<p id="cite_axiommulinverse"><strong><a href="#cite_axiommulinverse">Axiom 7.</a></strong> <em><span class="ignored">$aa^{-1} = a^{-1}a = 1$</span>, for all <span class="ignored">$a \ne 0$</span>.</em></p>
 
-<p id="cite_axiommulcommutative"><strong><a href="#cite_axiommulcommutative">Axiom 8.</a></strong> <em><span class="ignored">$ab=ba$</span></em></p>
+<p id="cite_axiommulcommutative"><strong><a href="#cite_axiommulcommutative">Axiom 8.</a></strong> <em><span class="ignored">$ab=ba$</span>.</em></p>
 
-<p id="cite_axiomdistributive"><strong><a href="#cite_axiomdistributive">Axiom 9.</a></strong> <em><span class="ignored">$a(b+c) = ab+ac$</span></em></p>
+<p id="cite_axiomdistributive"><strong><a href="#cite_axiomdistributive">Axiom 9.</a></strong> <em><span class="ignored">$a(b+c) = ab+ac$</span>.</em></p>
 
 <h4 id="5.1.1"><a class="hindex" href="#5.1.1">5.1.1.</a> problem 1</h4>
 
@@ -202,26 +202,46 @@ things:
     (x-y)(x+y)  &= 0 \\
   \end{split}$$</span></p>
 
-<p>Then we divide both sides by the same value.  For now, we pick <span class="ignored">$(x+y)$</span>:
+<p>Then we use  <a href="#cite_axiommulinverse">Axiom 7</a> and multipiply both sides by, first
+  <span class="ignored">$(x+y)^{-1}$</span>, then later by <span class="ignored">$(x-y)^{-1}$</span>.  But since  <a href="#cite_axiommulinverse">Axiom 7</a> is
+  only defined for non-zero numbers, we need to state that those
+  multiplications are for when <span class="ignored">$(x+y)\ne0$</span> and <span class="ignored">$(x-y)\ne0$</span>, respectively.
+  Hence we need to handle <span class="ignored">$(x+y)=0$</span> and <span class="ignored">$(x-y)=0$</span> separately as well.</p>
+
+<ul>
+<li> Case <span class="ignored">$(x+y) = 0$</span>:
   <span class="ignored">$$\begin{split}
-    \frac{(x-y)(x+y)}{(x+y)}  &= \frac{0}{(x+y)} \\
+    x+y   &= 0 \\
+    x+y+(-y) &= 0 + (-y)\\
+    x        &= -y\\
+  \end{split}$$</span>
+</li>
+<li> Case <span class="ignored">$(x-y) = 0$</span>:
+  <span class="ignored">$$\begin{split}
+    x-y   &= 0 \\
+    x-y+y &= 0 + y\\
+    x        &= y\\
+  \end{split}$$</span>
+</li>
+<li> Case <span class="ignored">$(x+y) \ne 0$</span>:<p>Using  <a href="#cite_axiommulinverse">Axiom 7</a>:
+  <span class="ignored">$$\begin{split}
+    (x-y)(x+y)(x+y)^{-1}    &= 0(x+y)^{-1} \\
     (x-y)       &= 0 \\
     x           &= 0 + y\\
     x           &= y\\
   \end{split}$$</span></p>
 
-<p>Then we try to divide both sides by another quantity <span class="ignored">$(x-y)$</span> and we get:
+</li>
+<li> Case <span class="ignored">$(x-y) \ne 0$</span>:<p>Using  <a href="#cite_axiommulinverse">Axiom 7</a>:
   <span class="ignored">$$\begin{split}
-    \frac{(x-y)(x+y)}{(x-y)}  &= \frac{0}{(x-y)} \\
+    (x-y)(x+y)(x-y)^{-1}    &= 0(x-y)^{-1} \\
     (x+y)       &= 0 \\
     x           &= 0 + (-y)\\
     x           &= -y\\
   \end{split}$$</span></p>
 
-<p>So I've proven that <span class="ignored">$x=y$</span> or <span class="ignored">$x=-y$</span> are possible implications for <span class="ignored">$x^2=y^2$</span>.
-  But, IMO, I really didn't prove that no other cases could exist.  So my next
-  question is:  how to prove that there is <em>no other</em> possibility?</p>
-
+</li>
+</ul>
 </li>
 </ol>
 
