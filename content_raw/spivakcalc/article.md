@@ -82,15 +82,6 @@ Prove these:
   or $(x-y)\ne0$, respectively.  Hence we need to handle $(x+y)=0$ or $(x-y)=0$
   separately as well.
 
-  * Case $(x+y) = 0$:
-  $$\begin{split}
-    x+y   &= 0 \\
-    x+y+(-y) &= 0 + (-y)\\
-    x        &= -y\\
-  \end{split}$$
-
-  This case says that $x^2 = y^2$ implies that $x=-y$.
-
   * Case $(x+y) \ne 0$:
 
   Using [axiomaddidentity], [axiommulass], [axiommulidentity] and
@@ -114,6 +105,15 @@ Prove these:
     a 0 + a 0 + (-a0)  &= a 0 + (-a 0)\\
     a 0                &= 0\\
   \end{split}$$
+
+  * Case $(x+y) = 0$:
+  $$\begin{split}
+    x+y   &= 0 \\
+    x+y+(-y) &= 0 + (-y)\\
+    x        &= -y\\
+  \end{split}$$
+
+  This case says that $x^2 = y^2$ implies that $x=-y$.
 
   Since the 2 cases above are exhaustive and mutually exclusive, then we can
   conclude that $x$ could _only_ be either $y$ or $-y$.
