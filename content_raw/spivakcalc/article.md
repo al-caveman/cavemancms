@@ -69,9 +69,29 @@ Prove these:
 
 + If $x^2 = y^2$, then $x=y$ or $x=-y$.
 
-  _Proof---_ by using [axiommulinverse]:
+  _Proof---_ by using the theorem we proved above:
   $$\begin{split}
-    x^2        &= y^2 \\
-    x^2x^{-1}  &= y^2x^{-1} \\
-    x          &= y^2x^{-1} \\
+    x^2         &= y^2 \\
+    x^2 - y^2   &= 0 \\
+    (x-y)(x+y)  &= 0 \\
   \end{split}$$
+
+  Then we do divide both sides by the same value.  For now, we pick $(x+y)$:
+  $$\begin{split}
+    \frac{(x-y)(x+y)}{(x+y)}  &= \frac{0}{(x+y)} \\
+    (x-y)       &= 0 \\
+    x           &= 0 + y\\
+    x           &= y\\
+  \end{split}$$
+
+  Then we try to divide both sides by another quantity $(x-y)$ and we get:
+  $$\begin{split}
+    \frac{(x-y)(x+y)}{(x-y)}  &= \frac{0}{(x-y)} \\
+    (x+y)       &= 0 \\
+    x           &= 0 + (-y)\\
+    x           &= -y\\
+  \end{split}$$
+
+  So I've proven that $x=y$ or $x=-y$ are possible implications for $x^2=y^2$.
+  But, IMO, I really didn't prove that no other cases could exist.  So my next
+  question is:  how to prove that there is _no other_ possibility?

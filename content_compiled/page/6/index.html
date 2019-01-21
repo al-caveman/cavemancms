@@ -41,170 +41,195 @@
     
 
 <article>
-<p id="cite_howtoreadthisshit"><strong><a href="#cite_howtoreadthisshit">Note 1.</a></strong> <em>Each main section (with green box in the section title) is an independent
-     topic.</em></p>
+<h2 id="imo_occams_razor_is_abused"><a class="hindex" href="#imo_occams_razor_is_abused">1.</a> imo  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> is abused</h2>
 
-<p>Testimonials:</p>
+<p>IMO nothing is wrong with  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> statement in  <a href="#cite_occamsrazorquote">Quote 1</a>, so I
+agree with it.</p>
 
-<figure id="cite_blap"><strong><a href="#cite_blap">Quote 1:</a></strong><blockquote><em>&ldquo;i agree and respect, and LOVE your approach to seperatiing TRUE from
-          FALSE&rdquo;</em></blockquote><footer style="text-align:right;">&mdash; <cite>blap, 2018</cite></footer></figure>
+<figure id="cite_occamsrazorquote"><strong><a href="#cite_occamsrazorquote">Quote 1:</a></strong><blockquote><em>&ldquo;More things should not be used than are necessary&rdquo;</em></blockquote><footer style="text-align:right;">&mdash; <cite>William of Ockham, 14th century</cite></footer></figure>
 
-<figure id="cite_massdebates"><strong><a href="#cite_massdebates">Quote 2:</a></strong><blockquote><em>&ldquo;by the way I am looking at your blog rn.  this is kickass.&rdquo;</em></blockquote><footer style="text-align:right;">&mdash; <cite>MassDebates, 2018</cite></footer></figure>
+<p>Here is another way to say  <a href="#cite_occamsrazorquote">Quote 1</a> but in more mathy terms:</p>
 
-<figure id="cite_justanotheruser"><strong><a href="#cite_justanotheruser">Quote 3:</a></strong><blockquote><em>&ldquo;man, this is one of the best philosophy websites on the internet&rdquo;</em></blockquote><footer style="text-align:right;">&mdash; <cite>justanotheruser, 2018</cite></footer></figure>
+<figure id="cite_occamsrazorquotemath"><strong><a href="#cite_occamsrazorquotemath">Quote 2:</a></strong><blockquote><em>&ldquo;By definition, all assumptions introduce possibilities for error; if
+          an assumption does not improve the accuracy of a theory, its only
+          effect is to increase the probability that the overall theory is
+          wrong.&rdquo;</em></blockquote><footer style="text-align:right;">&mdash; <cite> <a href="https://en.wikipedia.org/wiki/Occam%27s_razor#Mathematical">Wikipedia</a></cite></footer></figure>
 
+<h3 id="imo_occams_razor_is_abused.notabused"><a class="hindex" href="#imo_occams_razor_is_abused.notabused">1.1.</a> a case where  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> is <em>not</em> abused</h3>
 
-</article>
+<p>Before I show you how  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> is abused, let me show you a case
+where it is not abused.</p>
 
+<p>Suppose that we want to predict how far would a 100kg stone travel after being
+thrown by a catapult.  Then, someone proposes function
+<span class="ignored">$$f : x_1,_2,\ldots,x_n \to [0, \infty]$$</span>
+where <span class="ignored">$x_1,x_2,\ldots,x_n$</span> are some input numbers that quantify things, such as
+stone's mass, stone's shape, length of the catapult's arm, amount of force that
+moves the arm, etc.</p>
 
-<article>
-<h2 id="beard"><a class="hindex" href="#beard">1.</a> beard</h2>
+<p>Suppose that <span class="ignored">$f$</span> is pretty accurate in predicting how far the stone would
+travel, with an error that follows the normal distribution <span class="ignored">$N(\mu, \sigma^2)$</span>.</p>
 
-<p>You don't grow <em>beard</em>, nor that you shave <em>him</em>.  It's rather that <em>beard</em>
-lets you grow under <em>him</em> as shown in  <a href="#cite_beardpic">Figure 1</a>.</p>
+<p>Nice, right?  So now we can use the function <span class="ignored">$f$</span>, feed it with input, and
+pretty accurately get where the projectile would land.</p>
 
-<figure id="cite_beardpic" style="text-align:center;"><img alt="A man sporting beard." src="/pics/beard.png" /><figcaption><strong><a href="#cite_beardpic">Figure 1.</a></strong> A man honoured to grow under <em>beard</em>.</figcaption></figure>
+<p>But now imagine some other dude found that the <span class="ignored">$n^{th}$</span> input of <span class="ignored">$f$</span> was not
+needed, so he came up with another function
+<span class="ignored">$$g : x_1,_2,\ldots,x_{n-1} \to [0, \infty]$$</span>
+that needs 1 less input (no need for <span class="ignored">$x_n$</span>), and is also exactly as accurate
+with an error that follows the same normal distribution <span class="ignored">$N(\mu, \sigma^2)$</span>.</p>
 
-<p>OTOH, when you become too decadent to deserve such honour, <em>beard</em> shaves you
-away as shown in  <a href="#cite_trudeaupic">Figure 2</a>.</p>
+<p>As you see, the utility of <span class="ignored">$f$</span> is exactly identical to <span class="ignored">$g$</span>'s, and hence the
+extra complexity of <span class="ignored">$f$</span> due to it needing <span class="ignored">$n$</span> many arguments (instead of <span class="ignored">$n-1$</span>
+as in <span class="ignored">$g$</span>), is <em>unnecessary</em> complexity.</p>
 
-<figure id="cite_trudeaupic" style="text-align:center;"><img alt="Justin Trudeau crying." src="/pics/trudeau.png" /><figcaption><strong><a href="#cite_trudeaupic">Figure 2.</a></strong> A dishonoured teenage girl is crying after she got shaved away by
-        <em>beard</em>.</figcaption></figure>
+<p>Hence, we can rightfully conclude that <span class="ignored">$g$</span> is a better model in explaining the
+phenomenon than <span class="ignored">$f$</span>.</p>
 
+<h3 id="imo_occams_razor_is_abused.abused"><a class="hindex" href="#imo_occams_razor_is_abused.abused">1.2.</a> a case where  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> <em>is</em> abused</h3>
 
-</article>
-
-
-<article>
-<h2 id="blindfolded_faggot_thought_experiment"><a class="hindex" href="#blindfolded_faggot_thought_experiment">2.</a> the blindfolded faggot thought
-experiment</h2>
-
-<p>This is a thought experiment to investigate what makes a faggot, a faggot.
-Consider the following:</p>
-
-<ol>
-<li> <em>Group 1</em> &mdash; A blindfoldeded faggot is given a woman's butt, but the faggot
-  is lied to that the butt is a man's.  He then f***s the butt, then rates
-  it from 1 to 5 (1 is bad, 5 is good).
-</li>
-<li> <em>Group 2</em> &mdash; Same, but the faggot is told the truth that it's a female's
-  butt.</li>
-</ol>
-<p>Imagine that we randomly sample 100 faggots from Amsterdam's faggot pride
-rally, and randomly assign 50 of them to <em>Group 1</em> and the other 50 to <em>Group
-2</em> &mdash; what do you think will happen?</p>
-
-<p>On average, <em>I bet</em> this will happen:</p>
+<p>What if I tell you that, while <span class="ignored">$f$</span> needs an extra argument that <span class="ignored">$g$</span> does not
+need:</p>
 
 <ul>
-<li> Faggots of <em>Group 1</em> would say &ldquo;<em>OMG BEST MALE BUTT EVER 5/5!!</em>&rdquo;.</li>
-<li> Faggots of <em>Group 2</em> would say &ldquo;<em>No.  0/5.  Can't even have an erection.  We
-  are born faggots don't you know?</em>&rdquo;.</li>
+<li> <span class="ignored">$f$</span> is <em>much faster</em> when implemented in a computer, which allows calculating
+  catapult's expected accuracy much faster in field, hence increasing its fire
+  rate.</li>
+<li> The extra argument that only <span class="ignored">$f$</span> needs, i.e. <span class="ignored">$x_n$</span>, is a constant specific to
+  the catapult, and is easy to obtain.</li>
 </ul>
-<p>You probably agree.  Because, <em>I guess</em>, a male's anus is the same as a
-female's.  Or, if you are too skeptic, you may at least agree that a female's
-anus is like, say, a 10 years old boy's anus<sup><a href="#fn___6">1</a></sup>?  This probably also explains
-why faggots are often crypto pedos.</p>
+<p>In this case, <span class="ignored">$f$</span>'s extra arguments is suddenly <em>not</em> unnecessary any more
+because the extra argument allows to increase the <em>utility</em> of <span class="ignored">$f$</span> in a
+scenario that we care about.  Therefore, IMO using  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> here to reject
+<span class="ignored">$f$</span> is wrong.</p>
 
-<p>Here is what I think the thought experiment implies:</p>
+<p>See, <em>utility</em> is important.  If more things increase a thing's utility, then
+those more things are no longer <em>unnecessary</em>, and hence  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> does not
+apply to them.</p>
+
+<p><em>Utility</em> depends on the domain/scenario.  E.g. in the scenario of
+ <a href="#imo_occams_razor_is_abused.notabused">Section 1.1</a> <span class="ignored">$f$</span>'s more things is unnecessary, and
+hence  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> applies to eliminate <span class="ignored">$f$</span>.  But in this section's scenario
+<span class="ignored">$f$</span>'s more things is not unnecessary and hence  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> does not apply.</p>
+
+<h3 id="imo_occams_razor_is_abused.isGodnoneed"><a class="hindex" href="#imo_occams_razor_is_abused.isGodnoneed">1.3.</a> is believe in God unnecessary?</h3>
+
+<p>I agree that, say, physics' models probably don't need believe in God.  E.g. if
+you give me an equation to model <em>gravity</em> that somehow incorporates <em>believe
+in God</em> into it, then most likely your model has a unnecessary complexity over
+the existing physics model for gravity, which lacks believe in God.</p>
+
+<p>But does this mean that, <em>in all scenarios</em>, believe in God is an unnecessary
+addition?  Simply because adding believe in God in some models, such as
+physic's models for gravity, is unnecessary, it does not mean that believe in
+God is unnecessary in virtually every other scenario.</p>
+
+<p>E.g. <span class="ignored">$f$</span> is not virtually unnecessary in all scenarios.  <span class="ignored">$f$</span> was only
+unnecessary in  <a href="#imo_occams_razor_is_abused.notabused">Section 1.1</a>'s scenario, but it was
+totally necessary in  <a href="#imo_occams_razor_is_abused.abused">Section 1.2</a>'s scenario.</p>
+
+<p>Therefore, if any person claims that <em>&ldquo;believe in God is unnecessary.
+Period!&rdquo;</em>, then that person <em>must</em> prove that there is virtually no scenario
+at all where believe in God has any utility.</p>
+
+<p>I have never seen any person manage to back the claim that &ldquo;<em>there is no
+scenario where God is necessary</em>&rdquo;.  Therefore, by the same sciencey stuff they
+claim they like, I hereby call their claims <em>unsubstantiated</em>.</p>
+
+<h3 id="imo_occams_razor_is_abused.4"><a class="hindex" href="#imo_occams_razor_is_abused.4">1.4.</a> proof that believe in God is necessary</h3>
+
+<p> <a href="#imo_occams_razor_is_abused.isGodnoneed">Section 1.3</a> showed how the claim &ldquo;<em>believe in God
+is unnecessary</em>&rdquo; is actually <em>unsubstantiated</em>.  In <em>this</em> section, I will
+take it further by showing you that it is actually  <em>false</em>.</p>
+
+<p id="cite_believeGodnecessary"><strong><a href="#cite_believeGodnecessary">Theorem 1.</a></strong> <em>Believe in God is necessary.</em></p>
+
+<h4 id="imo_occams_razor_is_abused.4.1"><a class="hindex" href="#imo_occams_razor_is_abused.4.1">1.4.1.</a>  <a href="#cite_believeGodnecessary">Theorem 1</a>'s proof</h4>
+
+<p>First let's define some basic tools<sup><a href="#fn___5">1</a></sup>:</p>
+
+<p id="cite_necessary"><strong><a href="#cite_necessary">Definition 1.</a></strong> <em>For a thing <span class="ignored">$a$</span> to be necessary, there must be a senario <span class="ignored">$s$</span> where
+             <span class="ignored">$a$</span> has maximum utility over its alternative things.</em></p>
+
+<p id="cite_utility"><strong><a href="#cite_utility">Definition 2.</a></strong> <em>For any scenario <span class="ignored">$s$</span>, and for any pair of things <span class="ignored">$a$</span> and <span class="ignored">$b$</span>,
+             <span class="ignored">$a$</span>'s utility is more than <span class="ignored">$b$</span>'s in scenario <span class="ignored">$s$</span>, if and only if
+             <span class="ignored">$a$</span> achieves the goal of <span class="ignored">$s$</span> better than <span class="ignored">$b$</span>.</em></p>
+
+<p id="cite_goal"><strong><a href="#cite_goal">Axiom 1.</a></strong> <em>Our goal in reality/nature is to maximize what is good.</em></p>
+
+<p id="cite_good"><strong><a href="#cite_good">Definition 3.</a></strong> <em>A thing is good if it maximizes our survivability.
+              <a href="https://cave.mn/page/2/#what_is_good">Click here</a> for more info about this definition.</em></p>
+
+<p>In order to prove  <a href="#cite_believeGodnecessary">Theorem 1</a>, all we need to do is to show that
+there exists a scenario <span class="ignored">$s$</span> where believe in God has a higher utility than
+otherwise.</p>
+
+<p>Below is a list of scenarios where believe in God results in a higher
+survivability of its followers (one is enough, but I show more):</p>
+
+<ul>
+<li> Statistics show that  <a href="https://www.dailymail.co.uk/femail/article-4085758/Experts-reveal-sexual-partners-ve-determine-likely-DIVORCE.html">those who commit fornication
+  increase their divorce risk by more than the double</a>.<p>Logically, it's no brainer to see that more divorce implies more kids that
+  are raised by single-parents.  Statistics show that
+   <a href="https://www.webmd.com/baby/news/20030123/absent-parent-doubles-child-suicide-risk#1">single-parented children are more than <em>twice</em> as likely to
+  commit suicide</a>.</p>
+
+<p>As you know, Abrahamic religions forbid sin, and therefore this is a scenario
+  where believing in the Abrahamic God results in saving some lives, aka
+  maximizing the survivability.</p>
+
+<p>You may say, but what if parents never get married?  Well, stats show that
+  they have even higher separation/dumping rate.  So.. really, the best way for
+  your children is a proper Abrahamic marriage.</p>
+
+</li>
+<li>  <a href="https://www.reuters.com/article/us-health-lgbt-teen-suicide/lgbt-youth-at-higher-risk-for-suicide-attempts-idUSKCN1MI1SL">LGBTs have increased suicide risk</a>.  Obviously Abrahaic
+  religions are against this faggy shit, and hence believing in the Abrahamic
+  God helps saving lives (aka increasing survivability).
+</li>
+<li>  <a href="https://www.huffingtonpost.com/2012/06/19/belief-in-hell-lowers-cri_n_1609247.html">Believe in hell lowers the crime rate</a>.  Obviously, another
+  property of Abrahaic religion is hell.  This is why I also personally think
+  &ldquo;<em>hell</em>&rdquo; is a mercy, as it lowers all kinds of crime rate including
+  homicide.  For those who complain about the Abrahamic God for having hell,
+  think again.
+</li>
+<li> Believe in God extends our optimization scope, which allows us to
+  be more likely to invest in <em>good</em> very long-term projects that non-believers
+  won' &mdash; for more info  <a href="https://cave.mn/page/4/#God_extends_optimization_scope">read this</a>.
+</li>
+<li> I can pull more, but I got tired.  So let's stop here.</li>
+</ul>
+<p>On the other hand, I don't know any general statistics that show that
+believe in the Abrahamic God is harmful.  You might be thinking of ISIS, or
+religious wars.  But I have two points for you:</p>
+
+<ul>
+<li> ISIS exists in a proxy war situation and receives foreign funds, plus they
+  themselves violate Abrahamic teachings as they kill innocents, even by
+  Quranic standards.</li>
+<li> In the history of all wars,  <a href="https://en.wikipedia.org/wiki/Religious_war">religious wars make up <em>only</em>
+  6.97% of them</a>.  Meaning, non-religiousness resulted in much more wars.
+  Meaning, religiousness correlate with reduced wars.</li>
+</ul>
+<p>IMO it should be very clear that believe in the Abrahamic God increases our
+survivability.  Then:</p>
 
 <ol>
-<li> Technically, <em>in the thought experiment</em>, the faggot is fucking the anus, not
-  the butt, not the legs, not the face with shaved beard, etc.</li>
-<li> The reason a faggot appreciates an anus that's attached to a man's butt, over
-  another that's attached to a female's butt, is because of the <em>context</em>
-  around the anus.  E.g. man's anus has the context that it is attached to a
-  hairy man's ass that's attached to a face with shaved beard.</li>
-<li> Such context information is a very high-level information.</li>
-<li> High-level context-information is IMO processed by the brain.</li>
-<li> IMO neural activity about context information is by far mostly influenced by
-  the past memory, or environment, than (say) genes.</li>
-<li> Therefore, the primary contributor in the making of a faggot is the
-  environment, and not the genes (genes might be only a marginal/secondary
-  cause).</li>
+<li> By  <a href="#cite_good">Definition 3</a> we can see that believe in the Abrahamic God is <em>good</em>.</li>
+<li> By  <a href="#cite_goal">Axiom 1</a> we can see that believe in the Abrahamic God allows us to meet <em>our
+  goal</em> better</li>
+<li> By  <a href="#cite_utility">Definition 2</a> we can see that there is at least a scenario <span class="ignored">$s$</span> where believe
+  in the Abrahamic God has <em>more utility</em> than otherwise.</li>
+<li> By  <a href="#cite_necessary">Definition 1</a> we can see that believe in the Abrahamic God is necessary.</li>
 </ol>
-<p id="cite_faggotenv"><strong><a href="#cite_faggotenv">Theorem 1.</a></strong> <em>Environment is the main factor in the making of a faggot.</em></p>
+<p>Q.E.D.</p>
 
 <footer>
 <hr/>
-<ul style="list-style:none;padding:0; margin:0;"><li id="fn___6"><small>1. I'm just guessing.  I never tried
-any.  IMO it's easy to simulate anuses given their simplicity since they are
-merely some elastic holes.  IMO You don't need to actually put your junk in
-anuses to discover that they are elastic holes.</small></li>
+<ul style="list-style:none;padding:0; margin:0;"><li id="fn___5"><small>1. IMO the tools are pretty fair and you
+shouldn't face much unease accepting them.</small></li>
 </ul>
 </footer>
-
-
-</article>
-
-
-<article>
-<h2 id="imo_music_not_good"><a class="hindex" href="#imo_music_not_good">3.</a> imo music is not good</h2>
-
-<p>Unless you are a spy or a secret agent, then when you listen to music, you only
-get this information:</p>
-
-<ul>
-<li> That some retards liked generating noise in certain way.</li>
-</ul>
-<p>That's it.  Now the next question is:</p>
-
-<p id="cite_whyneedmusic"><strong><a href="#cite_whyneedmusic">Question 1.</a></strong> <em>Why do you need that information?</em></p>
-
-<p>and its answer:</p>
-
-<p id="cite_studyingretards"><strong><a href="#cite_studyingretards">Answer 1.</a></strong> <em>Maybe to study stupid humans that their intelligence didn't evolve
-         fast enough to realize that music is shit.</em></p>
-
-<p>So if you are not studying retards (e.g. their history, how to cure the, etc),
-then why bother with this shit?  No reason!</p>
-
-<p>Unless you are listening to music to study retards (for a greater purpose),
-listening to music has these problems:</p>
-
-<ul>
-<li> Weakens your ear drums.</li>
-<li> Induces bias to your brain's activity.</li>
-</ul>
-<p>For the <em>drums</em> damage point, evolution-wise, we are more evolved to handle
-sounds found in nature, as opposed to sounds produced by musical instruments.
-This may explain why music is more harmful to our ears than natural sounds.</p>
-
-<p>But what do I mean by the <em>bias</em> shit?  Basically music IMO alters how you
-think.  E.g. depending on the music you listen, you may end up being more
-risky, more cautious, etc.  IMO this is not good, because it induces some
-artificial bias in your brain's function as shown in  <a href="#cite_biasvariance">Figure 3</a>.</p>
-
-<figure id="cite_biasvariance" style="text-align:center;"><img alt="Some shooting targets showing the bias-variance trade-off." src="https://cave.mn/pics/bias-variance-tradeoff.png" /><figcaption><strong><a href="#cite_biasvariance">Figure 3.</a></strong> Bias-variance trade-off.</figcaption></figure>
-
-<p>IMO it's better to keep your brain at neutral, so you get thoughts that hit the
-center, without having external bias due to music to drag your thoughts to the
-sides.</p>
-
-<h3 id="imo_music_not_good.1"><a class="hindex" href="#imo_music_not_good.1">3.1.</a> criticism</h3>
-
-<p>Some people disagree with me and say that  <a href="https://journals.sagepub.com/doi/full/10.1111/j.0956-7976.2004.00711.x">music can make people
-smarter</a>.  But IMO  <a href="https://journals.sagepub.com/doi/full/10.1111/j.0956-7976.2004.00711.x">the study</a> has a fundamental flaw: the alternative
-to music classes for kids were <em>drama lessons</em> and <em>nothing</em>.  They didn't
-include, say, <em>mathematics</em> classes as an alternative.</p>
-
-<p>This is why  <a href="https://journals.sagepub.com/doi/full/10.1111/j.0956-7976.2004.00711.x">the study</a> is shit: maybe the reason the kids that learned
-music became smarter was thanks to them needing to learn musical notes (those
-fancy symbols for music) which functions as some kind of programming (except
-for generating sound).</p>
-
-<p>In other words, if the kids had taken a <em>programming</em> class, or extra
-<em>mathematics</em> classes, then maybe they would have been even smarter, without
-having the side effect of musical instruments possibly damaging their ears.</p>
-
-<p>IMO it's disgusting that the study claims it's due to music that kids became
-smarter, and not because of the abstract mathematical and logical aspects of
-generating music, which &mdash;itself&mdash; is not music.</p>
-
-<p> <a href="https://www.tandfonline.com/doi/full/10.1080/01443410500342542">This other study</a> says that  <a href="https://journals.sagepub.com/doi/full/10.1111/j.0956-7976.2004.00711.x">that study</a> is shit, but then
-adds its own shit by doing similar wrong shit.  One funny aspect it mentions
-that music is good to calm retards.  See&hellip; I LITERALLY told you music is for
-retards!</p>
 
 
 </article>
@@ -214,7 +239,7 @@ retards!</p>
     <nav>
         <h2>more &ldquo;<em>theories</em>&rdquo; for u</h2>
         <p>
-            page 6, <a href='../5'>page 5</a>, <a href='../4'>page 4</a>, <a href='../3'>page 3</a>, <a href='../2'>page 2</a>, <a href='../1'>page 1</a>. <a href='lol'>site map</a>.
+            <a href='../7'>page 7</a>, page 6, <a href='../5'>page 5</a>, <a href='../4'>page 4</a>, <a href='../3'>page 3</a>, <a href='../2'>page 2</a>, <a href='../1'>page 1</a>. <a href='lol'>site map</a>.
         </p>
     </nav>
 

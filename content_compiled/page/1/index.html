@@ -41,85 +41,7 @@
     
 
 <article>
-<h2 id="1"><a class="hindex" href="#1">1.</a> a simpler way for users to reply to blogs</h2>
-
-<p>Commonly, a web server that's hosting  a blog should:</p>
-
-<ul>
-<li> Present some comments upload form.
-</li>
-<li> Be able to handle uploaded users <em>data</em> (e.g. post or
-  get or whatever requests).</li>
-<li> Then, the web server runs some dynamic code that reads the user
-  upload data.</li>
-<li> And then writes/saves something somewhere (e.g. to store the
-  end-user's comment). The comment is usually stored in some
-  back-end database, like some evil SQL stuff.</li>
-<li> Additionally, the user usually also needs to register an
-  account for the blog.</li>
-</ul>
-<p>We all know that, right?  In fact, it's so common that most people don't even
-realize a sad aspect: all of the points from (1) to (5) are redundant, and we
-already have a system for it, that almost everyone uses:  <em>the email
-system</em>.  It's so obvious that most people are unable to see.  But here is
-how:</p>
-
-<ul>
-<li> Email clients already have highly capable upload forms, with
-   capacity of handling attachments, cryptographic signatures,
-   etc.</li>
-<li> Email servers already uploaded stuff (texts, attachments).</li>
-<li> Email servers can already run some dynamic code that reads the
-   user upload data and reacts accordingly.  Some use this feature
-   to dynamically create support tickets from email.</li>
-<li> Email servers can obviously writes/saves something somewhere
-   (e.g. to store the end-user's comment).</li>
-<li> The email system allows user registration (e.g. registering to
-   free email providers, or registering for a domain name and let
-   user host his own mail servers, etc).  The email registration
-   is also powerful in that, it already has an infrastructure to
-   handle abusers if needed.</li>
-</ul>
-<p>So much redundancies.  Since I'll already have an email server, here is how
-I'll solve this problem for this blog, in order to less-redundantly allow for
-user posts:</p>
-
-<ul>
-<li> Blog's web server will be a read-only  <a href="https://nginx.org/">NGINX</a>.  Nothing dynamic, just
-   vanilla  <a href="https://nginx.org/">NGINX</a>.</li>
-<li> Each blog post will have a unique identifier, say, the
-   identifier is <code>123456</code> for this post.</li>
-<li> The reply link will be a <code>mailto</code> anchor
-   to the email address <code>123456.reply@caveman.sexy</code>.</li>
-<li> The user posts his reply to that email address, and will get to
-   set various options by using special tags in the body of the
-   email, in order to set his nickname, or whether he wants to be
-   notified when someone replies to his comment.</li>
-<li> The mail server will get the message, parse it dynamically, if
-   things are OK, then translate it into a HTML/CSS content, and
-   update the static pages of this blog.</li>
-<li> Users will then see the updated site html files with the newly
-   posted reply.</li>
-</ul>
-<p>As a side effect:</p>
-
-<ul>
-<li> I'll not need to create user registration forms.</li>
-<li> I'll not need to create post-reply forms.</li>
-<li> Since  <a href="https://nginx.org/">NGINX</a> will be fully dealing with static content,
-  if-modified-since will work conveniently out of the box, and be
-  mega fast.</li>
-</ul>
-<p>This might not be necessarily new, but it is certainly at least an extremely
-uncommon method of handling blog posts/replies.  IMO we live in a very sad time
-where most people, even standard bodies, needlessly create redundant systems.</p>
-
-
-</article>
-
-
-<article>
-<h2 id="2"><a class="hindex" href="#2">2.</a> the godly prisoner's dilemma is better imo</h2>
+<h2 id="1"><a class="hindex" href="#1">1.</a> the godly prisoner's dilemma is better imo</h2>
 
 <p>You have probably heard of the  <a href="https://en.wikipedia.org/wiki/Prisoner's_dilemma">prisoner's dilemma</a>.  I call
 it the <em>Godless</em> prisoner's dilemma for the obvious reason: it lacks God.  this
@@ -147,7 +69,7 @@ believing in God.</p>
 
 
 <article>
-<h2 id="3"><a class="hindex" href="#3">3.</a> multi column text. nice?</h2>
+<h2 id="2"><a class="hindex" href="#2">2.</a> multi column text. nice?</h2>
 
 <p>Try to adjust the width of the browser's window, or adjust the text size.
 You'll notice that the text will be distributed in columns, automatically, to
@@ -171,7 +93,7 @@ rather opt to waste side pixels.</p>
 
 
 <article>
-<h2 id="4"><a class="hindex" href="#4">4.</a> godly general public license v3 (ggplv3)</h2>
+<h2 id="3"><a class="hindex" href="#3">3.</a> godly general public license v3 (ggplv3)</h2>
 
 <p>GNU/RMS pushed towards freeing software, but not free enough.  The GGPL3.0
 addresses a key limitation in  <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</a>.</p>
@@ -198,7 +120,7 @@ adopt the GGPLv3 license.</p>
 
 
 <article>
-<h2 id="5"><a class="hindex" href="#5">5.</a> testing mathjax</h2>
+<h2 id="4"><a class="hindex" href="#4">4.</a> testing mathjax</h2>
 
 <p>When <span class="ignored">$a \ne 0$</span>, there are two solutions to <span class="ignored">$ax^2 + bx + c = 0$</span> and they are
 <span class="ignored">$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</span> more fancy things to test mathjax's
@@ -214,9 +136,9 @@ things:
 
 
 <article>
-<h2 id="6"><a class="hindex" href="#6">6.</a> spivak's calculus problems</h2>
+<h2 id="5"><a class="hindex" href="#5">5.</a> spivak's calculus problems</h2>
 
-<h3 id="6.1"><a class="hindex" href="#6.1">6.1.</a> chapter 1</h3>
+<h3 id="5.1"><a class="hindex" href="#5.1">5.1.</a> chapter 1</h3>
 
 <p>For any numbers <span class="ignored">$a,b,c$</span>:
 
@@ -247,7 +169,7 @@ things:
 
 <p id="cite_axiomdistributive"><strong><a href="#cite_axiomdistributive">Axiom 9.</a></strong> <em><span class="ignored">$a(b+c) = ab+ac$</span></em></p>
 
-<h4 id="6.1.1"><a class="hindex" href="#6.1.1">6.1.1.</a> problem 1</h4>
+<h4 id="5.1.1"><a class="hindex" href="#5.1.1">5.1.1.</a> problem 1</h4>
 
 <p>Prove these:</p>
 
@@ -273,12 +195,32 @@ things:
   \end{split}$$</span></p>
 
 </li>
-<li> If <span class="ignored">$x^2 = y^2$</span>, then <span class="ignored">$x=y$</span> or <span class="ignored">$x=-y$</span>.<p><em>Proof&mdash;</em> by using  <a href="#cite_axiommulinverse">Axiom 7</a>:
+<li> If <span class="ignored">$x^2 = y^2$</span>, then <span class="ignored">$x=y$</span> or <span class="ignored">$x=-y$</span>.<p><em>Proof&mdash;</em> by using the theorem we proved above:
   <span class="ignored">$$\begin{split}
-    x^2        &= y^2 \\
-    x^2x^{-1}  &= y^2x^{-1} \\
-    x          &= y^2x^{-1} \\
+    x^2         &= y^2 \\
+    x^2 - y^2   &= 0 \\
+    (x-y)(x+y)  &= 0 \\
   \end{split}$$</span></p>
+
+<p>Then we do divide both sides by the same value.  For now, we pick <span class="ignored">$(x+y)$</span>:
+  <span class="ignored">$$\begin{split}
+    \frac{(x-y)(x+y)}{(x+y)}  &= \frac{0}{(x+y)} \\
+    (x-y)       &= 0 \\
+    x           &= 0 + y\\
+    x           &= y\\
+  \end{split}$$</span></p>
+
+<p>Then we try to divide both sides by another quantity <span class="ignored">$(x-y)$</span> and we get:
+  <span class="ignored">$$\begin{split}
+    \frac{(x-y)(x+y)}{(x-y)}  &= \frac{0}{(x-y)} \\
+    (x+y)       &= 0 \\
+    x           &= 0 + (-y)\\
+    x           &= -y\\
+  \end{split}$$</span></p>
+
+<p>So I've proven that <span class="ignored">$x=y$</span> or <span class="ignored">$x=-y$</span> are possible implications for <span class="ignored">$x^2=y^2$</span>.
+  But, IMO, I really didn't prove that no other cases could exist.  So my next
+  question is:  how to prove that there is <em>no other</em> possibility?</p>
 
 </li>
 </ol>
@@ -290,7 +232,7 @@ things:
     <nav>
         <h2>more &ldquo;<em>theories</em>&rdquo; for u</h2>
         <p>
-            <a href='../6'>page 6</a>, <a href='../5'>page 5</a>, <a href='../4'>page 4</a>, <a href='../3'>page 3</a>, <a href='../2'>page 2</a>, page 1. <a href='lol'>site map</a>.
+            <a href='../7'>page 7</a>, <a href='../6'>page 6</a>, <a href='../5'>page 5</a>, <a href='../4'>page 4</a>, <a href='../3'>page 3</a>, <a href='../2'>page 2</a>, page 1. <a href='lol'>site map</a>.
         </p>
     </nav>
 

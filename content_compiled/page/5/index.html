@@ -41,207 +41,12 @@
     
 
 <article>
-<h2 id="imo_occams_razor_is_abused"><a class="hindex" href="#imo_occams_razor_is_abused">1.</a> imo  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> is abused</h2>
-
-<p>IMO nothing is wrong with  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> statement in  <a href="#cite_occamsrazorquote">Quote 1</a>, so I
-agree with it.</p>
-
-<figure id="cite_occamsrazorquote"><strong><a href="#cite_occamsrazorquote">Quote 1:</a></strong><blockquote><em>&ldquo;More things should not be used than are necessary&rdquo;</em></blockquote><footer style="text-align:right;">&mdash; <cite>William of Ockham, 14th century</cite></footer></figure>
-
-<p>Here is another way to say  <a href="#cite_occamsrazorquote">Quote 1</a> but in more mathy terms:</p>
-
-<figure id="cite_occamsrazorquotemath"><strong><a href="#cite_occamsrazorquotemath">Quote 2:</a></strong><blockquote><em>&ldquo;By definition, all assumptions introduce possibilities for error; if
-          an assumption does not improve the accuracy of a theory, its only
-          effect is to increase the probability that the overall theory is
-          wrong.&rdquo;</em></blockquote><footer style="text-align:right;">&mdash; <cite> <a href="https://en.wikipedia.org/wiki/Occam%27s_razor#Mathematical">Wikipedia</a></cite></footer></figure>
-
-<h3 id="imo_occams_razor_is_abused.notabused"><a class="hindex" href="#imo_occams_razor_is_abused.notabused">1.1.</a> a case where  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> is <em>not</em> abused</h3>
-
-<p>Before I show you how  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> is abused, let me show you a case
-where it is not abused.</p>
-
-<p>Suppose that we want to predict how far would a 100kg stone travel after being
-thrown by a catapult.  Then, someone proposes function
-<span class="ignored">$$f : x_1,_2,\ldots,x_n \to [0, \infty]$$</span>
-where <span class="ignored">$x_1,x_2,\ldots,x_n$</span> are some input numbers that quantify things, such as
-stone's mass, stone's shape, length of the catapult's arm, amount of force that
-moves the arm, etc.</p>
-
-<p>Suppose that <span class="ignored">$f$</span> is pretty accurate in predicting how far the stone would
-travel, with an error that follows the normal distribution <span class="ignored">$N(\mu, \sigma^2)$</span>.</p>
-
-<p>Nice, right?  So now we can use the function <span class="ignored">$f$</span>, feed it with input, and
-pretty accurately get where the projectile would land.</p>
-
-<p>But now imagine some other dude found that the <span class="ignored">$n^{th}$</span> input of <span class="ignored">$f$</span> was not
-needed, so he came up with another function
-<span class="ignored">$$g : x_1,_2,\ldots,x_{n-1} \to [0, \infty]$$</span>
-that needs 1 less input (no need for <span class="ignored">$x_n$</span>), and is also exactly as accurate
-with an error that follows the same normal distribution <span class="ignored">$N(\mu, \sigma^2)$</span>.</p>
-
-<p>As you see, the utility of <span class="ignored">$f$</span> is exactly identical to <span class="ignored">$g$</span>'s, and hence the
-extra complexity of <span class="ignored">$f$</span> due to it needing <span class="ignored">$n$</span> many arguments (instead of <span class="ignored">$n-1$</span>
-as in <span class="ignored">$g$</span>), is <em>unnecessary</em> complexity.</p>
-
-<p>Hence, we can rightfully conclude that <span class="ignored">$g$</span> is a better model in explaining the
-phenomenon than <span class="ignored">$f$</span>.</p>
-
-<h3 id="imo_occams_razor_is_abused.abused"><a class="hindex" href="#imo_occams_razor_is_abused.abused">1.2.</a> a case where  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> <em>is</em> abused</h3>
-
-<p>What if I tell you that, while <span class="ignored">$f$</span> needs an extra argument that <span class="ignored">$g$</span> does not
-need:</p>
-
-<ul>
-<li> <span class="ignored">$f$</span> is <em>much faster</em> when implemented in a computer, which allows calculating
-  catapult's expected accuracy much faster in field, hence increasing its fire
-  rate.</li>
-<li> The extra argument that only <span class="ignored">$f$</span> needs, i.e. <span class="ignored">$x_n$</span>, is a constant specific to
-  the catapult, and is easy to obtain.</li>
-</ul>
-<p>In this case, <span class="ignored">$f$</span>'s extra arguments is suddenly <em>not</em> unnecessary any more
-because the extra argument allows to increase the <em>utility</em> of <span class="ignored">$f$</span> in a
-scenario that we care about.  Therefore, IMO using  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> here to reject
-<span class="ignored">$f$</span> is wrong.</p>
-
-<p>See, <em>utility</em> is important.  If more things increase a thing's utility, then
-those more things are no longer <em>unnecessary</em>, and hence  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> does not
-apply to them.</p>
-
-<p><em>Utility</em> depends on the domain/scenario.  E.g. in the scenario of
- <a href="#imo_occams_razor_is_abused.notabused">Section 1.1</a> <span class="ignored">$f$</span>'s more things is unnecessary, and
-hence  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> applies to eliminate <span class="ignored">$f$</span>.  But in this section's scenario
-<span class="ignored">$f$</span>'s more things is not unnecessary and hence  <a href="https://simple.wikipedia.org/wiki/Occam%27s_razor">Occam's razor</a> does not apply.</p>
-
-<h3 id="imo_occams_razor_is_abused.isGodnoneed"><a class="hindex" href="#imo_occams_razor_is_abused.isGodnoneed">1.3.</a> is believe in God unnecessary?</h3>
-
-<p>I agree that, say, physics' models probably don't need believe in God.  E.g. if
-you give me an equation to model <em>gravity</em> that somehow incorporates <em>believe
-in God</em> into it, then most likely your model has a unnecessary complexity over
-the existing physics model for gravity, which lacks believe in God.</p>
-
-<p>But does this mean that, <em>in all scenarios</em>, believe in God is an unnecessary
-addition?  Simply because adding believe in God in some models, such as
-physic's models for gravity, is unnecessary, it does not mean that believe in
-God is unnecessary in virtually every other scenario.</p>
-
-<p>E.g. <span class="ignored">$f$</span> is not virtually unnecessary in all scenarios.  <span class="ignored">$f$</span> was only
-unnecessary in  <a href="#imo_occams_razor_is_abused.notabused">Section 1.1</a>'s scenario, but it was
-totally necessary in  <a href="#imo_occams_razor_is_abused.abused">Section 1.2</a>'s scenario.</p>
-
-<p>Therefore, if any person claims that <em>&ldquo;believe in God is unnecessary.
-Period!&rdquo;</em>, then that person <em>must</em> prove that there is virtually no scenario
-at all where believe in God has any utility.</p>
-
-<p>I have never seen any person manage to back the claim that &ldquo;<em>there is no
-scenario where God is necessary</em>&rdquo;.  Therefore, by the same sciencey stuff they
-claim they like, I hereby call their claims <em>unsubstantiated</em>.</p>
-
-<h3 id="imo_occams_razor_is_abused.4"><a class="hindex" href="#imo_occams_razor_is_abused.4">1.4.</a> proof that believe in God is necessary</h3>
-
-<p> <a href="#imo_occams_razor_is_abused.isGodnoneed">Section 1.3</a> showed how the claim &ldquo;<em>believe in God
-is unnecessary</em>&rdquo; is actually <em>unsubstantiated</em>.  In <em>this</em> section, I will
-take it further by showing you that it is actually  <em>false</em>.</p>
-
-<p id="cite_believeGodnecessary"><strong><a href="#cite_believeGodnecessary">Theorem 1.</a></strong> <em>Believe in God is necessary.</em></p>
-
-<h4 id="imo_occams_razor_is_abused.4.1"><a class="hindex" href="#imo_occams_razor_is_abused.4.1">1.4.1.</a>  <a href="#cite_believeGodnecessary">Theorem 1</a>'s proof</h4>
-
-<p>First let's define some basic tools<sup><a href="#fn___3">1</a></sup>:</p>
-
-<p id="cite_necessary"><strong><a href="#cite_necessary">Definition 1.</a></strong> <em>For a thing <span class="ignored">$a$</span> to be necessary, there must be a senario <span class="ignored">$s$</span> where
-             <span class="ignored">$a$</span> has maximum utility over its alternative things.</em></p>
-
-<p id="cite_utility"><strong><a href="#cite_utility">Definition 2.</a></strong> <em>For any scenario <span class="ignored">$s$</span>, and for any pair of things <span class="ignored">$a$</span> and <span class="ignored">$b$</span>,
-             <span class="ignored">$a$</span>'s utility is more than <span class="ignored">$b$</span>'s in scenario <span class="ignored">$s$</span>, if and only if
-             <span class="ignored">$a$</span> achieves the goal of <span class="ignored">$s$</span> better than <span class="ignored">$b$</span>.</em></p>
-
-<p id="cite_goal"><strong><a href="#cite_goal">Axiom 1.</a></strong> <em>Our goal in reality/nature is to maximize what is good.</em></p>
-
-<p id="cite_good"><strong><a href="#cite_good">Definition 3.</a></strong> <em>A thing is good if it maximizes our survivability.
-              <a href="https://cave.mn/page/2/#what_is_good">Click here</a> for more info about this definition.</em></p>
-
-<p>In order to prove  <a href="#cite_believeGodnecessary">Theorem 1</a>, all we need to do is to show that
-there exists a scenario <span class="ignored">$s$</span> where believe in God has a higher utility than
-otherwise.</p>
-
-<p>Below is a list of scenarios where believe in God results in a higher
-survivability of its followers (one is enough, but I show more):</p>
-
-<ul>
-<li> Statistics show that  <a href="https://www.dailymail.co.uk/femail/article-4085758/Experts-reveal-sexual-partners-ve-determine-likely-DIVORCE.html">those who commit fornication
-  increase their divorce risk by more than the double</a>.<p>Logically, it's no brainer to see that more divorce implies more kids that
-  are raised by single-parents.  Statistics show that
-   <a href="https://www.webmd.com/baby/news/20030123/absent-parent-doubles-child-suicide-risk#1">single-parented children are more than <em>twice</em> as likely to
-  commit suicide</a>.</p>
-
-<p>As you know, Abrahamic religions forbid sin, and therefore this is a scenario
-  where believing in the Abrahamic God results in saving some lives, aka
-  maximizing the survivability.</p>
-
-<p>You may say, but what if parents never get married?  Well, stats show that
-  they have even higher separation/dumping rate.  So.. really, the best way for
-  your children is a proper Abrahamic marriage.</p>
-
-</li>
-<li>  <a href="https://www.reuters.com/article/us-health-lgbt-teen-suicide/lgbt-youth-at-higher-risk-for-suicide-attempts-idUSKCN1MI1SL">LGBTs have increased suicide risk</a>.  Obviously Abrahaic
-  religions are against this faggy shit, and hence believing in the Abrahamic
-  God helps saving lives (aka increasing survivability).
-</li>
-<li>  <a href="https://www.huffingtonpost.com/2012/06/19/belief-in-hell-lowers-cri_n_1609247.html">Believe in hell lowers the crime rate</a>.  Obviously, another
-  property of Abrahaic religion is hell.  This is why I also personally think
-  &ldquo;<em>hell</em>&rdquo; is a mercy, as it lowers all kinds of crime rate including
-  homicide.  For those who complain about the Abrahamic God for having hell,
-  think again.
-</li>
-<li> Believe in God extends our optimization scope, which allows us to
-  be more likely to invest in <em>good</em> very long-term projects that non-believers
-  won' &mdash; for more info  <a href="https://cave.mn/page/4/#God_extends_optimization_scope">read this</a>.
-</li>
-<li> I can pull more, but I got tired.  So let's stop here.</li>
-</ul>
-<p>On the other hand, I don't know any general statistics that show that
-believe in the Abrahamic God is harmful.  You might be thinking of ISIS, or
-religious wars.  But I have two points for you:</p>
-
-<ul>
-<li> ISIS exists in a proxy war situation and receives foreign funds, plus they
-  themselves violate Abrahamic teachings as they kill innocents, even by
-  Quranic standards.</li>
-<li> In the history of all wars,  <a href="https://en.wikipedia.org/wiki/Religious_war">religious wars make up <em>only</em>
-  6.97% of them</a>.  Meaning, non-religiousness resulted in much more wars.
-  Meaning, religiousness correlate with reduced wars.</li>
-</ul>
-<p>IMO it should be very clear that believe in the Abrahamic God increases our
-survivability.  Then:</p>
-
-<ol>
-<li> By  <a href="#cite_good">Definition 3</a> we can see that believe in the Abrahamic God is <em>good</em>.</li>
-<li> By  <a href="#cite_goal">Axiom 1</a> we can see that believe in the Abrahamic God allows us to meet <em>our
-  goal</em> better</li>
-<li> By  <a href="#cite_utility">Definition 2</a> we can see that there is at least a scenario <span class="ignored">$s$</span> where believe
-  in the Abrahamic God has <em>more utility</em> than otherwise.</li>
-<li> By  <a href="#cite_necessary">Definition 1</a> we can see that believe in the Abrahamic God is necessary.</li>
-</ol>
-<p>Q.E.D.</p>
-
-<footer>
-<hr/>
-<ul style="list-style:none;padding:0; margin:0;"><li id="fn___3"><small>1. IMO the tools are pretty fair and you
-shouldn't face much unease accepting them.</small></li>
-</ul>
-</footer>
-
-
-</article>
-
-
-<article>
-<h2 id="thoughts_on_majority_voting"><a class="hindex" href="#thoughts_on_majority_voting">2.</a> thoughts on majority voting</h2>
+<h2 id="thoughts_on_majority_voting"><a class="hindex" href="#thoughts_on_majority_voting">1.</a> thoughts on majority voting</h2>
 
 <p>Majority voting &mdash;the backbone of democracy&mdash; has several flaws, but this is
 what <em>really</em> bothers me:</p>
 
-<p id="cite_majvotingsucks"><strong><a href="#cite_majvotingsucks">Conjecture 1.</a></strong> <em><em>Ideally</em><sup><a href="#fn___4">2</a></sup>, when the voters are any from the entire
+<p id="cite_majvotingsucks"><strong><a href="#cite_majvotingsucks">Conjecture 1.</a></strong> <em><em>Ideally</em><sup><a href="#fn___2">1</a></sup>, when the voters are any from the entire
            population, the majority of voters are non-experts on the subject
            that they are voting on.</em></p>
 
@@ -252,7 +57,7 @@ nor politics.  So I think  <a href="#cite_majvotingsucks">Conjecture 1</a> is a 
 <p> <a href="#cite_majvotingsucks">Conjecture 1</a> is very bothering, because it says that the best thing you
 could get out of majority voting is some mediocre average <em>shit</em>.</p>
 
-<h3 id="thoughts_on_majority_voting.please"><a class="hindex" href="#thoughts_on_majority_voting.please">2.1.</a> what's its goal?</h3>
+<h3 id="thoughts_on_majority_voting.please"><a class="hindex" href="#thoughts_on_majority_voting.please">1.1.</a> what's its goal?</h3>
 
 <p>But if it's so bad, why do many govs use it?  Are they simply dumb and they
 can't see what a <em>caveman</em> saw?  I doubt.  Are they smart, but there is another
@@ -266,11 +71,11 @@ money if you have a badass population that may riot any time.</p>
 <p id="cite_majvotinggood"><strong><a href="#cite_majvotinggood">Conjecture 2.</a></strong> <em>Majority voting guarantees that the majority of the population are
            happy about the decision.</em></p>
 
-<h3 id="thoughts_on_majority_voting.othergoal"><a class="hindex" href="#thoughts_on_majority_voting.othergoal">2.2.</a> how about other goals?</h3>
+<h3 id="thoughts_on_majority_voting.othergoal"><a class="hindex" href="#thoughts_on_majority_voting.othergoal">1.2.</a> how about other goals?</h3>
 
 <p>What if, instead of aiming to please most people (majority-voting's aim), our
 goal was to rather find <em>the best</em> decision?  I don't think majority voting is
-it (due to  <a href="#cite_majvotingsucks">Conjecture 1</a>).  What I think is it<sup><a href="#fn___5">3</a></sup>, is the following method:</p>
+it (due to  <a href="#cite_majvotingsucks">Conjecture 1</a>).  What I think is it<sup><a href="#fn___3">2</a></sup>, is the following method:</p>
 
 <ol>
 <li> Agree on the definition of what is <em>good</em>.  I suggest  <a href="https://cave.mn/page/2/#what_is_good">this definition
@@ -287,24 +92,24 @@ good</em>.</p>
 E.g. if statistics is the source, then we will see ppl generating false
 statistics and claiming that they are legit, while they aren't.</p>
 
-<h3 id="thoughts_on_majority_voting.3"><a class="hindex" href="#thoughts_on_majority_voting.3">2.3.</a> what's happening in reality?</h3>
+<h3 id="thoughts_on_majority_voting.3"><a class="hindex" href="#thoughts_on_majority_voting.3">1.3.</a> what's happening in reality?</h3>
 
 <p>IMO, in reality, in <em>nice</em> democratic countries, this is what's happening:</p>
 
 <ol>
 <li> Majority voting is used to calm idiots so they don't riot in streets.  They
   only elect a symbolic figure, like a president &mdash;
-   <a href="#thoughts_on_majority_voting.please">Section 2.1</a>.</li>
+   <a href="#thoughts_on_majority_voting.please">Section 1.1</a>.</li>
 <li> The real decisions are actually done by experts in their domains (e.g. game
   theorists, logicians, statisticians, etc) behind closed doors &mdash;
-   <a href="#thoughts_on_majority_voting.othergoal">Section 2.2</a>.</li>
+   <a href="#thoughts_on_majority_voting.othergoal">Section 1.2</a>.</li>
 </ol>
 <p>In <em>nice</em> dictatorship countries, this is what's happening:</p>
 
 <ol>
 <li> The real decisions are actually done by experts in their domains (e.g. game
   theorists, logicians, statisticians, etc) behind closed doors &mdash;
-   <a href="#thoughts_on_majority_voting.othergoal">Section 2.2</a>.</li>
+   <a href="#thoughts_on_majority_voting.othergoal">Section 1.2</a>.</li>
 </ol>
 <p>As you see, nice dictatorship is more efficient than nice democracy as the
 former doesn't need to waste resources to run the votes.</p>
@@ -312,7 +117,7 @@ former doesn't need to waste resources to run the votes.</p>
 <p>Which is of course not a surprise that a nice dictatorship is better than a
 nice democracy.</p>
 
-<h3 id="thoughts_on_majority_voting.4"><a class="hindex" href="#thoughts_on_majority_voting.4">2.4.</a> democracy vs. dictatorship</h3>
+<h3 id="thoughts_on_majority_voting.4"><a class="hindex" href="#thoughts_on_majority_voting.4">1.4.</a> democracy vs. dictatorship</h3>
 
 <p>Which approach is more likely to produce a nice system: Democracy? Or
 dictatorship?  IMO <em>dictatorship</em>, because:</p>
@@ -328,9 +133,9 @@ dictatorship?  IMO <em>dictatorship</em>, because:</p>
 <p>Of course, democracy is also bound by natural selection, which is why I think
 it <em>mostly</em> got extinct in practice due to  <a href="#cite_majvotingsucks">Conjecture 1</a>.</p>
 
-<h3 id="thoughts_on_majority_voting.5"><a class="hindex" href="#thoughts_on_majority_voting.5">2.5.</a> will voting always work?</h3>
+<h3 id="thoughts_on_majority_voting.5"><a class="hindex" href="#thoughts_on_majority_voting.5">1.5.</a> will voting always work?</h3>
 
-<p>In  <a href="#thoughts_on_majority_voting.please">Section 2.1</a> is said that majority voting is good to
+<p>In  <a href="#thoughts_on_majority_voting.please">Section 1.1</a> is said that majority voting is good to
 calm people, and hence save money that would be otherwise spent on riot
 control.  In this section I ask the question: <em>will it always work?</em></p>
 
@@ -346,12 +151,119 @@ In the case of the latter, IMO it goes under <em>lies don't sustain</em> like an
 
 <footer>
 <hr/>
-<ul style="list-style:none;padding:0; margin:0;"><li id="fn___4"><small>2. Assuming no strategic dishonest voting, or exploitations
+<ul style="list-style:none;padding:0; margin:0;"><li id="fn___2"><small>1. Assuming no strategic dishonest voting, or exploitations
            by foreign faggots.</small></li>
-<li id="fn___5"><small>3. Assuming ideal scenario with
+<li id="fn___3"><small>2. Assuming ideal scenario with
 no dishonest people.</small></li>
 </ul>
 </footer>
+
+
+</article>
+
+
+<article>
+<h2 id="kants_shit_is_obsolete"><a class="hindex" href="#kants_shit_is_obsolete">2.</a>  <a href="https://en.wikipedia.org/wiki/Immanuel_Kant">Kant</a>'s  <a href="https://en.wikipedia.org/wiki/Categorical_imperative">categorical imperative</a> is obsolete</h2>
+
+<p>I just wanna say that  <a href="https://en.wikipedia.org/wiki/Immanuel_Kant">Kant</a>'s  <a href="https://en.wikipedia.org/wiki/Categorical_imperative">categorical imperative</a>:</p>
+
+<p id="cite_thecategoricalimp"><strong><a href="#cite_thecategoricalimp">Rule 1.</a></strong> <em>Act only according to that maxim whereby you can, at the same time,
+      will that it should become a universal law.</em></p>
+
+<p>is obsoleted by my superior alternative:</p>
+
+<p id="cite_dogood"><strong><a href="#cite_dogood">Rule 2.</a></strong> <em>Do what is  <a href="https://cave.mn/page/2/#what_is_good">good</a> for humanity.</em></p>
+
+<p><em>Why?</em> you may ask.  Bcoz <em>simpler</em> and <em>correcter</em>.  The <em>simpler</em> is maybe
+easy to see, but why <em>correcter</em>?</p>
+
+<h3 id="kants_shit_is_obsolete.1"><a class="hindex" href="#kants_shit_is_obsolete.1">2.1.</a> suicide case</h3>
+
+<p> <a href="#cite_dogood">Rule 2</a> is correcter than  <a href="#cite_thecategoricalimp">Rule 1</a> because former is much more
+objective than the latter.  E.g. with  <a href="#cite_thecategoricalimp">Rule 1</a> a suicidal person may
+say &ldquo;<em>Welp&hellip; I'm OK to be killed by others, therefore it is also OK for me to
+kill others</em>&rdquo;.  This problem does not exist in  <a href="#cite_dogood">Rule 2</a>.</p>
+
+<p>But  <a href="https://en.wikipedia.org/wiki/Immanuel_Kant">Kant</a> knew of that suicide issue and proposed a solution.  So  <a href="https://en.wikipedia.org/wiki/Categorical_imperative#Suicide">he added a special case</a>
+to handle the suicide.  IMO he is basically adding the exception &ldquo;<em>let's also
+not get extinct!</em>&rdquo;<sup><a href="#fn___4">3</a></sup> &mdash; my
+ <a href="#cite_dogood">Rule 2</a> handles this issue cleanly without needing to add any special case!</p>
+
+<h3 id="kants_shit_is_obsolete.2"><a class="hindex" href="#kants_shit_is_obsolete.2">2.2.</a> fancy facility case</h3>
+
+<p>Here is another example beyond the suicide case earlier where my  <a href="#cite_dogood">Rule 2</a>
+trumps  <a href="https://en.wikipedia.org/wiki/Immanuel_Kant">Kant</a>'s  <a href="#cite_thecategoricalimp">Rule 1</a>:</p>
+
+<ul>
+<li> I want to build a massive research facility that will help humanity do some
+  really advanced research to save humanity.</li>
+<li> But this facility is soooOoOo big that there can be only one of its kind on
+  Earth.  If any one else tried to build another facility of this kind, it will
+  harm the functionality of the other.  It's some kind of advanced research.</li>
+<li> This means I will want to build this good facility, yet at the same time not
+  want anyone else to build a similar facility.</li>
+</ul>
+<p>Under  <a href="https://en.wikipedia.org/wiki/Immanuel_Kant">Kant</a>'s  <a href="#cite_thecategoricalimp">Rule 1</a>, it will be <em>immoral</em> of me if I created
+that obviously good research facility!  IMO this shows a limitation in
+ <a href="#cite_thecategoricalimp">Rule 1</a>.</p>
+
+<p>While my  <a href="#cite_dogood">Rule 2</a> does not suffer from any of those exceptions.
+As you see, my shit is simpler and better than  <a href="https://en.wikipedia.org/wiki/Immanuel_Kant">Kant</a>'s shit.</p>
+
+<h3 id="kants_shit_is_obsolete.3"><a class="hindex" href="#kants_shit_is_obsolete.3">2.3.</a> why didn't  <a href="https://en.wikipedia.org/wiki/Immanuel_Kant">Kant</a> see  <a href="#cite_dogood">Rule 2</a>?</h3>
+
+<p>Maybe in part because he was from the 1700s, while evolution came later IMO
+since  <a href="https://en.wikipedia.org/wiki/Charles_Darwin">Darwin</a> is an 1800s dude.  This matters because it relates to how I
+define  <a href="https://cave.mn/page/2/#what_is_good">good</a>.</p>
+
+<footer>
+<hr/>
+<ul style="list-style:none;padding:0; margin:0;"><li id="fn___4"><small>3. I'm paraphrasing  <a href="https://en.wikipedia.org/wiki/Immanuel_Kant">Kant</a>'s words in my own's.</small></li>
+</ul>
+</footer>
+
+
+</article>
+
+
+<article>
+<h2 id="God_extends_optimization_scope"><a class="hindex" href="#God_extends_optimization_scope">3.</a> God extends our optimization scope</h2>
+
+<p id="cite_very_long_term_proj_def"><strong><a href="#cite_very_long_term_proj_def">Definition 1.</a></strong> <em>A project <span class="ignored">$p$</span> is said to be &ldquo;a very long-term project&rdquo; if, and only
+           if, founder of <span class="ignored">$p$</span>, i.e. dude <span class="ignored">$x$</span>, knows that <span class="ignored">$p$</span> will be profitable
+           only after <span class="ignored">$x$</span>'s death.</em></p>
+
+<p id="cite_god_extends_optimization_scope"><strong><a href="#cite_god_extends_optimization_scope">Theorem 1.</a></strong> <em>The probability of having person <span class="ignored">$x$</span> found a very long-term project is
+        higher when person <span class="ignored">$x$</span> believes in a fair God, than the alternative
+        case where <span class="ignored">$x$</span> doesn't.</em></p>
+
+<h3 id="God_extends_optimization_scope.1"><a class="hindex" href="#God_extends_optimization_scope.1">3.1.</a>  <a href="#cite_god_extends_optimization_scope">Theorem 1</a>'s proof</h3>
+
+<p>IMO if a person doesn't believe in God, then &mdash;logically speaking&mdash; his
+<em>brain</em> has no reason to justify investing effort in any long-term project that
+will only profit after person's death.  His <em>brain</em> will only accept investing
+in projects that will be profitable during his lifespan.</p>
+
+<p>The only way to get your <em>brain</em> to accept that investing in such long-term
+projects is a good idea, is to have some kind of punishments/rewards system
+that will apply to you after your death&mdash;AKA a fair God.</p>
+
+<p>There you go:  on advantage of believing in a fair God is that it makes your
+<em>brain</em> accept investing in long-term projects that would benefit humanity in
+the long run, even though you might be alive to see that day.</p>
+
+<p>The only way a Godless person can do that is by having his <em>feelings</em> push him
+to care about past his death (but not his <em>brain</em>).  Worse, such <em>feelings</em>
+would always face resistance from the <em>brain</em>.</p>
+
+<p>But, a Godly person would have his <em>brain</em> and <em>feelings</em> in agreement about
+investments in positive long-term projects that benefit humanity, because the
+believe in the fair God implies a fair reward even after one's death.</p>
+
+<p id="cite_godmightbereal"><strong><a href="#cite_godmightbereal">Note 1.</a></strong> <em>Even though this column discussed God from an atheist's perspective, it
+     does not mean that God is unreal.  It just means that even an atheist
+     should find a reason to appreciate believe in God&mdash;unless he is suicidal
+     and doesn't care about humanity's survivability.</em></p>
 
 
 </article>
@@ -361,7 +273,7 @@ no dishonest people.</small></li>
     <nav>
         <h2>more &ldquo;<em>theories</em>&rdquo; for u</h2>
         <p>
-            <a href='../6'>page 6</a>, page 5, <a href='../4'>page 4</a>, <a href='../3'>page 3</a>, <a href='../2'>page 2</a>, <a href='../1'>page 1</a>. <a href='lol'>site map</a>.
+            <a href='../7'>page 7</a>, <a href='../6'>page 6</a>, page 5, <a href='../4'>page 4</a>, <a href='../3'>page 3</a>, <a href='../2'>page 2</a>, <a href='../1'>page 1</a>. <a href='lol'>site map</a>.
         </p>
     </nav>
 
