@@ -76,7 +76,7 @@ Prove these:
     (x-y)(x+y)  &= 0 \\
   \end{split}$$
 
-  Then we do divide both sides by the same value.  For now, we pick $(x+y)$:
+  Then we divide both sides by the same value.  For now, we pick $(x+y)$:
   $$\begin{split}
     \frac{(x-y)(x+y)}{(x+y)}  &= \frac{0}{(x+y)} \\
     (x-y)       &= 0 \\
