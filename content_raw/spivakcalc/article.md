@@ -14,7 +14,7 @@ axiom:axiommulass
 text :$a(bc) = (ab)c$.
 
 axiom:axiommulidentity
-text :$a \cdot 1 = 1 \cdot a = a$.
+text :$a 1 = 1 a = a$.
 
 axiom:axiommulinverse
 text :$aa^{-1} = a^{-1}a = 1$, for all $a \ne 0$.
@@ -49,7 +49,7 @@ Prove these:
   _Proof---_ by using [axiommulinverse]:
   $$\begin{split}
     a^{-1}ax &= a^{-1}a\\
-    1\cdot x &= 1\\
+    1 x &= 1\\
   \end{split}$$
   
   By using [axiommulidentity]
@@ -76,11 +76,11 @@ Prove these:
     (x-y)(x+y)  &= 0 \\
   \end{split}$$
 
-  Then we use [axiommulinverse] and multipiply both sides by, first
-  $(x+y)^{-1}$, then later by $(x-y)^{-1}$.  But since [axiommulinverse] is
-  only defined for non-zero numbers, we need to state that those
-  multiplications are for when $(x+y)\ne0$ and $(x-y)\ne0$, respectively.
-  Hence we need to handle $(x+y)=0$ and $(x-y)=0$ separately as well.
+  Then we use [axiommulinverse] and multiply both sides by $(x+y)^{-1}$ or
+  $(x-y)^{-1}$.  But since [axiommulinverse] is only defined for non-zero
+  numbers, we need to state that those multiplications are for when $(x+y)\ne0$
+  or $(x-y)\ne0$, respectively.  Hence we need to handle $(x+y)=0$ or $(x-y)=0$
+  separately as well.
 
   * Case $(x+y) = 0$:
   $$\begin{split}
@@ -89,29 +89,36 @@ Prove these:
     x        &= -y\\
   \end{split}$$
 
-  * Case $(x-y) = 0$:
-  $$\begin{split}
-    x-y   &= 0 \\
-    x-y+y &= 0 + y\\
-    x        &= y\\
-  \end{split}$$
+  This case says that $x^2 = y^2$ implies that $x=-y$.
 
   * Case $(x+y) \ne 0$:
 
-  Using [axiommulinverse]:
+  Using [axiomaddidentity], [axiommulass], [axiommulidentity] and
+  [axiommulinverse]:
   $$\begin{split}
-    (x-y)(x+y)(x+y)^{-1}    &= 0(x+y)^{-1} \\
-    (x-y)       &= 0 \\
-    x           &= 0 + y\\
-    x           &= y\\
+    (x-y)(x+y)(x+y)^{-1}            &= 0(x+y)^{-1} \\
+    (x-y)\big((x+y)(x+y)^{-1}\big)  &= 0(x+y)^{-1} \\
+    (x-y) 1                    &= 0(x+y)^{-1} \\
+    (x-y)                           &= 0 \\
+    x                               &= 0 + y\\
+    x                               &= y\\
   \end{split}$$
 
-  * Case $(x-y) \ne 0$:
+  This case says that $x^2 = y^2$ implies that $x=y$.
 
-  Using [axiommulinverse]:
+  Note: $a 0 = 0$ is not listed in the axioms, but can be proven using
+  them:
   $$\begin{split}
-    (x-y)(x+y)(x-y)^{-1}    &= 0(x-y)^{-1} \\
-    (x+y)       &= 0 \\
-    x           &= 0 + (-y)\\
-    x           &= -y\\
+    a 0 + a 0     &= a(0+0)\\
+                            &= a  0 \\
+    a 0 + a 0 + (-a0)  &= a 0 + (-a 0)\\
+    a 0                &= 0\\
   \end{split}$$
+
+  Since the 2 cases above are exhaustive and mutually exclusive, then we can
+  conclude that $x$ could _only_ be either $y$ or $-y$.
+  
+  IMO the fact at the 2 cases are mutually exclusive is nice, since it
+  eliminates the need for performing additional proves to show that there is no
+  contradictions among the overlapping cases --- not sure about this, just my
+  opinion.  Please tell me what do you think.
