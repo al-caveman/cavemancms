@@ -44,7 +44,7 @@ For any numbers $a,b,c$:
 
 Prove these:
 
-+ If $ax=a$ for some number $a\ne 0$, then $x=1$.
+#### If $ax=a$ for some number $a\ne 0$, then $x=1$
 
   _Proof---_ by using [axiommulinverse]:
   $$\begin{split}
@@ -57,7 +57,7 @@ Prove these:
     x &= 1\\
   \end{split}$$
 
-+ $x^2 - y^2 = (x-y)(x+y)$.
+#### $x^2 - y^2 = (x-y)(x+y)$
 
   _Proof---_ by using [axiomdistributive]:
   $$\begin{split}
@@ -67,7 +67,7 @@ Prove these:
                &= x^2-y^2 \\
   \end{split}$$
 
-+ If $x^2 = y^2$, then $x=y$ or $x=-y$.
+#### If $x^2 = y^2$, then $x=y$ or $x=-y$
 
   _Proof---_ by using the theorem we proved above:
   $$\begin{split}
@@ -115,10 +115,10 @@ Prove these:
 
   This case says that $x^2 = y^2$ implies that $x=-y$.
 
-  Since the 2 cases above are exhaustive and mutually exclusive, then we can
-  conclude that $x$ could _only_ be either $y$ or $-y$.
-  
-  IMO the fact at the 2 cases are mutually exclusive is nice, since it
-  eliminates the need for performing additional proves to show that there is no
-  contradictions among the overlapping cases --- not sure about this, just my
-  opinion.  Please tell me what do you think.
+Since the 2 cases above are exhaustive and mutually exclusive, then we can
+conclude that $x$ could _only_ be either $y$ or $-y$.
+
+IMO the fact at the 2 cases are mutually exclusive is nice, since it
+eliminates the need for performing additional proves to show that there is no
+contradictions among the overlapping cases --- not sure about this, just my
+opinion.  Please tell me what do you think.

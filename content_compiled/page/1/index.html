@@ -173,20 +173,22 @@ things:
 
 <p>Prove these:</p>
 
-<ol>
-<li> If <span class="ignored">$ax=a$</span> for some number <span class="ignored">$a\ne 0$</span>, then <span class="ignored">$x=1$</span>.<p><em>Proof&mdash;</em> by using  <a href="#cite_axiommulinverse">Axiom 7</a>:
+<h5 id="5.1.1.1"><a class="hindex" href="#5.1.1.1">5.1.1.1.</a> If <span class="ignored">$ax=a$</span> for some number <span class="ignored">$a\ne 0$</span>, then <span class="ignored">$x=1$</span></h5>
+
+<p><em>Proof&mdash;</em> by using  <a href="#cite_axiommulinverse">Axiom 7</a>:
   <span class="ignored">$$\begin{split}
     a^{-1}ax &= a^{-1}a\\
     1 x &= 1\\
   \end{split}$$</span></p>
 
-<p>By using  <a href="#cite_axiommulidentity">Axiom 6</a>
+<p>  By using  <a href="#cite_axiommulidentity">Axiom 6</a>
   <span class="ignored">$$\begin{split}
     x &= 1\\
   \end{split}$$</span></p>
 
-</li>
-<li> <span class="ignored">$x^2 - y^2 = (x-y)(x+y)$</span>.<p><em>Proof&mdash;</em> by using  <a href="#cite_axiomdistributive">Axiom 9</a>:
+<h5 id="5.1.1.2"><a class="hindex" href="#5.1.1.2">5.1.1.2.</a> <span class="ignored">$x^2 - y^2 = (x-y)(x+y)$</span></h5>
+
+<p><em>Proof&mdash;</em> by using  <a href="#cite_axiomdistributive">Axiom 9</a>:
   <span class="ignored">$$\begin{split}
     (x-y)(x+y) &= x(x-y)+y(x-y) \\
                &= (xx-xy)+(yx-yy) \\
@@ -194,15 +196,16 @@ things:
                &= x^2-y^2 \\
   \end{split}$$</span></p>
 
-</li>
-<li> If <span class="ignored">$x^2 = y^2$</span>, then <span class="ignored">$x=y$</span> or <span class="ignored">$x=-y$</span>.<p><em>Proof&mdash;</em> by using the theorem we proved above:
+<h5 id="5.1.1.3"><a class="hindex" href="#5.1.1.3">5.1.1.3.</a> If <span class="ignored">$x^2 = y^2$</span>, then <span class="ignored">$x=y$</span> or <span class="ignored">$x=-y$</span></h5>
+
+<p><em>Proof&mdash;</em> by using the theorem we proved above:
   <span class="ignored">$$\begin{split}
     x^2         &= y^2 \\
     x^2 - y^2   &= 0 \\
     (x-y)(x+y)  &= 0 \\
   \end{split}$$</span></p>
 
-<p>Then we use  <a href="#cite_axiommulinverse">Axiom 7</a> and multiply both sides by <span class="ignored">$(x+y)^{-1}$</span> or
+<p>  Then we use  <a href="#cite_axiommulinverse">Axiom 7</a> and multiply both sides by <span class="ignored">$(x+y)^{-1}$</span> or
   <span class="ignored">$(x-y)^{-1}$</span>.  But since  <a href="#cite_axiommulinverse">Axiom 7</a> is only defined for non-zero
   numbers, we need to state that those multiplications are for when <span class="ignored">$(x+y)\ne0$</span>
   or <span class="ignored">$(x-y)\ne0$</span>, respectively.  Hence we need to handle <span class="ignored">$(x+y)=0$</span> or <span class="ignored">$(x-y)=0$</span>
@@ -239,18 +242,16 @@ things:
     x        &= -y\\
   \end{split}$$</span><p>This case says that <span class="ignored">$x^2 = y^2$</span> implies that <span class="ignored">$x=-y$</span>.</p>
 
-<p>Since the 2 cases above are exhaustive and mutually exclusive, then we can
-  conclude that <span class="ignored">$x$</span> could <em>only</em> be either <span class="ignored">$y$</span> or <span class="ignored">$-y$</span>.</p>
-
-<p>IMO the fact at the 2 cases are mutually exclusive is nice, since it
-  eliminates the need for performing additional proves to show that there is no
-  contradictions among the overlapping cases &mdash; not sure about this, just my
-  opinion.  Please tell me what do you think.</p>
-
 </li>
 </ul>
-</li>
-</ol>
+<p>Since the 2 cases above are exhaustive and mutually exclusive, then we can
+conclude that <span class="ignored">$x$</span> could <em>only</em> be either <span class="ignored">$y$</span> or <span class="ignored">$-y$</span>.</p>
+
+<p>IMO the fact at the 2 cases are mutually exclusive is nice, since it
+eliminates the need for performing additional proves to show that there is no
+contradictions among the overlapping cases &mdash; not sure about this, just my
+opinion.  Please tell me what do you think.</p>
+
 
 </article>
 
