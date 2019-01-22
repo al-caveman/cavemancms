@@ -78,11 +78,11 @@ Prove these:
 
   Then we use [axiommulinverse] and multiply both sides by $(x+y)^{-1}$ or
   $(x-y)^{-1}$.  But since [axiommulinverse] is only defined for non-zero
-  numbers, we need to state that those multiplications are for when $(x+y)\ne0$
-  or $(x-y)\ne0$, respectively.  Hence we need to handle $(x+y)=0$ or $(x-y)=0$
+  numbers, we need to state that those multiplications are for when $x+y\ne0$
+  or $x-y\ne0$, respectively.  Hence we need to handle $x+y=0$ or $x-y=0$
   separately as well.
 
-  * Case $(x+y) \ne 0$:
+  * Case $x+y \ne 0$:
 
   Using [axiomaddidentity], [axiommulass], [axiommulidentity] and
   [axiommulinverse]:
@@ -95,7 +95,7 @@ Prove these:
     x                               &= y\\
   \end{split}$$
 
-  This case says that $x^2 = y^2$ implies that $x=y$.
+  This case says that, if $x+y\ne0$, then $x^2 = y^2$ would imply that $x=y$.
 
   Note: $a 0 = 0$ is not listed in the axioms, but can be proven using
   them:
@@ -106,17 +106,17 @@ Prove these:
     a 0                &= 0\\
   \end{split}$$
 
-  * Case $(x+y) = 0$:
+  * Case $x+y = 0$:
   $$\begin{split}
     x+y   &= 0 \\
     x+y+(-y) &= 0 + (-y)\\
     x        &= -y\\
   \end{split}$$
 
-  This case says that $x^2 = y^2$ implies that $x=-y$.
+  This case says that, if $x+y=0$, then $x^2 = y^2$ would imply that $x=-y$.
 
-Since the 2 cases above are exhaustive and mutually exclusive, then we can
-conclude that $x$ could _only_ be either $y$ or $-y$.
+Since the 2 cases above, $x+y\ne0$ and $x+y=0$, are exhaustive and mutually
+exclusive, then we can conclude that $x$ could _only_ be either $y$ or $-y$.
 
 IMO the fact at the 2 cases are mutually exclusive is nice, since it
 eliminates the need for performing additional proves to show that there is no
