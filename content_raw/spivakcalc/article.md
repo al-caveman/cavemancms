@@ -139,6 +139,58 @@ $$
 x^n-y^n = (x-y)\left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)
 $$
 
+##### easy proof
+
+Using [axiomdistributive]:
+$$\begin{split}
+& (x-y)\left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)\\
+&= x\left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)
+   -y\left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)\\
+&= x\left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)
+   -y\left(x^{n-n}y^{n-1} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i-1}\right)\\
+&= x\left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)
+   -y\left(x^{0}y^{n-1} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i-1}\right)\\
+&= x\left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)
+   -y\left(y^{n-1} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i-1}\right)\\
+&= x\left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)
+   -\left(y^{n} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i}\right)\\
+&= x\left(x^{n-1}y^{1-1} + \sum_{i=2}^{i=n} x^{n-i}y^{i-1}\right)
+   -\left(y^{n} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i}\right)\\
+&= x\left(x^{n-1}y^{0} + \sum_{i=2}^{i=n} x^{n-i}y^{i-1}\right)
+   -\left(y^{n} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i}\right)\\
+&= x\left(x^{n-1} + \sum_{i=2}^{i=n} x^{n-i}y^{i-1}\right)
+   -\left(y^{n} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i}\right)\\
+&= \left(x^{n} + \sum_{i=2}^{i=n} x^{n-i+1}y^{i-1}\right)
+   -\left(y^{n} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i}\right)\\
+&= \left(x^{n} + \sum_{i=1}^{i=n-1} x^{n-(i+1)+1}y^{(i+1)-1}\right)
+   -\left(y^{n} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i}\right)\\
+&= \left(x^{n} + \sum_{i=1}^{i=n-1} x^{n-i-1+1}y^{i+1-1}\right)
+   -\left(y^{n} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i}\right)\\
+&= \left(x^{n} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i}\right)
+   -\left(y^{n} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i}\right)\\
+&= x^{n} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i}
+   - y^{n} - \sum_{i=1}^{i=n-1} x^{n-i}y^{i}\\
+\end{split}$$
+
+Then using [axiomaddass]:
+$$\begin{split}
+& x^{n} + \sum_{i=1}^{i=n-1} x^{n-i}y^{i}
+   - y^{n} - \sum_{i=1}^{i=n-1} x^{n-i}y^{i}\\
+&= x^{n}
+   - y^{n}
+   + \left(\sum_{i=1}^{i=n-1} x^{n-i}y^{i}
+   - \sum_{i=1}^{i=n-1} x^{n-i}y^{i}\right)\\
+&= x^{n}
+   - y^{n}
+   + \left(0\right)\\
+&= x^{n}
+   - y^{n}
+\end{split}$$
+
+
+
+##### hard proof
+
 Let:
 $$
 f(x,y,n) = \left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)
