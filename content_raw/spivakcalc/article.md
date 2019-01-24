@@ -25,7 +25,7 @@ text :$ab=ba$.
 axiom:axiomdistributive
 text :$a(b+c) = ab+ac$.
 
-# spivak's calculus problems
+#spivak_calc_probs spivak's calculus problems
 
 ## chapter 1
 
@@ -115,10 +115,82 @@ Prove these:
 
   This case says that, if $x+y=0$, then $x^2 = y^2$ would imply that $x=-y$.
 
-Since the 2 cases above, $x+y\ne0$ and $x+y=0$, are exhaustive and mutually
-exclusive, then we can conclude that $x$ could _only_ be either $y$ or $-y$.
+Since the 2 cases above, $x+y\ne0$ and $x+y=0$, are exhaustive, then we can
+conclude that $x$ could _only_ be either $y$ or $-y$.
 
-IMO the fact at the 2 cases are mutually exclusive is nice, since it
-eliminates the need for performing additional proves to show that there is no
-contradictions among the overlapping cases --- not sure about this, just my
-opinion.  Please tell me what do you think.
+#### $x^3-y^3 = (x-y)(x^2+xy+y^2)$
+
+Using [axiomdistributive] two times:
+
+$$\begin{split}
+    &(x-y)(x^2 + xy + y^2) \\
+    &= (x-y)x^2 + (x-y)xy + (x-y)y^2\\
+    &= (x-y)x^2 + (x-y)xy + (x-y)y^2\\
+    &= xx^2-yx^2 + xxy-yxy + xy^2-yy^2\\
+    &= x^3-yx^2 + x^2y-xy^2 + xy^2 - y^3\\
+    &= x^3 - y^3\\
+\end{split}$$
+
+#### $x^n-y^n$ $=$ $(x-y)(x^{n-1}$ $+$ $x^{n-2}y$ $+$ $\ldots$ $+$ $xy^{n-2}$
+$+$ $y^{n-1})$
+
+I guess Spivak wants to say:
+$$
+x^n-y^n = (x-y)\left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)
+$$
+
+Let:
+$$
+f(x,y,n) = \left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)
+$$
+
+Then we can say (is this sub-proof perfect?):
+$$\begin{split}
+x^{n+1}-y^{n+1} &= (x-y)\left(\sum_{i=1}^{i=n+1} x^{(n+1)-i}y^{i-1}\right)\\
+                &= (x-y)\left(
+                        \begin{split}
+                            &x^{(n+1)-(n+1)} y^{(n+1)-1}\\
+                            &+ \sum_{i=1}^{i=n} x^{(n+1)-i}y^{i-1}
+                        \end{split}
+                    \right)\\
+                &= (x-y)\left(
+                        x^{0} y^{n}
+                        + \sum_{i=1}^{i=n} x^{(n+1)-i}y^{i-1}
+                    \right)\\
+                &= (x-y)\left(
+                        y^{n}
+                        + \sum_{i=1}^{i=n} x^{(n+1)-i}y^{i-1}
+                    \right)\\
+                &= (x-y)\left(
+                        y^{n}
+                        + x\sum_{i=1}^{i=n} x^{n-i}y^{i-1}
+                    \right)\\
+                &= (x-y)\left(
+                        y^{n}
+                        + xf(x,y,n)
+                    \right)\\
+\end{split}$$
+
+We can also rewrite what Spivak wants into:
+$$
+x^n-y^n = (x-y)\Big(y^{n-1} + xf(x,y,n-1)\Big)
+$$
+
+We've already proven in [spivak_calc_probs.1.1.2]:
+$$\begin{split}
+x^2-y^2 &= (x-y)(x+y)\\
+        &= (x-y)\left(\sum_{i=1}^{i=2} x^{2-i}y^{i-1}\right)\\
+        &= (x-y)\Big(y^{2-1} + xf(x,y,2-1)\Big)\\
+\end{split}$$
+
+Then, by induction, we prove that:
+$$\begin{split}
+x^2-y^2 &= (x-y)\Big(y^{2-1} + xf(x,y,2-1)\Big)\\
+x^3-y^3 &= (x-y)\Big(y^{3-1} + xf(x,y,3-1)\Big)\\
+\vdots\\
+x^n-y^n &= (x-y)\Big(y^{n-1} + xf(x,y,n-1)\Big)\\
+\end{split}$$
+
+And since $(x-y)(y^{n-1} + xf(x,y,n-1))$ is only a rewrite of what Spivak
+wants, i.e. $(x-y)(x^{n-1}$ $+$ $x^{n-2}y$ $+$ $\ldots$ $+$ $xy^{n-2})$,
+therefore Q.E.D already.
