@@ -1,5 +1,5 @@
 definition:consciousness
-text      :If $x$ is said to have "consciousness'' if, and only if, $x$ has a
+text      :$x$ is said to have "consciousness'' if, and only if, $x$ has a
            point of view.
 
 question:simq
