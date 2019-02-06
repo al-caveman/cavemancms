@@ -171,7 +171,7 @@ conclude that <span class="ignored">$x$</span> could <em>only</em> be either <sp
 <p>I guess Spivak wants to say:
 <span class="ignored">$$x^n-y^n = (x-y)\left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)$$</span></p>
 
-<h6 id="spivak_calc_probs.1.1.5.1"><a class="hindex" href="#spivak_calc_probs.1.1.5.1">1.1.1.5.1.</a> easy proof</h6>
+<h6 id="spivak_calc_probs.1.1.5.1"><a class="hindex" href="#spivak_calc_probs.1.1.5.1">1.1.1.5.1.</a> proof by deduction</h6>
 
 <p>Using  <a href="#cite_axiomdistributive">Axiom 9</a>:
 <span class="ignored">$$\begin{split}
@@ -219,7 +219,7 @@ conclude that <span class="ignored">$x$</span> could <em>only</em> be either <sp
    - y^{n}
 \end{split}$$</span></p>
 
-<h6 id="spivak_calc_probs.1.1.5.2"><a class="hindex" href="#spivak_calc_probs.1.1.5.2">1.1.1.5.2.</a> hard proof</h6>
+<h6 id="spivak_calc_probs.1.1.5.2"><a class="hindex" href="#spivak_calc_probs.1.1.5.2">1.1.1.5.2.</a> proof by induction</h6>
 
 <p>Let:
 <span class="ignored">$$f(x,y,n) = \left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)$$</span></p>
@@ -272,6 +272,15 @@ x^n-y^n &= (x-y)\Big(y^{n-1} + xf(x,y,n-1)\Big)\\
 <p>And since <span class="ignored">$(x-y)(y^{n-1} + xf(x,y,n-1))$</span> is only a rewrite of what Spivak
 wants, i.e. <span class="ignored">$(x-y)(x^{n-1}$</span> <span class="ignored">$+$</span> <span class="ignored">$x^{n-2}y$</span> <span class="ignored">$+$</span> <span class="ignored">$\ldots$</span> <span class="ignored">$+$</span> <span class="ignored">$xy^{n-2})$</span>,
 therefore Q.E.D already.</p>
+
+<h5 id="spivak_calc_probs.1.1.6"><a class="hindex" href="#spivak_calc_probs.1.1.6">1.1.1.6.</a> <span class="ignored">$x^3 + y^3 = (x+y)(x^2 - xy + y^2)$</span></h5>
+
+<p>By using the proof in  <a href="#spivak_calc_probs.1.1.2">Section 1.1.1.2</a>
+<span class="ignored">$$\begin{split}
+    x^3 - y^3 &= (x-y)(x^2 + xy + y^2) \\
+    x^3 - y^3 + 2y^3 &= (x-y)(x^2 + xy + y^2) + 2y^3\\
+    x^3 + y^3 &= (x-y)(x^2 + xy + y^2) + 2y^3\\
+\end{split}$$</span></p>
 
 
 </article>

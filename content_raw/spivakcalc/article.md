@@ -139,7 +139,7 @@ $$
 x^n-y^n = (x-y)\left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)
 $$
 
-##### easy proof
+##### proof by deduction
 
 Using [axiomdistributive]:
 $$\begin{split}
@@ -188,8 +188,7 @@ $$\begin{split}
 \end{split}$$
 
 
-
-##### hard proof
+##### proof by induction
 
 Let:
 $$
@@ -246,3 +245,12 @@ x^n-y^n &= (x-y)\Big(y^{n-1} + xf(x,y,n-1)\Big)\\
 And since $(x-y)(y^{n-1} + xf(x,y,n-1))$ is only a rewrite of what Spivak
 wants, i.e. $(x-y)(x^{n-1}$ $+$ $x^{n-2}y$ $+$ $\ldots$ $+$ $xy^{n-2})$,
 therefore Q.E.D already.
+
+#### $x^3 + y^3 = (x+y)(x^2 - xy + y^2)$
+
+By using the proof in [spivak_calc_probs.1.1.2]
+$$\begin{split}
+    x^3 - y^3 &= (x-y)(x^2 + xy + y^2) \\
+    x^3 - y^3 + 2y^3 &= (x-y)(x^2 + xy + y^2) + 2y^3\\
+    x^3 + y^3 &= (x-y)(x^2 + xy + y^2) + 2y^3\\
+\end{split}$$
