@@ -25,9 +25,7 @@ text :$ab=ba$.
 axiom:axiomdistributive
 text :$a(b+c) = ab+ac$.
 
-#spivak_calc_probs spivak's calculus problems
-
-## chapter 1
+#spivak_calc_probs spivak's calculus problems --- chapter 1
 
 For any numbers $a,b,c$:
 [!axiomaddass]
@@ -40,11 +38,11 @@ For any numbers $a,b,c$:
 [!axiommulcommutative]
 [!axiomdistributive]
 
-### problem 1
+## problem 1
 
 Prove these:
 
-#### If $ax=a$ for some number $a\ne 0$, then $x=1$
+### If $ax=a$ for some number $a\ne 0$, then $x=1$
 
   _Proof---_ by using [axiommulinverse]:
   $$\begin{split}
@@ -57,7 +55,7 @@ Prove these:
     x &= 1\\
   \end{split}$$
 
-#### $x^2 - y^2 = (x-y)(x+y)$
+### $x^2 - y^2 = (x-y)(x+y)$
 
   _Proof---_ by using [axiomdistributive]:
   $$\begin{split}
@@ -67,7 +65,7 @@ Prove these:
                &= x^2-y^2 \\
   \end{split}$$
 
-#### If $x^2 = y^2$, then $x=y$ or $x=-y$
+### If $x^2 = y^2$, then $x=y$ or $x=-y$
 
   _Proof---_ by using the theorem we proved above:
   $$\begin{split}
@@ -118,7 +116,7 @@ Prove these:
 Since the 2 cases above, $x+y\ne0$ and $x+y=0$, are exhaustive, then we can
 conclude that $x$ could _only_ be either $y$ or $-y$.
 
-#### $x^3-y^3 = (x-y)(x^2+xy+y^2)$
+### $x^3-y^3 = (x-y)(x^2+xy+y^2)$
 
 Using [axiomdistributive] two times:
 
@@ -131,7 +129,7 @@ $$\begin{split}
     &= x^3 - y^3\\
 \end{split}$$
 
-#### $x^n-y^n$ $=$ $(x-y)(x^{n-1}$ $+$ $x^{n-2}y$ $+$ $\ldots$ $+$ $xy^{n-2}$
+### $x^n-y^n$ $=$ $(x-y)(x^{n-1}$ $+$ $x^{n-2}y$ $+$ $\ldots$ $+$ $xy^{n-2}$
 $+$ $y^{n-1})$
 
 I guess Spivak wants to say:
@@ -139,7 +137,7 @@ $$
 x^n-y^n = (x-y)\left(\sum_{i=1}^{i=n} x^{n-i}y^{i-1}\right)
 $$
 
-##### proof by deduction
+#### proof by deduction
 
 Using [axiomdistributive]:
 $$\begin{split}
@@ -188,7 +186,7 @@ $$\begin{split}
 \end{split}$$
 
 
-##### proof by induction
+#### proof by induction
 
 Let:
 $$
@@ -227,7 +225,7 @@ $$
 x^n-y^n = (x-y)\Big(y^{n-1} + xf(x,y,n-1)\Big)
 $$
 
-We've already proven in [spivak_calc_probs.1.1.2]:
+We've already proven in [spivak_calc_probs.1.2]:
 $$\begin{split}
 x^2-y^2 &= (x-y)(x+y)\\
         &= (x-y)\left(\sum_{i=1}^{i=2} x^{2-i}y^{i-1}\right)\\
@@ -246,9 +244,9 @@ And since $(x-y)(y^{n-1} + xf(x,y,n-1))$ is only a rewrite of what Spivak
 wants, i.e. $(x-y)(x^{n-1}$ $+$ $x^{n-2}y$ $+$ $\ldots$ $+$ $xy^{n-2})$,
 therefore Q.E.D already.
 
-#### $x^3 + y^3 = (x+y)(x^2 - xy + y^2)$
+### $x^3 + y^3 = (x+y)(x^2 - xy + y^2)$
 
-By using the proof in [spivak_calc_probs.1.1.2]
+By using the proof in [spivak_calc_probs.1.2]
 $$\begin{split}
     x^3 - y^3 &= (x-y)(x^2 + xy + y^2) \\
     x^3 - y^3 + 2y^3 &= (x-y)(x^2 + xy + y^2) + 2y^3\\
