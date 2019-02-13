@@ -246,9 +246,11 @@ therefore Q.E.D already.
 
 ### $x^3 + y^3 = (x+y)(x^2 - xy + y^2)$
 
-By using the proof in [spivak_calc_probs.1.2]
+_Proof 1 ---_ by using [axiomdistributive] and [axiommulcommutative]:
 $$\begin{split}
-    x^3 - y^3 &= (x-y)(x^2 + xy + y^2) \\
-    x^3 - y^3 + 2y^3 &= (x-y)(x^2 + xy + y^2) + 2y^3\\
-    x^3 + y^3 &= (x-y)(x^2 + xy + y^2) + 2y^3\\
+    &(x+y)(x^2 - xy + y^2)\\
+    &= (x+y)x^2 - (x+y)xy + (x+y)y^2\\
+    &= (x^3+x^2y) - (x^2y+xy^2) + (xy^2+y^3)\\
+    &= x^3 + x^2y - x^2y - xy^2 + xy^2 + y^3\\
+    &= x^3 + y^3\\
 \end{split}$$
