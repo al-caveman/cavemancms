@@ -55,6 +55,8 @@ Prove these:
     x &= 1\\
   \end{split}$$
 
+$\blacksquare$
+
 ### $x^2 - y^2 = (x-y)(x+y)$
 
   _Proof---_ by using [axiomdistributive]:
@@ -64,6 +66,8 @@ Prove these:
                &= x^2-xy+yx-y^2 \\
                &= x^2-y^2 \\
   \end{split}$$
+
+$\blacksquare$
 
 ### If $x^2 = y^2$, then $x=y$ or $x=-y$
 
@@ -116,6 +120,8 @@ Prove these:
 Since the 2 cases above, $x+y\ne0$ and $x+y=0$, are exhaustive, then we can
 conclude that $x$ could _only_ be either $y$ or $-y$.
 
+$\blacksquare$
+
 ### $x^3-y^3 = (x-y)(x^2+xy+y^2)$
 
 Using [axiomdistributive] two times:
@@ -128,6 +134,8 @@ $$\begin{split}
     &= x^3-yx^2 + x^2y-xy^2 + xy^2 - y^3\\
     &= x^3 - y^3\\
 \end{split}$$
+
+$\blacksquare$
 
 ### $x^n-y^n$ $=$ $(x-y)(x^{n-1}$ $+$ $x^{n-2}y$ $+$ $\ldots$ $+$ $xy^{n-2}$
 $+$ $y^{n-1})$
@@ -185,6 +193,8 @@ $$\begin{split}
    - y^{n}
 \end{split}$$
 
+$\blacksquare$
+
 
 #### proof by induction
 
@@ -241,12 +251,15 @@ x^n-y^n &= (x-y)\Big(y^{n-1} + xf(x,y,n-1)\Big)\\
 \end{split}$$
 
 And since $(x-y)(y^{n-1} + xf(x,y,n-1))$ is only a rewrite of what Spivak
-wants, i.e. $(x-y)(x^{n-1}$ $+$ $x^{n-2}y$ $+$ $\ldots$ $+$ $xy^{n-2})$,
-therefore Q.E.D already.
+wants, i.e. $(x-y)(x^{n-1}$ $+$ $x^{n-2}y$ $+$ $\ldots$ $+$ $xy^{n-2})$.
+
+$\blacksquare$
 
 ### $x^3 + y^3 = (x+y)(x^2 - xy + y^2)$
 
-_Proof 1 ---_ by using [axiomdistributive] and [axiommulcommutative]:
+#### boring proof
+
+Using [axiomdistributive] and [axiommulcommutative]
 $$\begin{split}
     &(x+y)(x^2 - xy + y^2)\\
     &= (x+y)x^2 - (x+y)xy + (x+y)y^2\\
@@ -254,3 +267,65 @@ $$\begin{split}
     &= x^3 + x^2y - x^2y - xy^2 + xy^2 + y^3\\
     &= x^3 + y^3\\
 \end{split}$$
+
+$\blacksquare$
+
+#### fun proof
+
+First, let's prove that $(-a) (-b) = ab$, by using [axiomaddinverse],
+[axiommulass] and [axiomdistributive]:
+
+$$\begin{split}
+    (-a) (-b) + (-ab)  &=(-a) (-b) + (-a) b \\
+                          &=(-a) \big((-b) + b\big) \\
+                          &=-a \times 0 \\
+                          &=0\\
+    (-a) (-b) + (-ab) + ab &= ab\\
+    (-a) (-b) &= ab\\
+\end{split}$$
+
+Now we know that $(-y)^2 = y^2$. and:
+
+$$\begin{split}
+(-y)^3      &=      (-y)^2 (-y)\\
+            &=      y^2 (-y)\\
+            &=      -y^3\\
+\end{split}$$
+
+
+Then by substituting $y$ in the proof in [spivak_calc_probs.1.4] by $(-y)$ we
+get:
+
+$$\begin{split}
+x^3 - (-y)^3    &= (x-(-y)) (x^2 + x(-y) + (-y)^2)\\
+x^3 + y^3      &= (x + y) (x^2 - xy + y^2)\\
+\end{split}$$
+
+$\blacksquare$
+
+
+## problem 2
+
+What's wrong with this proof?  Let $x=y$, then:
+
+$$\begin{split}
+    x^2         &= xy\\
+    x^2 - y^2   &= xy - y^2\\
+   (x+y)(x-y)   &= y(x - y)\\
+   x+y          &= y\\
+   2y           &= y\\
+   2            &= 1\\
+\end{split}$$
+
+_Answer:_
+
+The steps:
+
+$$\begin{split}
+   (x+y)(x-y)   &= y(x - y)\\
+   x+y          &= y\\
+\end{split}$$
+
+made use of multiplication of both sides by $(x-y)^{-1}$, which is undefined,
+since $x=y$ implies $(x-y)^{-1} = 0^{-1}$.  Note [axiommulinverse] is not
+defined for when $a=0$.
