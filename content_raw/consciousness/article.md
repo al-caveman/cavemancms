@@ -71,7 +71,7 @@ levels.
 
 ## conclusion
 
-theorem:physics_cant_consciousness
+conjecture:physics_cant_consciousness
 text   :Consciousness is beyond the reach of the standard Physics model.
 
 [!physics_cant_consciousness]
