@@ -25,7 +25,7 @@ text :$ab=ba$.
 axiom:axiomdistributive
 text :$a(b+c) = ab+ac$.
 
-#spivak_calc_probs spivak's calculus problems --- chapter 1
+#spivak_calc_probs spivak's calculus chapter 1
 
 For any numbers $a,b,c$:
 [!axiomaddass]
@@ -329,3 +329,69 @@ $$\begin{split}
 made use of multiplication of both sides by $(x-y)^{-1}$, which is undefined,
 since $x=y$ implies $(x-y)^{-1} = 0^{-1}$.  Note [axiommulinverse] is not
 defined for when $a=0$.
+
+
+## problem 3
+
+Prove the following.
+
+### $\frac{a}{b} = \frac{ac}{bc}$, if $b,c\ne 0$
+
+IMO Spivak wants to say $ab^{-1} = acb^{-1}c^{-1}$.
+
+_Proof---_ Using [axiommulass]:
+
+$$\begin{split}
+    acb^{-1}c^{-1} &= ab^{-1}(cc^{-1})\\
+\end{split}$$
+
+Using [axiommulinverse]:
+
+$$\begin{split}
+    ab^{-1}(cc^{-1}) &= ab^{-1}(1)\\
+\end{split}$$
+
+Using [axiommulidentity]:
+
+$$\begin{split}
+    ab^{-1}(1) &= ab^{-1}\\
+\end{split}$$
+
+$\blacksquare$
+
+### $\frac{a}{b}+\frac{c}{d} = \frac{ad+bc}{bd}$, if $b,d\ne 0$
+
+IMO Spivak wants to say:
+
+$$ab^{-1} + cd^{-1} = (ad+bc)b^{-1}d^{-1}$$
+
+_Proof---_ Using [axiomdistributive]:
+
+$$\begin{split}
+    (ad+bc)b^{-1}d^{-1} &= adb^{-1}d^{-1}+bcb^{-1}d^{-1}\\
+\end{split}$$
+
+Using [axiommulass]:
+
+$$\begin{split}
+    adb^{-1}d^{-1}+bcb^{-1}d^{-1} &= ab^{-1}(dd^{-1}) + c(bb^{-1})d^{-1}\\
+\end{split}$$
+
+Using [axiommulinverse]:
+
+$$\begin{split}
+    ab^{-1}(dd^{-1}) + c(bb^{-1})d^{-1} &= ab^{-1}(1) + c(1)d^{-1}\\
+\end{split}$$
+
+Using [axiommulidentity]:
+
+$$\begin{split}
+    ab^{-1}(1) + c(1)d^{-1} &= ab^{-1} + cd^{-1}\\
+\end{split}$$
+
+$\blacksquare$
+
+
+### $(ab)^{-1} = a^{-1}b^{-1}$, if $a,b\ne 0$
+
+_Proof---_:
