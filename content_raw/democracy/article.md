@@ -63,16 +63,16 @@ IMO, in reality, in _nice_ democratic countries, this is what's happening:
 
 + Majority voting is used to calm idiots so they don't riot in streets.  They
   only elect a symbolic figure, like a president ---
-  [thoughts_on_majority_voting.please].
+  [please].
 + The real decisions are actually done by experts in their domains (e.g. game
   theorists, logicians, statisticians, etc) behind closed doors ---
-  [thoughts_on_majority_voting.othergoal].
+  [othergoal].
 
 In _nice_ dictatorship countries, this is what's happening:
 
 + The real decisions are actually done by experts in their domains (e.g. game
   theorists, logicians, statisticians, etc) behind closed doors ---
-  [thoughts_on_majority_voting.othergoal].
+  [othergoal].
 
 As you see, nice dictatorship is more efficient than nice democracy as the
 former doesn't need to waste resources to run the votes.
@@ -97,7 +97,7 @@ it _mostly_ got extinct in practice due to [majvotingsucks].
 
 ## will voting always work?
 
-In [thoughts_on_majority_voting.please] is said that majority voting is good to
+In [please] is said that majority voting is good to
 calm people, and hence save money that would be otherwise spent on riot
 control.  In this section I ask the question: _will it always work?_
 
