@@ -78,7 +78,7 @@ those more things are no longer _unnecessary_, and hence [occamsrazor] does not
 apply to them.
 
 _Utility_ depends on the domain/scenario.  E.g. in the scenario of
-[imo_occams_razor_is_abused.notabused] $f$'s more things is unnecessary, and
+[notabused] $f$'s more things is unnecessary, and
 hence [occamsrazor] applies to eliminate $f$.  But in this section's scenario
 $f$'s more things is not unnecessary and hence [occamsrazor] does not apply.
 
@@ -95,8 +95,8 @@ physic's models for gravity, is unnecessary, it does not mean that believe in
 God is unnecessary in virtually every other scenario.
 
 E.g. $f$ is not virtually unnecessary in all scenarios.  $f$ was only
-unnecessary in [imo_occams_razor_is_abused.notabused]'s scenario, but it was
-totally necessary in [imo_occams_razor_is_abused.abused]'s scenario.
+unnecessary in [notabused]'s scenario, but it was
+totally necessary in [abused]'s scenario.
 
 Therefore, if any person claims that _"believe in God is unnecessary.
 Period!''_, then that person _must_ prove that there is virtually no scenario
@@ -108,7 +108,7 @@ claim they like, I hereby call their claims _unsubstantiated_.
 
 ## proof that believe in God is necessary
 
-[imo_occams_razor_is_abused.isGodnoneed] showed how the claim "_believe in God
+[isGodnoneed] showed how the claim "_believe in God
 is unnecessary_'' is actually _unsubstantiated_.  In _this_ section, I will
 take it further by showing you that it is actually  _false_.
 
