@@ -394,4 +394,52 @@ $\blacksquare$
 
 ### $(ab)^{-1} = a^{-1}b^{-1}$, if $a,b\ne 0$
 
-_Proof---_:
+_Proof---_ If $a$ and $b$ are numbers, then their product, $(ab)$, is a number
+too.
+
+By [axiommulinverse], we know that:
+$$(ab)(ab)^{-1}=1$$
+
+We also know that the equality holds if we multiply both sides by the same
+numbers[:I think we need axioms to define how equality works.  Maybe Spivak
+will define equality axioms later on?  Dunno.]:
+
+$$(ab)(ab)^{-1} a^{-1} b^{-1}=(1) a^{-1} b^{-1}$$
+
+By applying [axiommulass] we get:
+$$(aa^{-1}) (bb^{-1}) (ab)^{-1} =(1) a^{-1} b^{-1}$$
+
+By applying [axiommulinverse] we get:
+
+$$(1) (1) (ab)^{-1} =(1) a^{-1} b^{-1}$$
+
+By applying [axiommulidentity] we get:
+
+$$(ab)^{-1} = a^{-1} b^{-1}$$
+
+$\blacksquare$
+
+
+### $\frac{a}{b}\cdot \frac{c}{d} = \frac{ac}{db}$, if $b,d\ne 0$
+
+IMO Spivak wants to say $ab^{1}cd^{-1} = ac(db)^-1$.
+
+By [axiommulass]:
+
+$$
+ab^{1}cd^{-1} = ac(b^{-1}d^{-1})
+$$
+
+By proof in [spivak_calc_probs.3.3] we reach:
+
+$$
+ac(b^{-1}d^{-1}) = ac(bd)^{-1}
+$$
+
+By [axiommulcommutative] we reach:
+
+$$
+ac(bd)^{-1} = ac(db)^{-1}
+$$
+
+$\blacksquare$
