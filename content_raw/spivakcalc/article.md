@@ -422,7 +422,7 @@ $\blacksquare$
 
 ### $\frac{a}{b}\cdot \frac{c}{d} = \frac{ac}{db}$, if $b,d\ne 0$
 
-IMO Spivak wants to say $ab^{1}cd^{-1} = ac(db)^-1$.
+IMO Spivak wants to say $ab^{1}cd^{-1} = ac(db)^{-1}$.
 
 By [axiommulass]:
 
