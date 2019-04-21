@@ -13,7 +13,7 @@ author:[hootonplan]
 #is_it_the_hooton_plan? is it the hooton plan?
 
 We can clearly observe that Germany's birth rate is well below the
-"maintenance'' rate of $>2$ per woman[:And a man.] --- $1.5$ since the early
+"maintenance'' rate of $>2$ per woman --- $1.5$ since the early
 1970s as Google shows, and [delowbrate:this site] shows a rate of $1.47$ as per
 $2019$.
 
@@ -86,10 +86,16 @@ Possibilities that I can think of:
 
 ## why should we care?
 
-Regardless of what's the cause, one thing should be clear:  since Germans have
-a population that is historically known for being a ripe source of great
-scientists, it's a loss for intelligent forms of life to have Germans move
-towards their extinction, or even have such a low birth rate.
+There are so many people around.  E.g. Indians are set to surpass the Chinese
+in some decades.  Jews are smart, and have an expanding birth rate $>2$.  So
+why all the fuss about Germans?
+
+Basically, Germans are a population that, historically, has shown to be rich in
+terms of its capacity in producing good scientists.  Yes, Germans are not the
+_only_ such productive population, and, if they get extinct, we will still have
+other scientists, but nonetheless less scientists, and hence slower scientific
+progress overall.  Hence, less Germans is a loss for humanity as it will
+probably slow down the scientific progress.
 
 link:type2civil
 url:https://en.wikipedia.org/wiki/Kardashev_scale
@@ -125,6 +131,9 @@ url:https://www.dailymail.co.uk/femail/article-4085758/Experts-reveal-sexual-par
 link:nopiss
 url:https://www.alcohol.org/pregnancy/reproduction-issues/
 
+link:petro
+url:https://en.wikipedia.org/wiki/Pareto_principle
+
 Here is my suggestion:
 
     * _Legalize polygamy._  E.g. in Germany, polygamy is illegal, but adultery
@@ -140,17 +149,24 @@ Here is my suggestion:
       Monogamy is _exactly_ communism.  No self-respecting capitalist should
       approve of this nonsense.
 
-      On the other hand, polygamy with, _optionally_, up to $4$ wives per man,
-      allows achieving the 80-20 rule, where the top $20\%$ of men get to
-      utilize $80\%$ of the women.  IMO keeping an upper bound of $4$ wives is
-      a good sweet-spot to ensure that men don't over-polygamize the society by
-      marrying $100$s of its women.
+      On the other hand, polygamy with, _optionally_, up to $4$ wives per man.
+      $4$ as the upper bound for polygamy is the smallest number that allows
+      for achieving the [petro:Petro principle] (aka the 80/20 rule), and the
+      number that does not allow exceeding the Petro principle.  E.g. as the
+      top $20\%$ of men get to utilize $80\%$ of the women, but _not more_ than
+      the Petro principle.
 
-      But most importantly, polygamy will resolve the issue of lame men that
-      are not utilizing their available share of females that monogamy gives
-      them.  As polygamy will enable the men than are welling to marry multiple
-      wives (up to $4$), and have larger families, to have the chance to do so
-      _legally_.
+      While monogamy insists to violate the Petro principle by forcefully
+      imposing the unnatural $1/1$ ratio, that has absolutely no merit in
+      nature, nor in economical utility.
+      
+      IMO, this communist principle (monogamy) is, in part, also responsible
+      for the increase in adultery and fornication cases as monogamy is a false
+      and unnatural idea (which
+      statistics show to be a cause of more than doubling the divorce risk).
+
+      As you see, monogamy is a lame and a false communist ideology that is in
+      total odds against economical and natural principles.
 
     * _Stop promoting women to study or work_, as this is known to reduce the
       birth rate of the women who are inclined to study or work, which are
@@ -177,22 +193,22 @@ Here is my suggestion:
       (keepers at their houses and submissive to their husbands).
 
     * _Stop alcohol_ --- [nopiss:studies show that alcohol lowers the birth
-      rate of women, as well as the sperm count in men].  Plus, every year $4$
-      in every $10,000$ Geramans die directly due to organs failure as a result
-      of alcohol drinking (plus much more deaths due to indirect causation,
-      such as accidents, murder, etc).
+      rate of women, as well as the sperm count in men].  Plus, the usual
+      deaths due to alcohol (e.g. $4$ in $10,000$ per year die in Germany due
+      to organs failure thanks to alcohol).
 
-In other words, _become a Muslim_.
+In other words, _becoming a Muslim_ is the cheapest plan I know for ending
+[hootonplan].
 
 I know that _"Islam''_ is an ugly name that's almost like an insult, and most
 of its followers currently look ugly and have a low IQ.  Hence, associating
-with _"Islam''_ is like associating with dumb uglies.
+with _"Islam''_ is like associating with a bunch of dumb uglies.
 
-But don't worry, Islam will not give you more ugly immigrants.  In fact Saudi
-Arabia took much less refugees than Germany, and they rarely allow their
-daughters to marry non-Saudies.  This is thanks to the fact that a female's
-marriage in Islam requires her father's approval,  in addition to the usual
-approvals (her's and her to-be-husband's approval).
+But let me assure you that Islam will not give you more ugly immigrants.  In
+fact Saudi Arabia took much less refugees than Germany, and they rarely allow
+their daughters to marry non-Saudies.  This is thanks to the fact that a
+female's marriage in Islam requires her father's approval,  in addition to the
+usual approvals (her's and her to-be-husband's approval).
 
 Yes, Middle Easterns tend to be Muslims, and also tend to have lower IQs than,
 say, Germans.  However, is it due to their religion?  Or is it due to their
