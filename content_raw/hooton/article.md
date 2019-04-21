@@ -131,7 +131,7 @@ url:https://www.dailymail.co.uk/femail/article-4085758/Experts-reveal-sexual-par
 link:nopiss
 url:https://www.alcohol.org/pregnancy/reproduction-issues/
 
-link:petro
+link:pareto
 url:https://en.wikipedia.org/wiki/Pareto_principle
 
 Here is my suggestion:
@@ -151,12 +151,12 @@ Here is my suggestion:
 
       On the other hand, polygamy with, _optionally_, up to $4$ wives per man.
       $4$ as the upper bound for polygamy is the smallest number that allows
-      for achieving the [petro:Petro principle] (aka the 80/20 rule), and the
-      number that does not allow exceeding the Petro principle.  E.g. as the
+      for achieving the [pareto:Pareto principle] (aka the 80/20 rule), and the
+      number that does not allow exceeding the Pareto principle.  E.g. as the
       top $20\%$ of men get to utilize $80\%$ of the women, but _not more_ than
-      the Petro principle.
+      the Pareto principle.
 
-      While monogamy insists to violate the Petro principle by forcefully
+      While monogamy insists to violate the Pareto principle by forcefully
       imposing the unnatural $1/1$ ratio, that has absolutely no merit in
       nature, nor in economical utility.
       
