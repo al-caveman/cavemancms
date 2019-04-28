@@ -452,7 +452,7 @@ $$
 $$
 
 
-#### intermediate proof to make things handy
+#### intermediate proof to massage things a bit
 
 _Proof---_ First let's prove that $(x^{-1})^{-1} = x$.
 
