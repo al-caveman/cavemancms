@@ -462,11 +462,10 @@ $$\begin{split}
 x^{-1} x &= 1\\
 \end{split}$$
 
-Since $(x^{-1})$ is itself yet another number, then we can also apply
+Since $x^{-1}$ is, itself, yet another number, then we can also apply
 [axiommulinverse] to get:
 
 $$\begin{split}
-(x^{-1})^{-1} (x^{-1}) &= 1\\
 (x^{-1})^{-1} x^{-1} &= 1\\
 \end{split}$$
 
