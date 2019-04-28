@@ -428,7 +428,7 @@ numbers<sup><a href="#fn___1">1</a></sup>:</p>
 
 <p><span class="ignored">$$(ab)(ab)^{-1} a^{-1} b^{-1}=(1) a^{-1} b^{-1}$$</span></p>
 
-<p>By applying  <a href="#cite_axiommulass">Axiom 5</a> we get:
+<p>By applying  <a href="#cite_axiommulass">Axiom 5</a> we get<sup><a href="#fn___2">2</a></sup>:
 <span class="ignored">$$(aa^{-1}) (bb^{-1}) (ab)^{-1} =(1) a^{-1} b^{-1}$$</span></p>
 
 <p>By applying  <a href="#cite_axiommulinverse">Axiom 7</a> we get:</p>
@@ -443,19 +443,120 @@ numbers<sup><a href="#fn___1">1</a></sup>:</p>
 
 <h4 id="spivak_calc_probs.3.4"><a class="hindex" href="#spivak_calc_probs.3.4">1.3.4.</a> <span class="ignored">$\frac{a}{b}\cdot \frac{c}{d} = \frac{ac}{db}$</span>, if <span class="ignored">$b,d\ne 0$</span></h4>
 
-<p>IMO Spivak wants to say <span class="ignored">$ab^{1}cd^{-1} = ac(db)^{-1}$</span>.</p>
+<p>IMO Spivak wants to say <span class="ignored">$(ab^{1})(cd^{-1}) = (ac)(db)^{-1}$</span>.</p>
+
+<p><em>Proof&mdash;</em> By proof in  <a href="#spivak_calc_probs.3.3">Section 1.3.3</a>, the right hand becomes:</p>
+
+<p><span class="ignored">$$(ac)(db)^{-1} = (ac)(d^{-1}b^{-1})$$</span></p>
 
 <p>By  <a href="#cite_axiommulass">Axiom 5</a>:</p>
 
-<p><span class="ignored">$$ab^{1}cd^{-1} = ac(b^{-1}d^{-1})$$</span></p>
+<p><span class="ignored">$$(ac)(d^{-1}b^{-1}) = (ab^{-1})(cd^{-1}) $$</span></p>
 
-<p>By proof in  <a href="#spivak_calc_probs.3.3">Section 1.3.3</a> we reach:</p>
+<p><span class="ignored">$\blacksquare$</span></p>
 
-<p><span class="ignored">$$ac(b^{-1}d^{-1}) = ac(bd)^{-1}$$</span></p>
+<h4 id="spivak_calc_probs.3.5"><a class="hindex" href="#spivak_calc_probs.3.5">1.3.5.</a> <span class="ignored">$\frac{a}{b}/\frac{c}{d} = \frac{ad}{bc}$</span>, if <span class="ignored">$b,c,d\ne 0$</span></h4>
 
-<p>By  <a href="#cite_axiommulcommutative">Axiom 8</a> we reach:</p>
+<p>IMO Spivak wants to say prove this:</p>
 
-<p><span class="ignored">$$ac(bd)^{-1} = ac(db)^{-1}$$</span></p>
+<p><span class="ignored">$$(ab^{-1})(cd^{-1})^{-1} = adb^{-1}c^{-1}$$</span></p>
+
+<h5 id="spivak_calc_probs.3.5.1"><a class="hindex" href="#spivak_calc_probs.3.5.1">1.3.5.1.</a> intermediate proof to make things handy</h5>
+
+<p><em>Proof&mdash;</em> First let's prove that <span class="ignored">$(x^{-1})^{-1} = x$</span>.</p>
+
+<p>By  <a href="#cite_axiommulinverse">Axiom 7</a> we know that:</p>
+
+<p><span class="ignored">$$\begin{split}
+x^{-1} x &= 1\\
+\end{split}$$</span></p>
+
+<p>Since <span class="ignored">$(x^{-1})$</span> is itself yet another number, then we can also apply
+ <a href="#cite_axiommulinverse">Axiom 7</a> to get:</p>
+
+<p><span class="ignored">$$\begin{split}
+(x^{-1})^{-1} (x^{-1}) &= 1\\
+(x^{-1})^{-1} x^{-1} &= 1\\
+\end{split}$$</span></p>
+
+<p>Since both of the expressions equal <span class="ignored">$1$</span>, we can put them in an equation:</p>
+
+<p><span class="ignored">$$\begin{split}
+(x^{-1})^{-1} x^{-1} &= x^{-1}x\\
+\end{split}$$</span></p>
+
+<p>By multiplying both sides by <span class="ignored">$x$</span>:</p>
+
+<p><span class="ignored">$$\begin{split}
+(x^{-1})^{-1} x^{-1} x &= x^{-1}xx\\
+\end{split}$$</span></p>
+
+<p>By  <a href="#cite_axiommulass">Axiom 5</a>:</p>
+
+<p><span class="ignored">$$\begin{split}
+(x^{-1})^{-1} (x^{-1} x) &= (x^{-1}x)x\\
+\end{split}$$</span></p>
+
+<p>By  <a href="#cite_axiommulinverse">Axiom 7</a>:</p>
+
+<p><span class="ignored">$$\begin{split}
+(x^{-1})^{-1} (1) &= (1)x\\
+\end{split}$$</span></p>
+
+<p>By  <a href="#cite_axiommulidentity">Axiom 6</a>:</p>
+
+<p><span class="ignored">$$\begin{split}
+(x^{-1})^{-1} &= x\\
+\end{split}$$</span></p>
+
+<p><span class="ignored">$\blacksquare$</span></p>
+
+<h5 id="spivak_calc_probs.3.5.2"><a class="hindex" href="#spivak_calc_probs.3.5.2">1.3.5.2.</a> actual proof</h5>
+
+<p><em>Proof&mdash;</em> By proof in  <a href="#spivak_calc_probs.3.3">Section 1.3.3</a>, we can spread the exponent of
+<span class="ignored">$(cd^{-1})^{-1}$</span> as follows:</p>
+
+<p><span class="ignored">$$\begin{split}
+(ab^{-1})(cd^{-1})^{-1} = (ab^{-1})c^{-1}(d^{-1})^{-1}
+\end{split}$$</span></p>
+
+<p>By proof in  <a href="#spivak_calc_probs.3.5.1">Section 1.3.5.1</a>:</p>
+
+<p><span class="ignored">$$\begin{split}
+(ab^{-1})c^{-1}(d^{-1})^{-1} = (ab^{-1})c^{-1}d
+\end{split}$$</span></p>
+
+<p>By  <a href="#cite_axiommulass">Axiom 5</a>:</p>
+
+<p><span class="ignored">$$\begin{split}
+(ab^{-1})c^{-1}d &= (ad)(b^{-1}c^{-1}) \\
+                 &= adb^{-1}c^{-1} \\
+\end{split}$$</span></p>
+
+<p><span class="ignored">$\blacksquare$</span></p>
+
+<h4 id="spivak_calc_probs.3.6"><a class="hindex" href="#spivak_calc_probs.3.6">1.3.6.</a> if <span class="ignored">$b,d\ne 0$</span>, then <span class="ignored">$\frac{a}{b} = \frac{c}{d}$</span> if and only if <span class="ignored">$ad = bc$</span>.
+also determine when <span class="ignored">$\frac{a}{b} = \frac{b}{a}$</span></h4>
+
+<p>IMO Spivak wants me to prove <span class="ignored">$ab^{-1} = cd^{-1}$</span> if and only if <span class="ignored">$ad = bc$</span> (of
+course, <span class="ignored">$b,d\ne 0$</span>), and then show all cases where <span class="ignored">$ab^{-1} = ba^{-1}$</span> is
+possible.</p>
+
+<p><em>Proof&mdash;</em> By multiplying both sides by <span class="ignored">$bd$</span>:</p>
+
+<p><span class="ignored">$$ab^{-1}bd = cd^{-1}bd$$</span></p>
+
+<p>By  <a href="#cite_axiommulass">Axiom 5</a></p>
+
+<p><span class="ignored">$$a(b^{-1}b)d = c(d^{-1}d)b$$</span></p>
+
+<p>By  <a href="#cite_axiommulinverse">Axiom 7</a>:</p>
+
+<p><span class="ignored">$$a(1)d = c(1)b$$</span></p>
+
+<p>By  <a href="#cite_axiommulidentity">Axiom 6</a>:</p>
+
+<p><span class="ignored">$$ad = cb$$</span></p>
 
 <p><span class="ignored">$\blacksquare$</span></p>
 
@@ -463,6 +564,11 @@ numbers<sup><a href="#fn___1">1</a></sup>:</p>
 <hr/>
 <ul style="list-style:none;padding:0; margin:0;"><li id="fn___1"><small>1. I think we need axioms to define how equality works.  Maybe Spivak
 will define equality axioms later on?  Dunno.</small></li>
+<li id="fn___2"><small>2. note we cannot pop <span class="ignored">$(ab)^{-1}$</span> and spread the
+<span class="ignored">$-1$</span> exponent because there is no axiom for it, so we cannot apply
+ <a href="#cite_axiommulass">Axiom 5</a> on <span class="ignored">$(ab)^{-1}$</span>.  The reason there is no axiom for it is because
+of the fact that the exponent <span class="ignored">$-1$</span> has a special meaning used in
+ <a href="#cite_axiommulinverse">Axiom 7</a>, and &mdash;so far&mdash; is not just a normal number</small></li>
 </ul>
 </footer>
 

@@ -406,7 +406,11 @@ will define equality axioms later on?  Dunno.]:
 
 $$(ab)(ab)^{-1} a^{-1} b^{-1}=(1) a^{-1} b^{-1}$$
 
-By applying [axiommulass] we get:
+By applying [axiommulass] we get[:note we cannot pop $(ab)^{-1}$ and spread the
+$-1$ exponent because there is no axiom for it, so we cannot apply
+[axiommulass] on $(ab)^{-1}$.  The reason there is no axiom for it is because
+of the fact that the exponent $-1$ has a special meaning used in
+[axiommulinverse], and ---so far--- is not just a normal number]:
 $$(aa^{-1}) (bb^{-1}) (ab)^{-1} =(1) a^{-1} b^{-1}$$
 
 By applying [axiommulinverse] we get:
@@ -422,24 +426,135 @@ $\blacksquare$
 
 ### $\frac{a}{b}\cdot \frac{c}{d} = \frac{ac}{db}$, if $b,d\ne 0$
 
-IMO Spivak wants to say $ab^{1}cd^{-1} = ac(db)^{-1}$.
+IMO Spivak wants to say $(ab^{1})(cd^{-1}) = (ac)(db)^{-1}$.
+
+_Proof---_ By proof in [spivak_calc_probs.3.3], the right hand becomes:
+
+$$
+(ac)(db)^{-1} = (ac)(d^{-1}b^{-1})
+$$
 
 By [axiommulass]:
 
 $$
-ab^{1}cd^{-1} = ac(b^{-1}d^{-1})
+(ac)(d^{-1}b^{-1}) = (ab^{-1})(cd^{-1}) 
 $$
 
-By proof in [spivak_calc_probs.3.3] we reach:
+$\blacksquare$
+
+
+### $\frac{a}{b}/\frac{c}{d} = \frac{ad}{bc}$, if $b,c,d\ne 0$
+
+IMO Spivak wants to say prove this:
 
 $$
-ac(b^{-1}d^{-1}) = ac(bd)^{-1}
+(ab^{-1})(cd^{-1})^{-1} = adb^{-1}c^{-1}
 $$
 
-By [axiommulcommutative] we reach:
+
+#### intermediate proof to make things handy
+
+_Proof---_ First let's prove that $(x^{-1})^{-1} = x$.
+
+By [axiommulinverse] we know that:
+
+$$\begin{split}
+x^{-1} x &= 1\\
+\end{split}$$
+
+Since $(x^{-1})$ is itself yet another number, then we can also apply
+[axiommulinverse] to get:
+
+$$\begin{split}
+(x^{-1})^{-1} (x^{-1}) &= 1\\
+(x^{-1})^{-1} x^{-1} &= 1\\
+\end{split}$$
+
+Since both of the expressions equal $1$, we can put them in an equation:
+
+$$\begin{split}
+(x^{-1})^{-1} x^{-1} &= x^{-1}x\\
+\end{split}$$
+
+By multiplying both sides by $x$:
+
+$$\begin{split}
+(x^{-1})^{-1} x^{-1} x &= x^{-1}xx\\
+\end{split}$$
+
+By [axiommulass]:
+
+$$\begin{split}
+(x^{-1})^{-1} (x^{-1} x) &= (x^{-1}x)x\\
+\end{split}$$
+
+By [axiommulinverse]:
+
+$$\begin{split}
+(x^{-1})^{-1} (1) &= (1)x\\
+\end{split}$$
+
+By [axiommulidentity]:
+
+$$\begin{split}
+(x^{-1})^{-1} &= x\\
+\end{split}$$
+
+$\blacksquare$
+
+#### actual proof
+
+_Proof---_ By proof in [spivak_calc_probs.3.3], we can spread the exponent of
+$(cd^{-1})^{-1}$ as follows:
+
+$$\begin{split}
+(ab^{-1})(cd^{-1})^{-1} = (ab^{-1})c^{-1}(d^{-1})^{-1}
+\end{split}$$
+
+By proof in [spivak_calc_probs.3.5.1]:
+
+$$\begin{split}
+(ab^{-1})c^{-1}(d^{-1})^{-1} = (ab^{-1})c^{-1}d
+\end{split}$$
+
+By [axiommulass]:
+
+$$\begin{split}
+(ab^{-1})c^{-1}d &= (ad)(b^{-1}c^{-1}) \\
+                 &= adb^{-1}c^{-1} \\
+\end{split}$$
+
+$\blacksquare$
+
+### if $b,d\ne 0$, then $\frac{a}{b} = \frac{c}{d}$ if and only if $ad = bc$.
+also determine when $\frac{a}{b} = \frac{b}{a}$
+
+IMO Spivak wants me to prove $ab^{-1} = cd^{-1}$ if and only if $ad = bc$ (of
+course, $b,d\ne 0$), and then show all cases where $ab^{-1} = ba^{-1}$ is
+possible.
+
+_Proof---_ By multiplying both sides by $bd$:
 
 $$
-ac(bd)^{-1} = ac(db)^{-1}
+ab^{-1}bd = cd^{-1}bd
+$$
+
+By [axiommulass]
+
+$$
+a(b^{-1}b)d = c(d^{-1}d)b
+$$
+
+By [axiommulinverse]:
+
+$$
+a(1)d = c(1)b
+$$
+
+By [axiommulidentity]:
+
+$$
+ad = cb
 $$
 
 $\blacksquare$
