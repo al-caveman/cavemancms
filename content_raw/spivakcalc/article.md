@@ -557,3 +557,7 @@ ad = cb
 $$
 
 $\blacksquare$
+
+## find all numbers $x$ for which
+
+### $4-x < 3-2x$
