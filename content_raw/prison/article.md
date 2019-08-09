@@ -169,9 +169,23 @@ These are good:
 
 These are bad:
 
-* Punishing people by storing them, as it is too expensive.  Instead, cheaper
-  punishments should be used, such as monetary fines, termination from job,
-  flocking, lashing, exile, capital punishment, etc.
+* Punishing people by storing them, as it is too expensive.
 * Parenting people by storing them, as it's micromanagement and a redundant
   concept to _biological parents or relatives_, except that governments are not
   evolved to be good at it.
+
+The better alternatives to the bad ones are:
+
+
+* Forgiveness as a choice to victims in case they just feel so.  Sometimes
+  forgiveness does better to a society, and giving this tool to victims allows
+  them to act dynamically according to the current situation that they live in.
+
+* Instead of punishment-by-storage, cheaper punishments should be used, such as
+  monetary fines, termination from job, flocking, lashing, exile, capital
+  punishment, etc.
+   
+  IMO capital punishment is even more humane than life-time sentence as the
+  latter amounts as 20 years of torture (i.e. beating/raping by gang members
+  in prisons).
+
