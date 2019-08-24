@@ -20,7 +20,8 @@ the cheapest way to get 285 calories, 12g protein, 10g fat, and 36g carbs?
 
 Think of the operation cost of pizza making, which requires running an oven and
 baking.  Imagine the energy bill, and time needed.  Clearly pizza is a wasteful
-way of creation nutrition, as there are many ways we can optimize the process.
+way of creating nutritional values, as there are many ways we can optimize the
+process.
 
 On the other hand, you could get what a pizza slice would give you, by simply
 frying some egg, with cheese, and potatoes, for example, at a cheaper price
