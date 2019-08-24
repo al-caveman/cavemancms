@@ -14,6 +14,13 @@ _Synopsis---_Basically, a food is _perfect_, if and only if, it is the cheapest
 thing that offers you the nutritions that you require.  Else, you are wasting
 your money.
 
+As a result, pizza, for example, is clearly not perfect, but rather a waste,
+because think:  do you really think the process of making a pizza slice is the
+cheapest way to get 285 calories, 12g protein, 10g fat, and 36g carbs?  Think
+of the operation cost, which requires running an oven and baking.  Imagine the
+energy bill, and time needed.  Clearly pizza is a wasteful way of creation
+nutrition.
+
 ## i'm smart
 
 Say that $\mathcal{F} = \{f_1, f_2, \ldots, f_n\}$ is the set of all foods.
@@ -43,3 +50,9 @@ of the drug industry, where unnecessary additives are added to lure people in
 in order to take maximum money.  It is no longer _only_ nutritional.  It is now
 _partly_ nutritional, and _partly_ wasteful to fool idiots to get a slice of
 their money (almost everyone on this planet).
+
+## now wat?
+
+We need to find a principled methodology to objectively guide us on the process
+of creating perfect food.   I will keep you updated when I nail this.  Plz stay
+tuned.
