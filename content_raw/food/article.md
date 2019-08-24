@@ -10,8 +10,9 @@ text      :Food $f_i \in \mathcal{F}$ is said to be perfect, if and only if:
 
 #perfect_food perfect food
 
-_Synopsis---_ Basically, a food is _perfect_, if and only if, it is the
-cheapest thing that offers you the.  Else, you are wasting your money.
+_Synopsis---_Basically, a food is _perfect_, if and only if, it is the cheapest
+thing that offers you the nutritions that you require.  Else, you are wasting
+your money.
 
 ## i'm smart
 
