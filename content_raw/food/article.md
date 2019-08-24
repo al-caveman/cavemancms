@@ -33,6 +33,7 @@ But people buy pizza coz they think it's _sounds crunchy_ when you eat it.
 Fuck that nonsense.  There is no nutrition in _crunch_.  This makes pizza a
 form of drug that creates artificial need (by the allure of its crunch and
 smell) to cause people to make the irrational decision of buying it.
+_#BanFuckingPizza_.
 
 ## i'm smart
 
