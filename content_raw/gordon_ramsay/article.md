@@ -5,8 +5,7 @@ caption :Gordon Ramsay
 
 #gordon_ramsay_is_done gordon ramsay is done
 
-I invented new food, that IMO deprecates Gordon Ramsay.  He is shown in
-[gordon] for your amusement.
+I invented new food, that IMO deprecates Gordon Ramsay.  See [gordon].
 
 My new invented food:
 
