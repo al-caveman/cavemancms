@@ -13,7 +13,7 @@ I invented new food, that IMO deprecates Gordon Ramsay.  See [gordon].
 
 My new invented food:
 
-+ Bring a thin white bread.
++ Bring a thin bread.
 + Spread 1 spoon salted butter on it.
 + Put several layers of smoked turkey[:Turkey the chicken-like animal, not the
   country.], or smoked beef, on it.
