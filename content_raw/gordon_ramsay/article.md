@@ -7,7 +7,7 @@ note:noheatingcutting
 text:Do not heat bread/smoked turkey/meat, nor cut mushrooms.  Heck, maybe
      don't even wash your veggies.
 
-#gordon_ramsay_is_done gordon ramsay is done
+#i_invented_new_food i invented new food
 
 I invented new food, that IMO deprecates Gordon Ramsay.  See [gordon].
 
