@@ -71,4 +71,4 @@ Fortunately, a legendary Internet hero got all this archived, and can be found
 I'm confused.  I thought that trannies and faggots are cool with immoralities,
 as they reportedly flash their dicks/tits in streets in front of our kids
 during their gay pride marches.  But _somehow_ they just can't stand a bad
-software name.  Srsly?  Srsly?
+software name.  Srsly?
