@@ -17,7 +17,7 @@ link:tranny
 url:https://github.com/Member1221
 
 link:homo
-url:https://github.com/Member1221
+url:https://github.com/TrechNex
 
 link:archivedissue
 url:http://paste.debian.net/plain/1098169
