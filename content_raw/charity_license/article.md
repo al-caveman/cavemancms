@@ -19,7 +19,7 @@ text: _Recipient_ must not _waste_ any resources.  I.e. _recipient_ will only
 
 rule:punishment
 text: A _recipient_ that violates [nowaste] will be punished according to the
-      expected harm that he has caused against the survival of lie forms, and
+      expected harm that he has caused against the survival of life forms, and
       charged the cost to rectify such harm.
 
 [!nowaste]
