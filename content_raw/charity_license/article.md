@@ -1,14 +1,5 @@
 #general_charity_license general charity license v0 (GCLv0)
 
-rule:rule1
-text: _Recipient_ must not _waste_ any resources.  I.e. _recipient_ will only
-      spend it in things that help maximize his survival.
-
-rule:rule2
-text: A _recipient_ that violates [rule1] will be punished according to the
-expected harm that he has caused against the survival of lie forms, and charged
-the cost to rectify such harm.
-
 ##terms terms
 
 * _Charitable resource_ --- any useful resource such as money, gold, land, car,
@@ -22,8 +13,18 @@ the cost to rectify such harm.
 
 ##rules rules
 
-[!rule1]
-[!rule2]
+rule:nowaste
+text: _Recipient_ must not _waste_ any resources.  I.e. _recipient_ will only
+      spend it in things that help maximize his survival.
+
+rule:punishment
+text: A _recipient_ that violates [nowaste] will be punished according to the
+      expected harm that he has caused against the survival of lie forms, and
+      charged the cost to rectify such harm.
+
+[!nowaste]
+
+[!punishment]
 
 
 ## examples of wasteful things
