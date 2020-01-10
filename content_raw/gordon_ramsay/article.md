@@ -1,17 +1,16 @@
 image   :gordon
 url     :/pics/gordon_ramsay.png
 alt     :Gordon Ramsay
-caption :Gordon Ramsay
+caption :My new bitch.
 
 note:noheatingcutting
-text:Do not heat bread/smoked turkey/meat, nor cut mushrooms.  Heck, maybe
-     don't even wash your veggies.
+text:Do not do anything extra.  E.g. no heating.  Maybe don't even wash.
 
 #i_invented_new_food i invented new food
 
-I invented new food, that IMO deprecates Gordon Ramsay.  See [gordon].
+Gordon Ramsay may suck dick.  See [gordon].
 
-My new invented food:
+Recipe:
 
 + Bring a thin bread.
 + Spread 1 spoon salted butter on it.
@@ -30,7 +29,6 @@ Pros:
 + _Convenient storage---_Ingredients can be kept in fridge for some time.
 + _Simple process---_No complex processing.  E.g. no heating, cutting, etc.
 + _High-protein low-carb potential---_Add more beef/chicken to increase protein content.
-+ _Great taste---_Yes.
 
 Cons:
 
