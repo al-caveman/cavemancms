@@ -1,14 +1,7 @@
-image   :gordon
-url     :/pics/gordon_ramsay.png
-alt     :Gordon Ramsay
-caption :My new bitch.
-
 note:noheatingcutting
 text:Do not do anything extra.  E.g. no heating.  Maybe don't even wash.
 
 #i_invented_new_food i invented new food
-
-Gordon Ramsay may suck dick.  See [gordon].
 
 Recipe:
 
