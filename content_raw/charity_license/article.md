@@ -15,7 +15,7 @@
 
 rule:nowaste
 text: _Recipient_ must not _waste_ any resources.  I.e. _recipient_ will only
-      spend it in things that help maximize his survival.
+      spend it in things that help maximize life forms' survival.
 
 rule:punishment
 text: A _recipient_ that violates [nowaste] will be punished according to the
