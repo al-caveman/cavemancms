@@ -1,7 +1,16 @@
 note:noheatingcutting
 text:Do not do anything extra.  E.g. no heating.  Maybe don't even wash.
 
+link:muesli
+url:https://github.com/l29ah/muesli
+
+note:l29ah
+text:Someone else did [muesli:something better].
+
+
 #i_invented_new_food i invented new food
+
+[!l29ah]
 
 Recipe:
 
