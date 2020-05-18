@@ -4,7 +4,7 @@ The coronavirus economy demonstrates that my theory on _perfect money_ is
 right.  Here is how:
 
 * Economies reliant on luxury (e.g. tourism, fancy cars, etc) are net-negative
-  as per my _perfecct money_ theory, and logic dictates that _asymptotically_
+  as per my _perfect money_ theory, and logic dictates that _asymptotically_
   as such is doomed to be net-negative in the long run (sooner or later).
   These economies are also attacked most by coronavirus!
 * Economies reliant on practically useful things (practical food, practical
