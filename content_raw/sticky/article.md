@@ -2,6 +2,10 @@ note:howtoreadthisshit
 text:Each main section (with green box in the section title) is an independent
      topic.
 
+quotation:tsenko
+text     :I LOVE IT
+author   :tsenko, 2020
+
 quotation:blap
 text     :i agree and respect, and LOVE your approach to seperatiing TRUE from
           FALSE
@@ -19,6 +23,7 @@ author   :justanotheruser, 2018
 
 Testimonials:
 
+[!tsenko]
 [!blap]
 [!massdebates]
 [!justanotheruser]
