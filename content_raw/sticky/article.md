@@ -2,6 +2,10 @@ note:howtoreadthisshit
 text:Each main section (with green box in the section title) is an independent
      topic.
 
+quotation:krator44
+text     :HOFF9000: thats a good site
+author   :krator44, 2020
+
 quotation:tsenko
 text     :I LOVE IT
 author   :tsenko, 2020
@@ -23,6 +27,7 @@ author   :justanotheruser, 2018
 
 Testimonials:
 
+[!krator44]
 [!tsenko]
 [!blap]
 [!massdebates]
