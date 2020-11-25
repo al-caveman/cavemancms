@@ -12,14 +12,6 @@ text:سَلْ عَالِياتَ رِمِاحٍ عِنْ مَعَالِينَا�
 صَنَائِعَنَا! وَبِيضَاً كَانَتْ وَقَائِعَنَا! وَزَانَتْ دِيَارًا بِأَيْدِيْنَا! فَظَنَنَّا أَنَّ العِزَّةَ كَانَتْ
 مِنَّا، فَرَكَنَّا إِلَى دُنْيًا جَعَلْنَاهَا أَكْبَرَ هَمِّنَا، فَأَبْدَلَنَا رَبُّنَا بِقَوْمٍ غَيْرَنَا...
 
-translation:poemrewriteEN
-author:caveman
-text:Ask some tall spears about our heights: was any hope disappointed in
-us?  White were our works! And white were our actions! And some homes were
-flourished by our hands!  Then we thought that the glory was from us, so we
-settled to a lowly life that we made it to be our biggest concern, and then
-our Lord replaced us by other people...
-
 #arabic_test arabic text test
 
 This tests:
@@ -35,5 +27,3 @@ This tests:
 Anyway, here we go:
 
 [!poemrewrite]
-
-[!poemrewriteEN]
