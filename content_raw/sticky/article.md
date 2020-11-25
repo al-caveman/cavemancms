@@ -3,7 +3,7 @@ text:Each main section (with green box in the section title) is an independent
      topic.
 
 quotation:krator44
-text     :HOFF9000: thats a good site
+text     :thats a good site
 author   :krator44, 2020
 
 quotation:tsenko
