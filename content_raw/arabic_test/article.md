@@ -13,6 +13,10 @@ text:سَلْ عَالِياتَ رِمِاحٍ عِنْ مَعَالِينَا�
 مِنَّا، فَرَكَنَّا إِلَى دُنْيًا جَعَلْنَاهَا أَكْبَرَ هَمِّنَا، فَأَبْدَلَنَا رَبُّنَا بِقَوْمٍ غَيْرَنَا،
 وَذُلَّاً أَلْبَسَنَا عِبْرَةً لِمَنْ خَلْفَنَا...
 
+arabic:test2
+author:caveman
+text:بَلْ كَأسُ حَنْظَلٍ بَالْعِزِّ يُسْقَى
+
 #arabic_test arabic text test
 
 This tests:
@@ -28,3 +32,7 @@ This tests:
 Anyway, here we go:
 
 [!poemrewrite]
+
+Extra test(s) unrelated to the above:
+
+[!test2]
