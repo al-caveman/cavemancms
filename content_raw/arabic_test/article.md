@@ -15,7 +15,7 @@ text:سَلْ عَالِياتَ رِمِاحٍ عِنْ مَعَالِينَا�
 
 arabic:test2
 author:caveman
-text:بَلْ كَأسُ حَنْظَلٍ بَالْعِزِّ يُسْقَى
+text:بَلْ كَأْسُ حَنْظَلٍ بِالْعِزِّ يُسْقَى
 
 #arabic_test arabic text test
 
