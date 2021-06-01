@@ -2,6 +2,10 @@ note:howtoreadthisshit
 text:Each main section (with green box in the section title) is an independent
      topic.
 
+quotation:helby
+text     :cool web btw
+author   :helby, 2021
+
 quotation:krator44
 text     :thats a good site
 author   :krator44, 2020
@@ -27,6 +31,7 @@ author   :justanotheruser, 2018
 
 Testimonials:
 
+[!helby]
 [!krator44]
 [!tsenko]
 [!blap]
