@@ -134,8 +134,8 @@ nav a:hover {
 /* main content stuff */
 main {
     margin: 20px;
-    column-width: 350px;
-    column-gap: 40px;
+    column-width: 20rem;
+    column-gap: 2rem;
 }
 main .error {
     color: red;
