@@ -1,5 +1,4 @@
-#survival_science_freedom_slavery survival vs. science vs. freedom vs.
-slavery
+#what_universe_optimising what is the universe optimising?
 
 We are on the living branch of evolution, billions of years deep since the
 _Big Bang_.  As such, we have received billions of years worth of parameter
