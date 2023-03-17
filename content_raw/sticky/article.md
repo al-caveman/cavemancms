@@ -2,6 +2,11 @@ note:howtoreadthisshit
 text:Each main section (with green box in the section title) is an independent
      topic.
 
+quotation:voltage
+text     :nice, you're very smart and almost solved the consciousness
+          problem
+author   :voltage, 2023
+
 quotation:helby
 text     :cool web btw
 author   :helby, 2021
@@ -31,6 +36,7 @@ author   :justanotheruser, 2018
 
 Testimonials:
 
+[!voltage]
 [!helby]
 [!krator44]
 [!tsenko]
