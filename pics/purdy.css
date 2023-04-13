@@ -97,11 +97,11 @@ header img.magicball:hover {
     filter: grayscale(0%) brightness(100%);
 }
 header img.pages_magicball{
-    margin-top: 155px;
+    margin-top: 175px;
     filter: grayscale(50%) brightness(70%);
 }
 header img.pages_magicball:hover {
-    margin-top: 155px;
+    margin-top: 175px;
     filter: grayscale(0%) brightness(100%);
 }
 
