@@ -90,6 +90,22 @@ header img.pages_caveman:hover {
 header img.cat:hover {
     filter: hue-rotate(90deg);
 }
+header img.magicball{
+    filter: grayscale(70%);
+}
+header img.magicball:hover {
+    filter: grayscale(0%);
+    filter: hue-rotate(-115deg);
+}
+header img.pages_magicball{
+    margin-top: 155px;
+    filter: grayscale(70%);
+}
+header img.pages_magicball:hover {
+    margin-top: 155px;
+    filter: grayscale(0%);
+    filter: hue-rotate(-115deg);
+}
 
 
 /* footer stuff */
