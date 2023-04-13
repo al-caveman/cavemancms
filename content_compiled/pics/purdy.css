@@ -92,19 +92,21 @@ header img.cat:hover {
 }
 header img.magicball{
     filter: grayscale(70%);
+    filter: brightness(70%);
 }
 header img.magicball:hover {
     filter: grayscale(0%);
-    filter: hue-rotate(-115deg);
+    filter: brightness(100%);
 }
 header img.pages_magicball{
     margin-top: 155px;
     filter: grayscale(70%);
+    filter: brightness(70%);
 }
 header img.pages_magicball:hover {
     margin-top: 155px;
     filter: grayscale(0%);
-    filter: hue-rotate(-115deg);
+    filter: brightness(100%);
 }
 
 
